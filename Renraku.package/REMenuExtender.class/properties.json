@@ -1,0 +1,14 @@
+{
+	"category" : "Renraku",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "REMenuExtender",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

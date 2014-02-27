@@ -1,0 +1,16 @@
+{
+	"category" : "Renraku",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 2/27/2014 09:18",
+	"instvars" : [
+		"message",
+		"severeness",
+		"target" ],
+	"name" : "REReport",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
