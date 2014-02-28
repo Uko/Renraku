@@ -1,1 +1,0 @@
-Messing with git in this conf. Please don't blame me.
