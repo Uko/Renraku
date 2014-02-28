@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfRenraku",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfRenraku",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
