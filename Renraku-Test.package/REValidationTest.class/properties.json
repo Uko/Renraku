@@ -1,0 +1,16 @@
+{
+	"category" : "Renraku-Test-Validation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"message",
+		"severeness",
+		"target" ],
+	"name" : "REValidationTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
