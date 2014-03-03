@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeWith: aText for: aTarget graded: aSevereness
 	message := aText.
 	target := aTarget.

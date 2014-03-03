@@ -1,12 +1,12 @@
-as yet unclassified
-elementsMenu: aBuilder
+*Renraku-UI
+renrakuMenu: aBuilder
 	<nautilusGlobalMethodMenu>
 	| selectedMethod reports |
 	selectedMethod := aBuilder model selectedMethod.
 	
 	reports := selectedMethod class methods
 		select: [ :method | method hasPragmaNamed: #renrakuValidation ]
-		thenCollect: [ :validator | selectedMethod perform: validator selector ].
+		thenCollect: [ :validator | selectedMethod executeMethod: validator ].
 	
 	(reports select: #important) ifNotEmptyDo: [ :importantReports |
 		(aBuilder item: #Reports)
