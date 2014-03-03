@@ -5,4 +5,4 @@ methodLength
 	^ REReport
 		newWith: 'Number of lines'
 		for: self
-		graded: (self sourceCode lines reject: #isEmpty) size * 2
+		graded: self linesOfCode * 2
