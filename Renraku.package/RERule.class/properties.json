@@ -4,12 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "YuriyTymchuk 3/5/2014 20:41",
 	"instvars" : [
-		"message",
-		"severeness",
-		"target" ],
-	"name" : "REReport",
+		 ],
+	"name" : "RERule",
 	"pools" : [
 		 ],
 	"super" : "Object",

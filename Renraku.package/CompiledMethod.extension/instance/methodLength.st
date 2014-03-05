@@ -2,7 +2,6 @@
 methodLength
 <renrakuValidation>
 
-	^ REReport
-		newWith: 'Number of lines'
-		for: self
-		graded: self linesOfCode * 2
+	^ (REMetricComparingRule new
+		initializeMetric: #linesOfCode
+		bound: 50) validate: self

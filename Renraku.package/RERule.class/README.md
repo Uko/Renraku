@@ -1,0 +1,1 @@
+I am a rule that can tell something about target
