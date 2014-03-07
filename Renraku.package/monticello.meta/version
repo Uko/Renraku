@@ -1,4 +1,5 @@
-(name 'Renraku-YuriyTymchuk.4' message 'Tried to implement rules as oblects' id '60141668-a324-4c9d-8938-db82ed2e57de' date '5 March 2014' time '9:41:01.899854 pm' author 'YuriyTymchuk' ancestors ((name 'Renraku-Uko.3' message 'Fixed critics
+(name 'Renraku-YuriyTymchuk.5' message 'Crap version 1' id '2a62a1e0-28d8-4571-a78b-8455cdeab946' date '7 March 2014' time '3:14:21.168501 pm' author 'YuriyTymchuk' ancestors ((name 'Renraku-Uko.4' message 'Tried to implement rules as oblects
+' id '93fec7ab-e167-5da5-9b2e-5d717d2c7545' date '5 March 2014' time '9:41:02 pm' author 'Uko' ancestors ((name 'Renraku-Uko.3' message 'Fixed critics
 ' id 'b3a2fe6d-5c83-5bda-9ce3-cd560fb80039' date '3 March 2014' time '11:45:48 am' author 'Uko' ancestors ((name 'Renraku-Uko.2' message 'Changed method length implementationto reuse existing api
 ' id '460f030d-d7e8-56ae-9a49-b0a9e8463e93' date '3 March 2014' time '10:58:20 am' author 'Uko' ancestors ((name 'Renraku-Uko.1' message 'Initial commit
-' id '6966676f-cb4b-50f7-81d0-631c72ff67d8' date '27 February 2014' time '11:20:16 am' author 'Uko' ancestors () stepChildren ())) stepChildren ())(id '6966676f-cb4b-50f7-81d0-631c72ff67d8')) stepChildren ())) stepChildren ())
+' id '6966676f-cb4b-50f7-81d0-631c72ff67d8' date '27 February 2014' time '11:20:16 am' author 'Uko' ancestors () stepChildren ())) stepChildren ())(id '6966676f-cb4b-50f7-81d0-631c72ff67d8')) stepChildren ())) stepChildren ())) stepChildren ())

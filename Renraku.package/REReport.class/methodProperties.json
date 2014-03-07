@@ -1,9 +1,11 @@
 {
 	"class" : {
+		"newFor:about:graded:" : "YuriyTymchuk 3/7/2014 11:36",
 		"newWith:for:graded:" : "YuriyTymchuk 2/26/2014 16:16" },
 	"instance" : {
 		"important" : "Uko 3/3/2014 10:58:20",
+		"initializeFor:about:graded:" : "YuriyTymchuk 3/7/2014 11:36",
 		"initializeWith:for:graded:" : "YuriyTymchuk 2/27/2014 10:48",
-		"message" : "Uko 3/3/2014 10:58:20",
+		"message" : "YuriyTymchuk 3/7/2014 11:37",
 		"severeness" : "Uko 3/3/2014 10:58:20",
 		"target" : "Uko 3/3/2014 10:58:20" } }

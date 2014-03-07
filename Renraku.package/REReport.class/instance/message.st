@@ -1,3 +1,3 @@
 accessing
 message
-	^ message
+	^ rule rationale
