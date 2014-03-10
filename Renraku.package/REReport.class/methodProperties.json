@@ -1,12 +1,11 @@
 {
 	"class" : {
-		"newFor:about:graded:" : "Uko 3/7/2014 15:14:22",
-		"newWith:for:graded:" : "YuriyTymchuk 2/26/2014 16:16" },
+		"newFor:about:graded:" : "Uko 3/7/2014 15:14:22" },
 	"instance" : {
 		"gtInspectorSendersIn:" : "YuriyTymchuk 3/8/2014 23:05",
 		"important" : "Uko 3/3/2014 10:58:20",
-		"initializeFor:about:graded:" : "Uko 3/7/2014 15:14:22",
-		"initializeWith:for:graded:" : "YuriyTymchuk 2/27/2014 10:48",
+		"initializeFor:about:graded:" : "YuriyTymchuk 3/10/2014 16:07",
 		"message" : "Uko 3/7/2014 15:14:22",
+		"printOn:" : "YuriyTymchuk 3/10/2014 16:51",
 		"severeness" : "Uko 3/3/2014 10:58:20",
 		"target" : "Uko 3/3/2014 10:58:20" } }

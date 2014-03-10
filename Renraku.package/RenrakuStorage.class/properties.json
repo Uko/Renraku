@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		"default" ],
-	"commentStamp" : "",
+	"commentStamp" : "YuriyTymchuk 3/10/2014 11:32",
 	"instvars" : [
-		 ],
-	"name" : "MethodLengthRule",
+		"methodReports" ],
+	"name" : "RenrakuStorage",
 	"pools" : [
 		 ],
 	"super" : "Object",
