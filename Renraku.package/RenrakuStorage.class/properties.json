@@ -6,7 +6,8 @@
 		"default" ],
 	"commentStamp" : "YuriyTymchuk 3/10/2014 11:32",
 	"instvars" : [
-		"methodReports" ],
+		"methodReports",
+		"methodIgnoredReports" ],
 	"name" : "RenrakuStorage",
 	"pools" : [
 		 ],

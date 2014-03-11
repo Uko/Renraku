@@ -2,6 +2,7 @@
 	"class" : {
 		"default" : "YuriyTymchuk 3/10/2014 15:24" },
 	"instance" : {
+		"doesNotUnderstand:" : "YuriyTymchuk 3/11/2014 23:16",
+		"get:ofA:" : "YuriyTymchuk 3/11/2014 21:44",
 		"initialize" : "YuriyTymchuk 3/10/2014 11:34",
-		"methodReportsFor:" : "YuriyTymchuk 3/10/2014 16:09",
-		"set:ofMethodReportsFor:" : "YuriyTymchuk 3/10/2014 16:18" } }
+		"set:for:ofA:" : "YuriyTymchuk 3/11/2014 21:43" } }
