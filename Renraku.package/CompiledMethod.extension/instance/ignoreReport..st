@@ -6,5 +6,5 @@ ignoreReport: aReport
 		detect: [ :rep |
 			rep class = aReport class ]
 		ifFound: [ :rep |
-			reports remove: reports.
+			reports remove: rep.
 			self ignoredReports add: rep ]

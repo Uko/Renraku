@@ -1,4 +1,5 @@
 as yet unclassified
 initialize
 
-	methodReports := Dictionary new.
+	self class instanceVariables do: [ :var |
+		self instVarNamed: var put: Dictionary new ]
