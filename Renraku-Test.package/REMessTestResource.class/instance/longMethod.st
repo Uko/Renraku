@@ -81,4 +81,4 @@ longMethod
 	78
 	79
 	80
-	81' asUppercase..^ 1
+	81' asUppercase 
