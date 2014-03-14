@@ -8,7 +8,8 @@
 	"instvars" : [
 		"message",
 		"severeness",
-		"target" ],
+		"target",
+		"compiledLongMethod" ],
 	"name" : "REValidationTest",
 	"pools" : [
 		 ],
