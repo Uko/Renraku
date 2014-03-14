@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addReport:" : "YuriyTymchuk 3/11/2014 09:27",
-		"gtInspectorSendersIn:" : "YuriyTymchuk 3/10/2014 16:44",
+		"addReport:" : "YuriyTymchuk 3/12/2014 16:32",
+		"gtInspectorIgnoredReportsIn:" : "YuriyTymchuk 3/14/2014 15:26",
+		"gtInspectorReportsIn:" : "YuriyTymchuk 3/14/2014 15:26",
 		"ignoreReport:" : "YuriyTymchuk 3/12/2014 10:30",
 		"ignoredReports" : "YuriyTymchuk 3/11/2014 09:42",
-		"methodLength" : "YuriyTymchuk 3/5/2014 21:10",
+		"isIgnoringReportsOf:" : "YuriyTymchuk 3/14/2014 15:09",
+		"removeIgnoredReport:" : "YuriyTymchuk 3/13/2014 10:10",
 		"reports" : "YuriyTymchuk 3/10/2014 15:54" } }

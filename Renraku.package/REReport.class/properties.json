@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"message",
 		"severeness",
 		"target",
 		"rule" ],
