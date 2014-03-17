@@ -1,1 +1,1 @@
-I am a rule that can tell something about target
+I'm basic superclass for all rules

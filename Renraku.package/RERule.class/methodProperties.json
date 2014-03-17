@@ -1,7 +1,7 @@
 {
 	"class" : {
-		 },
+		"default" : "YuriyTymchuk 3/17/2014 11:04",
+		"validate:" : "YuriyTymchuk 3/17/2014 11:04" },
 	"instance" : {
-		"message" : "YuriyTymchuk 3/5/2014 20:57",
-		"rate:" : "YuriyTymchuk 3/5/2014 20:45",
-		"validate:" : "YuriyTymchuk 3/5/2014 20:56" } }
+		"rationale" : "YuriyTymchuk 3/17/2014 11:05",
+		"validate:" : "YuriyTymchuk 3/17/2014 11:06" } }
