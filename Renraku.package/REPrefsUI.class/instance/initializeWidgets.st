@@ -19,10 +19,9 @@ initializeWidgets
 		sortingBlock: [ :prev :next |
 			prev packageName < next packageName ]; 
 		displayBlock: [ :pack | pack packageName ].
-	packagesList items: {
-		PackageOrganizer default packageNamed: 'Renraku' ifAbsent: nil .
-		PackageOrganizer default packageNamed: 'Renraku-Test' ifAbsent: nil
-	}.
+	packagesList items: self prefs packages.
+	
+	rulesList items: self prefs rules.
 	
 	addPackagesButton label: '+'.
 	removePackagesButton label: '-'.
