@@ -1,0 +1,21 @@
+{
+	"category" : "Renraku-Spec",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 3/14/2014 17:42",
+	"instvars" : [
+		"packagesList",
+		"rulesList",
+		"addPackagesButton",
+		"removePackagesButton",
+		"addRulesButton",
+		"removeRulesButton",
+		"packagesLabel",
+		"rulesLabel" ],
+	"name" : "RenrakuPrefsUI",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }
