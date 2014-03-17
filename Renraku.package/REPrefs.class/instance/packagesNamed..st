@@ -4,5 +4,5 @@ packagesNamed: aCollection
 		collect: [ :name |
 			PackageOrganizer default
 				packageNamed: name
-				ifAbsent: (NotFound signalFor: name) ]
+				ifAbsent: [ NotFound signalFor: name ] ]
 		as: Set
