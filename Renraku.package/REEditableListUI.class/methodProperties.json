@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"spec" : "YuriyTymchuk 3/18/2014 10:07" },
+	"instance" : {
+		"addButton" : "YuriyTymchuk 3/18/2014 09:54",
+		"allItemsSource:" : "YuriyTymchuk 3/18/2014 10:03",
+		"displayBlock:" : "YuriyTymchuk 3/18/2014 10:15",
+		"initializeWidgets" : "YuriyTymchuk 3/18/2014 11:01",
+		"items:" : "YuriyTymchuk 3/18/2014 09:54",
+		"label" : "YuriyTymchuk 3/18/2014 09:54",
+		"labelText:" : "YuriyTymchuk 3/18/2014 10:03",
+		"list" : "YuriyTymchuk 3/18/2014 09:54",
+		"removeButton" : "YuriyTymchuk 3/18/2014 09:54",
+		"whenListChanged:" : "YuriyTymchuk 3/18/2014 09:49" } }

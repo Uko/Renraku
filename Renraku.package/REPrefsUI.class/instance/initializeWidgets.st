@@ -1,42 +1,15 @@
 initialization
 initializeWidgets
 
-	packagesLabel := self newLabel.
-	packagesList := self newList.
-	addPackagesButton := self newButton.
-	removePackagesButton := self newButton.
-
-	rulesLabel := self newLabel.
-	rulesList := self newList.
-	addRulesButton := self newButton.
-	removeRulesButton := self newButton.
-
-	packagesLabel label: 'Packages to validate'.
-	rulesLabel label: 'Validation rules'.
-
-	packagesList
-		beMultipleSelection;
-		sortingBlock: [ :prev :next |
-			prev packageName < next packageName ]; 
-		displayBlock: [ :pack | pack packageName ].
+	packagesList := self instantiate: REEditableListUI.
+	packagesList labelText: 'Packages to validate'.
+	packagesList displayBlock: [ :pack | pack packageName ].
 	packagesList items: self prefs packages.
+	packagesList allItemsSource: [ PackageOrganizer default packages ].
+	packagesList whenListChanged: [ :new | self prefs packages: new ].
 	
+	rulesList := self instantiate: REEditableListUI.
+	rulesList labelText: 'Validation rules'.
 	rulesList items: self prefs rules.
-	
-	addPackagesButton label: '+'.
-	removePackagesButton label: '-'.
-   addRulesButton label: '+'.
-	removeRulesButton label: '-'.
-	
-	addPackagesButton action: [ 
-		| t w |
-		t:= ListModel new beMultipleSelection.
-		t items: (PackageOrganizer default packages \ packagesList listItems).
-		
-		w := t openDialogWithSpec modalRelativeTo: self window.
-		w okAction: [ packagesList items: ( packagesList listItems, t selectedItems) ] ].
-	
-	removePackagesButton action: [
-		packagesList
-			items: ( packagesList listItems \ packagesList selectedItems);
-			resetSelection ]
+	rulesList allItemsSource: [ RERule subclasses ].
+	rulesList whenListChanged: [ :new | self prefs rules: new ]

@@ -1,0 +1,1 @@
+I'm a list with a label and two buttons to add and remove items
