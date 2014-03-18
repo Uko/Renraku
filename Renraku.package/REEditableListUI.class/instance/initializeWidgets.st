@@ -9,8 +9,8 @@ initializeWidgets
 	list
 		beMultipleSelection;
 		sortingBlock: [ :prev :next |
-			prev packageName < next packageName ].
-	
+			(list displayBlock value: prev) < (list displayBlock value: next) ].
+
 	addButton label: '+'.
 	removeButton label: '-'.
 	
