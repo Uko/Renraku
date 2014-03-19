@@ -1,0 +1,14 @@
+{
+	"category" : "Renraku-Spec",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"icon" ],
+	"commentStamp" : "YuriyTymchuk 3/19/2014 16:18",
+	"instvars" : [
+		 ],
+	"name" : "MenuInitializer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

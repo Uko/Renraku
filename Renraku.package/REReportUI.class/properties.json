@@ -1,0 +1,16 @@
+{
+	"category" : "Renraku-Spec",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 3/19/2014 15:24",
+	"instvars" : [
+		"list",
+		"rationale",
+		"pane" ],
+	"name" : "REReportUI",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }
