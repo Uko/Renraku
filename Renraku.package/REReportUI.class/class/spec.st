@@ -12,5 +12,8 @@ spec
 				addSplitter;
 				newColumn: [ :aCol |
 					aCol
-						add: #rationale height: 40;
+						newRow: [ :aRow2 |
+							aRow2
+								add: #rationale;
+								add: #browseButton width: 55 ] height: 40;
 						add: #pane ] ]

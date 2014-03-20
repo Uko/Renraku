@@ -5,6 +5,7 @@ initializeWidgets
 	pane := self newText.
 	rationale := self newLabel.
 	importantCheckBox := self newCheckBox.
+	browseButton := self newButton.
 	
 	importantCheckBox label: 'important'.
 	importantCheckBox activationAction: [ list filteringBlock: [ :items | items select: #important ] ].
@@ -16,4 +17,10 @@ initializeWidgets
 			ifNil: [ self clearPanes ]
 			ifNotNil: [
 				rationale text: item rule rationale.
-				pane text: item target sourceCode ] ]
+				pane text: item target sourceCode ] ].
+		
+	browseButton
+		label: 'Browse';
+		action: [ list selectedItem ifNotNilDo: [ :item |
+				item target browse ] ]
+	

@@ -9,7 +9,8 @@
 		"list",
 		"rationale",
 		"pane",
-		"importantCheckBox" ],
+		"importantCheckBox",
+		"browseButton" ],
 	"name" : "REReportUI",
 	"pools" : [
 		 ],
