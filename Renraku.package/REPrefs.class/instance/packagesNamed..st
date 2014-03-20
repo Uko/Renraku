@@ -2,7 +2,6 @@ accessing
 packagesNamed: aCollection
 	packages := aCollection
 		collect: [ :name |
-			PackageOrganizer default
-				packageNamed: name
-				ifAbsent: [ NotFound signalFor: name ] ]
+			RPackageOrganizer default
+				packageNamed: name ]
 		as: Set
