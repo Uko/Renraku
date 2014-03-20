@@ -8,7 +8,8 @@
 	"instvars" : [
 		"list",
 		"rationale",
-		"pane" ],
+		"pane",
+		"importantCheckBox" ],
 	"name" : "REReportUI",
 	"pools" : [
 		 ],
