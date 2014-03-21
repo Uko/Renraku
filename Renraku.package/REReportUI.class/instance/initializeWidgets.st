@@ -7,10 +7,12 @@ initializeWidgets
 	importantCheckBox := self newCheckBox.
 	browseButton := self newButton.
 	
-	importantCheckBox label: 'important'.
-	importantCheckBox activationAction: [ list filteringBlock: [ :items | items select: #important ] ].
-	importantCheckBox desactivationAction: [ list filteringBlock: #yourself ].
-	importantCheckBox state: true.
+	importantCheckBox
+		label: 'important';
+		activationAction: [ list filteringBlock: [ :items |
+				items select: #important ] ];
+		desactivationAction: [ list filteringBlock: #yourself ];
+		state: true.
 	
 	list whenSelectedItemChanged: [ :item |
 		item

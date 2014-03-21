@@ -1,9 +1,9 @@
 {
 	"category" : "Renraku-Spec",
 	"classinstvars" : [
-		 ],
-	"classvars" : [
 		"icon" ],
+	"classvars" : [
+		 ],
 	"commentStamp" : "YuriyTymchuk 3/19/2014 16:18",
 	"instvars" : [
 		 ],

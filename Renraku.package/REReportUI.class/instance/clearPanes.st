@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 clearPanes
 	rationale text: ''.
 	pane text: ''
