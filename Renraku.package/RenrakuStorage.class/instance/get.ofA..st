@@ -1,4 +1,4 @@
-as yet unclassified
+accesing
 get: aProp ofA: aCompiledMethod
 
 	^ (self instVarNamed: aProp)

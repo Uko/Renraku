@@ -1,4 +1,4 @@
-as yet unclassified
+protocol
 labelText: aString
 
 	label label: aString

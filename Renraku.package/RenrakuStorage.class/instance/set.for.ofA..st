@@ -1,4 +1,4 @@
-as yet unclassified
+accesing
 set: aValue for: aProp ofA: aCompiledMethod
 
 	^ (self instVarNamed: aProp)

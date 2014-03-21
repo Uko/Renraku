@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 validate: aTarget
 
 	^ self subclassResponsibility 

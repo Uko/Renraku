@@ -1,4 +1,4 @@
-as yet unclassified
+icons
 renIconContents
 	"Private - Method generated"
 	^ 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAKQWlDQ1BJQ0MgUHJvZmlsZQAA

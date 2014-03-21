@@ -1,4 +1,4 @@
-as yet unclassified
+reflective operations
 doesNotUnderstand: aMessage
 	| re |
 	re := '^set\:of(\w+)For\:$' asRegex.
