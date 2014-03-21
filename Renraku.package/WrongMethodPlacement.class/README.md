@@ -1,0 +1,1 @@
+I check if the method is accessing instance variables of sending messages to self. If not: it may belong to somewhare else.

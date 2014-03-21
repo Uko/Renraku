@@ -1,0 +1,14 @@
+{
+	"category" : "Renraku-Validation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 3/21/2014 08:45",
+	"instvars" : [
+		 ],
+	"name" : "WrongMethodPlacement",
+	"pools" : [
+		 ],
+	"super" : "RERule",
+	"type" : "normal" }

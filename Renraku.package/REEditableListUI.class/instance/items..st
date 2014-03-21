@@ -1,3 +1,3 @@
-as yet unclassified
+protocol
 items: aCollection
 	list items: aCollection
