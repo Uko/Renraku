@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"spec" : "YuriyTymchuk 3/18/2014 10:07" },
+		"spec" : "Uko 3/21/2014 17:11:24" },
 	"instance" : {
 		"addButton" : "YuriyTymchuk 3/18/2014 09:54",
-		"allItemsSource:" : "YuriyTymchuk 3/18/2014 10:03",
-		"displayBlock:" : "YuriyTymchuk 3/18/2014 10:15",
+		"allItemsSource:" : "Uko 3/21/2014 17:11:24",
+		"displayBlock:" : "Uko 3/21/2014 17:11:24",
 		"initializeWidgets" : "YuriyTymchuk 3/18/2014 11:42",
-		"items:" : "YuriyTymchuk 3/18/2014 09:54",
+		"items:" : "Uko 3/21/2014 17:11:24",
 		"label" : "YuriyTymchuk 3/18/2014 09:54",
-		"labelText:" : "YuriyTymchuk 3/18/2014 10:03",
+		"labelText:" : "Uko 3/21/2014 17:11:24",
 		"list" : "YuriyTymchuk 3/18/2014 09:54",
 		"removeButton" : "YuriyTymchuk 3/18/2014 09:54",
-		"whenListChanged:" : "YuriyTymchuk 3/18/2014 09:49" } }
+		"whenListChanged:" : "Uko 3/21/2014 17:11:24" } }

@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"default" : "YuriyTymchuk 3/10/2014 15:24" },
+		"default" : "Uko 3/21/2014 17:11:24" },
 	"instance" : {
-		"doesNotUnderstand:" : "YuriyTymchuk 3/11/2014 23:16",
-		"get:ofA:" : "YuriyTymchuk 3/11/2014 21:44",
-		"initialize" : "YuriyTymchuk 3/14/2014 13:10",
-		"set:for:ofA:" : "YuriyTymchuk 3/11/2014 21:43" } }
+		"doesNotUnderstand:" : "Uko 3/21/2014 17:11:24",
+		"get:ofA:" : "Uko 3/21/2014 17:11:24",
+		"initialize" : "Uko 3/21/2014 17:11:24",
+		"set:for:ofA:" : "Uko 3/21/2014 17:11:24" } }

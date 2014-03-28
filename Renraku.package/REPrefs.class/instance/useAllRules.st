@@ -1,3 +1,3 @@
 accessing
 useAllRules
-	rules := RERule allSubclasses asSet 
+	self rules: RERule allSubclasses 
