@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 7/10/2014 17:56",
+	"commentStamp" : "YuriyTymchuk 7/10/2014 18:20",
 	"instvars" : [
-		"lintRule",
-		"reports" ],
-	"name" : "ReRule",
+		"rule",
+		"entity",
+		"feedback" ],
+	"name" : "RePort",
 	"pools" : [
 		 ],
 	"super" : "Object",

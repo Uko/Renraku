@@ -1,1 +1,0 @@
-I initialize main menu item with icon

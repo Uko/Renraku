@@ -1,0 +1,1 @@
+I am a report maintaining a connection between rule and validated entity

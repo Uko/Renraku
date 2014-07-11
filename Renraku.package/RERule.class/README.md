@@ -1,1 +1,1 @@
-I'm basic superclass for all rules
+I am wrapper on Small Lint rule and allow it to behave in a reasonable way

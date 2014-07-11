@@ -1,1 +1,0 @@
-I check if the method is assigned to a protocol

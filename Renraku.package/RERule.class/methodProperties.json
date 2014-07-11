@@ -1,8 +1,11 @@
 {
 	"class" : {
-		"default" : "Uko 3/21/2014 17:11:24",
-		"rationale" : "Uko 3/21/2014 17:11:24",
-		"validate:" : "Uko 3/21/2014 17:11:24" },
+		"new:" : "YuriyTymchuk 7/11/2014 09:08" },
 	"instance" : {
-		"rationale" : "Uko 3/21/2014 17:11:24",
-		"validate:" : "Uko 3/21/2014 17:11:24" } }
+		"initialize" : "YuriyTymchuk 7/11/2014 09:26",
+		"initialize:" : "YuriyTymchuk 7/10/2014 17:49",
+		"lintRule" : "YuriyTymchuk 7/10/2014 17:47",
+		"reports" : "YuriyTymchuk 7/10/2014 17:47",
+		"reports:" : "YuriyTymchuk 7/10/2014 17:47",
+		"storeReport:" : "YuriyTymchuk 7/11/2014 09:31",
+		"validate:" : "YuriyTymchuk 7/11/2014 10:14" } }

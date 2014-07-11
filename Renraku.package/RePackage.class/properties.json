@@ -4,12 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 7/10/2014 17:56",
+	"commentStamp" : "YuriyTymchuk 7/11/2014 09:37",
 	"instvars" : [
-		"lintRule",
-		"reports" ],
-	"name" : "ReRule",
+		"classes",
+		"exClasses" ],
+	"name" : "RePackage",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ReEntity",
 	"type" : "normal" }

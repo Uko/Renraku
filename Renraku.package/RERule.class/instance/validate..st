@@ -1,4 +1,11 @@
-testing
-validate: aTarget
+as yet unclassified
+validate: anEntity
 
-	^ self subclassResponsibility 
+	^ reports
+		detect: [ :report |
+			report entity = anEntity ]
+		ifFound: #revalidate
+		ifNone: [ 
+			RePort
+				rule: self
+				entity: anEntity ]

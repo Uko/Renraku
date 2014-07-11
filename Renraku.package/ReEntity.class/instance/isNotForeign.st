@@ -1,0 +1,3 @@
+testing
+isNotForeign
+	self subclassResponsibility
