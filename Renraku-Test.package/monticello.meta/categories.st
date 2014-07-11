@@ -1,2 +1,2 @@
 SystemOrganization addCategory: #'Renraku-Test'!
-SystemOrganization addCategory: 'Renraku-Test-Validation'!
+SystemOrganization addCategory: 'Renraku-Test-Model'!

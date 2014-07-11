@@ -1,16 +1,13 @@
 {
-	"category" : "Renraku-Test-Validation",
+	"category" : "Renraku-Test-Model",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"message",
-		"severeness",
-		"target",
-		"compiledLongMethod" ],
-	"name" : "REValidationTest",
+		 ],
+	"name" : "RePortTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
