@@ -8,4 +8,4 @@ newFrom: aClass inEnvironment: anEnvironment
 			select: [ :method |
 				anEnvironment includesMethod: method ]
 			thenCollect: [ :method |
-				VMethod newFrom: method inEnvironment: anEnvironment ] ) 
+				ReMethod newFrom: method inEnvironment: anEnvironment ] ) 
