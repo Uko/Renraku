@@ -1,4 +1,6 @@
-as yet unclassified
+accessing
 rules: aCollection
 	
-	rules := aCollection 
+	self clearReports.
+	rules := aCollection.
+	self initializeReports

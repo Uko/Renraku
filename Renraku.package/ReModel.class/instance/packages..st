@@ -1,4 +1,5 @@
 accessing
 packages: anObject
 	self flushCache.
-	packages := anObject
+	packages := anObject.
+	self initializeReports

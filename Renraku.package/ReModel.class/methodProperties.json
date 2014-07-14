@@ -2,15 +2,19 @@
 	"class" : {
 		 },
 	"instance" : {
+		"categorizedRules" : "YuriyTymchuk 7/14/2014 15:32",
 		"classes" : "YuriyTymchuk 6/18/2014 10:50",
 		"clearReports" : "YuriyTymchuk 7/14/2014 11:16",
 		"entities" : "YuriyTymchuk 6/18/2014 10:46",
 		"environment:" : "YuriyTymchuk 7/13/2014 19:31",
 		"flushCache" : "YuriyTymchuk 7/14/2014 09:09",
 		"flushRingCache" : "YuriyTymchuk 7/14/2014 09:08",
-		"initialize" : "YuriyTymchuk 7/14/2014 09:16",
+		"initialize" : "YuriyTymchuk 7/14/2014 15:54",
+		"initializeReports" : "YuriyTymchuk 7/14/2014 15:53",
+		"lintRule:" : "YuriyTymchuk 7/14/2014 15:25",
 		"methods" : "YuriyTymchuk 6/18/2014 10:51",
 		"packages" : "YuriyTymchuk 6/16/2014 15:35",
-		"packages:" : "YuriyTymchuk 6/18/2014 10:56",
+		"packages:" : "YuriyTymchuk 7/14/2014 15:43",
+		"reports" : "YuriyTymchuk 7/14/2014 16:24",
 		"rules" : "YuriyTymchuk 7/13/2014 20:33",
-		"rules:" : "YuriyTymchuk 7/13/2014 20:33" } }
+		"rules:" : "YuriyTymchuk 7/14/2014 15:25" } }
