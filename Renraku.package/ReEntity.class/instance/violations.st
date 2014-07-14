@@ -1,3 +1,3 @@
 accessing
 violations
-	^ violations
+	^ reports select: #isNeative

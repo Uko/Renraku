@@ -1,0 +1,18 @@
+{
+	"category" : "Renraku-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 6/20/2014 13:02",
+	"instvars" : [
+		"packages",
+		"methods",
+		"classes",
+		"rules",
+		"reports" ],
+	"name" : "ReModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
