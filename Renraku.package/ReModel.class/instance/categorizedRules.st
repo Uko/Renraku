@@ -1,4 +1,4 @@
 accessing
 categorizedRules
 
-	rules groupedBy: #category
+	^ rules groupedBy: #category

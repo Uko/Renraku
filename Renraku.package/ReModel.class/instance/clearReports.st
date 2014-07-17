@@ -1,5 +1,7 @@
 private
 clearReports
 
-	reports do: #selfDestruct.
+	reports
+		do: #selfDestruct
+		displayingProgress: 'Removing old reports'.
 	reports removeAll

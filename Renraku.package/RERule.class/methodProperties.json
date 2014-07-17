@@ -2,11 +2,15 @@
 	"class" : {
 		"new:" : "YuriyTymchuk 7/11/2014 09:08" },
 	"instance" : {
+		"category" : "YuriyTymchuk 7/15/2014 12:06",
 		"initialize" : "YuriyTymchuk 7/11/2014 09:26",
 		"initialize:" : "YuriyTymchuk 7/10/2014 17:49",
 		"killReport:" : "YuriyTymchuk 7/14/2014 10:59",
 		"lintRule" : "YuriyTymchuk 7/10/2014 17:47",
+		"name" : "YuriyTymchuk 7/15/2014 21:02",
+		"numberOfViolations" : "YuriyTymchuk 7/15/2014 12:12",
 		"reports" : "YuriyTymchuk 7/10/2014 17:47",
 		"reports:" : "YuriyTymchuk 7/10/2014 17:47",
 		"storeReport:" : "YuriyTymchuk 7/11/2014 09:31",
-		"validate:" : "YuriyTymchuk 7/11/2014 10:14" } }
+		"validate:" : "YuriyTymchuk 7/11/2014 10:14",
+		"violations" : "YuriyTymchuk 7/15/2014 12:13" } }
