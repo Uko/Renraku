@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
 		"rule",
 		"entity",
-		"feedback" ],
+		"feedback",
+		"selection" ],
 	"name" : "RePort",
 	"pools" : [
 		 ],
