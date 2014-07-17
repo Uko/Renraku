@@ -1,1 +1,0 @@
-I am a model of an environment. I contain VEntity classes to properly model all the extension magic

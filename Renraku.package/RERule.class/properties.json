@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 7/10/2014 17:56",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"lintRule",
-		"reports" ],
+		"reports",
+		"hiden" ],
 	"name" : "ReRule",
 	"pools" : [
 		 ],

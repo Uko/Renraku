@@ -8,7 +8,8 @@
 		"environment" : "YuriyTymchuk 7/11/2014 09:35",
 		"environment:" : "YuriyTymchuk 7/11/2014 09:35",
 		"hasViolations" : "YuriyTymchuk 7/11/2014 09:35",
-		"infoText" : "YuriyTymchuk 7/11/2014 09:35",
+		"infoText" : "YuriyTymchuk 7/17/2014 15:36",
+		"infoTextOn:" : "YuriyTymchuk 7/17/2014 15:43",
 		"initialize" : "YuriyTymchuk 7/11/2014 10:08",
 		"isForeign" : "YuriyTymchuk 7/11/2014 09:35",
 		"isNotForeign" : "YuriyTymchuk 7/11/2014 09:35",
@@ -17,6 +18,7 @@
 		"mirroredEntity:" : "YuriyTymchuk 7/11/2014 09:35",
 		"name" : "YuriyTymchuk 7/11/2014 09:35",
 		"numberOfViolations" : "YuriyTymchuk 7/15/2014 12:36",
+		"numberOfVisibleViolations" : "YuriyTymchuk 7/17/2014 11:08",
 		"printString" : "YuriyTymchuk 7/11/2014 09:35",
 		"reports" : "YuriyTymchuk 7/11/2014 10:07",
 		"selectReports:" : "YuriyTymchuk 7/14/2014 09:24",
@@ -24,4 +26,5 @@
 		"size" : "YuriyTymchuk 7/11/2014 09:35",
 		"storeReport:" : "YuriyTymchuk 7/11/2014 09:35",
 		"violatingRule:" : "YuriyTymchuk 7/11/2014 12:01",
-		"violations" : "YuriyTymchuk 7/15/2014 12:13" } }
+		"violations" : "YuriyTymchuk 7/15/2014 12:13",
+		"visibleViolations" : "YuriyTymchuk 7/17/2014 11:07" } }

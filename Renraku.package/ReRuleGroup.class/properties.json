@@ -4,14 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "YuriyTymchuk 7/17/2014 11:45",
 	"instvars" : [
-		"packages",
-		"methods",
-		"classes",
 		"rules",
-		"reports" ],
-	"name" : "ReModel",
+		"name" ],
+	"name" : "ReRuleGroup",
 	"pools" : [
 		 ],
 	"super" : "Object",

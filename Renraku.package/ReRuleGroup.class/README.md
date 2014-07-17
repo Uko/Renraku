@@ -1,0 +1,1 @@
+I group rules to allow some bulk actions
