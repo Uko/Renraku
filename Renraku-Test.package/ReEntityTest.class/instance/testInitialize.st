@@ -2,7 +2,7 @@ as yet unclassified
 testInitialize
 	| entities |
 	
-	entities := ReEntity withAllSubclasses collect: #new.
+	entities := ReEntity allSubclasses collect: #new.
 	
 	entities do: [ :entity |
 	self

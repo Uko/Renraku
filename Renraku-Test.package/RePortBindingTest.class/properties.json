@@ -1,0 +1,14 @@
+{
+	"category" : "Renraku-Test-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 7/18/2014 14:17",
+	"instvars" : [
+		 ],
+	"name" : "RePortBindingTest",
+	"pools" : [
+		 ],
+	"super" : "ReBindingTest",
+	"type" : "normal" }
