@@ -9,7 +9,8 @@
 		"environment",
 		"mirroredEntity",
 		"violations",
-		"reports" ],
+		"reports",
+		"onUpdateBlock" ],
 	"name" : "ReEntity",
 	"pools" : [
 		 ],

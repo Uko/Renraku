@@ -4,7 +4,10 @@
 	"instance" : {
 		"checkWith:" : "YuriyTymchuk 7/11/2014 12:12",
 		"class:" : "YuriyTymchuk 7/11/2014 09:36",
+		"classDefinitionModified:" : "YuriyTymchuk 7/18/2014 17:59",
+		"classModified:" : "YuriyTymchuk 7/18/2014 17:59",
 		"descendents" : "YuriyTymchuk 7/11/2014 09:36",
 		"isNotForeign" : "YuriyTymchuk 7/11/2014 09:36",
 		"methods" : "YuriyTymchuk 7/11/2014 09:36",
-		"methods:" : "YuriyTymchuk 7/11/2014 09:36" } }
+		"methods:" : "YuriyTymchuk 7/11/2014 09:36",
+		"registerToAnnouncer" : "YuriyTymchuk 7/18/2014 16:44" } }

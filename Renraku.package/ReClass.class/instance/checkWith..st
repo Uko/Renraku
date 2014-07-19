@@ -1,4 +1,4 @@
-as yet unclassified
+lint hack
 checkWith: lintRule
 	lintRule checkClass: (
 		RBSmalllintContext newNoCache
