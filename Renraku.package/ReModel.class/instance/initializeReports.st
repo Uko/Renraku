@@ -4,15 +4,9 @@ initializeReports
 	
 	entityValidationBlock := [ :entity |
 		reports addAll: (self rules collect: [ :rule |
-			| report |
-			report := RePort
+			RePort
 				rule: rule
-				entity: entity.
-			report announcer weak
-				on: RePortChanged
-				send: #announce:
-				to: announcer.
-			report ]) ].
+				entity: entity ]) ].
 
 	self classes
 		do: entityValidationBlock

@@ -9,8 +9,7 @@
 		"environment",
 		"mirroredEntity",
 		"violations",
-		"reports",
-		"announcer" ],
+		"reports" ],
 	"name" : "ReEntity",
 	"pools" : [
 		 ],

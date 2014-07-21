@@ -10,8 +10,7 @@
 		"methods",
 		"classes",
 		"rules",
-		"reports",
-		"announcer" ],
+		"reports" ],
 	"name" : "ReModel",
 	"pools" : [
 		 ],

@@ -4,7 +4,6 @@
 		"withAllLintRulesForPackage:" : "YuriyTymchuk 7/15/2014 10:57",
 		"withAllLintRulesForPackages:" : "YuriyTymchuk 7/15/2014 10:59" },
 	"instance" : {
-		"announcer" : "YuriyTymchuk 7/21/2014 12:14",
 		"categorizedRules" : "YuriyTymchuk 7/17/2014 14:42",
 		"classes" : "YuriyTymchuk 6/18/2014 10:50",
 		"clearReports" : "YuriyTymchuk 7/15/2014 11:23",
@@ -12,8 +11,8 @@
 		"environment:" : "YuriyTymchuk 7/13/2014 19:31",
 		"flushCache" : "YuriyTymchuk 7/14/2014 09:09",
 		"flushRingCache" : "YuriyTymchuk 7/14/2014 09:08",
-		"initialize" : "YuriyTymchuk 7/21/2014 11:47",
-		"initializeReports" : "YuriyTymchuk 7/21/2014 14:33",
+		"initialize" : "YuriyTymchuk 7/21/2014 16:07",
+		"initializeReports" : "YuriyTymchuk 7/21/2014 16:07",
 		"lintRule:" : "YuriyTymchuk 7/14/2014 15:25",
 		"methods" : "YuriyTymchuk 6/18/2014 10:51",
 		"packages" : "YuriyTymchuk 6/16/2014 15:35",
