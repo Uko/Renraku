@@ -1,0 +1,1 @@
+I signal when visiblity of a rule is changed.

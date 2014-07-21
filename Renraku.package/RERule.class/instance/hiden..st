@@ -1,3 +1,6 @@
 accessing
-hiden: anObject
-	hiden := anObject
+hiden: boolean
+	hiden = boolean ifTrue: [ ^ self ].
+
+	hiden := boolean.
+	RenrakuAnnouncer uniqueInstance ruleVisiblityChanged: self
