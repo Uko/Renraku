@@ -2,11 +2,13 @@
 	"class" : {
 		"rule:entity:" : "YuriyTymchuk 7/11/2014 09:27" },
 	"instance" : {
+		"announcer" : "YuriyTymchuk 7/21/2014 11:45",
 		"entity" : "YuriyTymchuk 7/11/2014 11:39",
+		"initialize" : "YuriyTymchuk 7/21/2014 11:44",
 		"initializeRule:entity:" : "YuriyTymchuk 7/11/2014 09:30",
 		"isNegative" : "YuriyTymchuk 7/11/2014 11:43",
 		"isPositive" : "YuriyTymchuk 7/11/2014 11:43",
-		"revalidate" : "YuriyTymchuk 7/17/2014 17:37",
+		"revalidate" : "YuriyTymchuk 7/21/2014 11:44",
 		"rule" : "YuriyTymchuk 7/11/2014 11:39",
 		"selection" : "YuriyTymchuk 7/17/2014 17:40",
 		"selfDestruct" : "YuriyTymchuk 7/14/2014 10:58" } }

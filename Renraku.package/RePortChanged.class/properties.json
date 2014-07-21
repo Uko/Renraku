@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 7/21/2014 10:25",
+	"commentStamp" : "YuriyTymchuk 7/21/2014 11:33",
 	"instvars" : [
-		"affectedEntity" ],
-	"name" : "ReEntityUpdated",
+		"affectedReport",
+		"newFeedback" ],
+	"name" : "RePortChanged",
 	"pools" : [
 		 ],
 	"super" : "Announcement",

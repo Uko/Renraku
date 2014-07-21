@@ -9,7 +9,8 @@
 		"rule",
 		"entity",
 		"feedback",
-		"selection" ],
+		"selection",
+		"announcer" ],
 	"name" : "RePort",
 	"pools" : [
 		 ],
