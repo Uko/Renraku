@@ -6,7 +6,11 @@ testClassChanged
 	reClass := ReClass newFrom: testClass.
 	updates := 0.
 	
-	reClass announcer on: ReEntityUpdated do: [ updates := updates + 1 ].
+	RenrakuAnnouncer uniqueInstance
+		when: ReEntityUpdated
+		do: [ :ann |
+			ann affectedEntity == reClass ifTrue: [
+				updates := updates + 1 ] ].
 	
 	newClass := testClass superclass
 		subclass: testClass name

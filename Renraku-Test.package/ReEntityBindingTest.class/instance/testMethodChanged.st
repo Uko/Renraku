@@ -6,7 +6,11 @@ testMethodChanged
 	reMethod := ReMethod newFrom: testMethod.
 	updates := 0.
 	
-	reMethod announcer on: ReEntityUpdated do: [ updates := updates + 1 ].
+	RenrakuAnnouncer uniqueInstance
+		when: ReEntityUpdated
+		do: [ :ann |
+			ann affectedEntity == reMethod ifTrue: [
+				updates := updates + 1 ] ].
 	
 	newMethod := testMethod methodClass >> (testMethod methodClass compile:
 		testMethod selector, ' self subclassResponsibility').
