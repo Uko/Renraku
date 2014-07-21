@@ -1,7 +1,6 @@
 instance creation
-for: aReport to: aFeedback
+affectedReport: aReport
 
 	^ self new
 		affectedReport: aReport;
-		newFeedback: aFeedback;
 		yourself

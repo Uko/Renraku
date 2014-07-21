@@ -1,4 +1,4 @@
 accessing
 signalUpdate
 
-	announcer announce: (ReEntityUpdated affectedEntity: self)
+	RenrakuAnnouncer uniqueInstance entityUpdated: self

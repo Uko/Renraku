@@ -1,14 +1,14 @@
 {
 	"category" : "Renraku-Announcements",
 	"classinstvars" : [
-		 ],
+		"announcer" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 7/21/2014 11:33",
+	"commentStamp" : "YuriyTymchuk 7/21/2014 15:29",
 	"instvars" : [
-		"affectedReport" ],
-	"name" : "RePortChanged",
+		 ],
+	"name" : "RenrakuAnnouncer",
 	"pools" : [
 		 ],
-	"super" : "Announcement",
+	"super" : "Announcer",
 	"type" : "normal" }

@@ -1,11 +1,14 @@
 as yet unclassified
 revalidate
-	| oldFeedBack |
-	selection := nil.
+	| oldFeedBack oldSelection |
+	oldSelection := selection.
 	oldFeedBack := feedback.
+	
+	selection := nil.
+	
 	feedback := (entity violatingRule: rule) not.
 	selection := rule lintRule result selectionIntervalFor: entity mirroredEntity definition.
 	
-	feedback not = oldFeedBack ifTrue: [ 
-		announcer announce:
-			(RePortChanged for: self to: feedback) ]
+	  (feedback ~= oldFeedBack or:
+	[ selection ~= oldSelection ]) ifTrue: [ 
+		RenrakuAnnouncer uniqueInstance reportChanged: self ]
