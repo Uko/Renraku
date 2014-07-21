@@ -6,7 +6,7 @@ testClassChanged
 	reClass := ReClass newFrom: testClass.
 	updates := 0.
 	
-	reClass onUpdate: [ updates := updates + 1 ].
+	reClass announcer on: ReEntityUpdated do: [ updates := updates + 1 ].
 	
 	newClass := testClass superclass
 		subclass: testClass name

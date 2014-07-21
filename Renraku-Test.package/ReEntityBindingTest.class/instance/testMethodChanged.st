@@ -6,7 +6,7 @@ testMethodChanged
 	reMethod := ReMethod newFrom: testMethod.
 	updates := 0.
 	
-	reMethod onUpdate: [ updates := updates + 1 ].
+	reMethod announcer on: ReEntityUpdated do: [ updates := updates + 1 ].
 	
 	newMethod := testMethod methodClass >> (testMethod methodClass compile:
 		testMethod selector, ' self subclassResponsibility').
