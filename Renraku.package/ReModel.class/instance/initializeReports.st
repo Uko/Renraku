@@ -11,7 +11,8 @@ initializeReports
 			report announcer weak
 				on: RePortChanged
 				send: #announce:
-				to: announcer ]) ].
+				to: announcer.
+			report ]) ].
 
 	self classes
 		do: entityValidationBlock
