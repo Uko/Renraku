@@ -1,4 +1,4 @@
 accessing
 signalUpdate
 
-	onUpdateBlock value
+	announcer announce: (ReEntityUpdated affectedEntity: self)

@@ -2,5 +2,5 @@ as yet unclassified
 initialize
 	super initialize.
 	reports := Set new.
-	onUpdateBlock := [ ].
+	announcer := Announcer new.
 	self registerToAnnouncer.

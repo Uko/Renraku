@@ -10,7 +10,7 @@
 		"mirroredEntity",
 		"violations",
 		"reports",
-		"onUpdateBlock" ],
+		"announcer" ],
 	"name" : "ReEntity",
 	"pools" : [
 		 ],
