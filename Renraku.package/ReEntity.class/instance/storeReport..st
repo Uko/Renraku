@@ -1,4 +1,4 @@
-as yet unclassified
+validation
 storeReport: aReport 
 
 	reports add: aReport.

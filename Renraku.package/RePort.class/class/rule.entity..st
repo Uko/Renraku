@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 rule: aRule entity: anEntity
 	^ self new
 		initializeRule: aRule entity: anEntity;

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize: aLintRule
 
 	self initialize.

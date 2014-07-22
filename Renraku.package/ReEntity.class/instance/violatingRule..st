@@ -1,4 +1,4 @@
-as yet unclassified
+validation
 violatingRule: aRule
 	| lintRule |
 	lintRule := aRule lintRule.

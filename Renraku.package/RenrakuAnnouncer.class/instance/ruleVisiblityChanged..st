@@ -1,4 +1,4 @@
-as yet unclassified
+announce
 ruleVisiblityChanged: aRule
 
 	self announce: (ReRuleVisiblityChanged

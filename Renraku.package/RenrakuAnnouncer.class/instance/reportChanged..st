@@ -1,4 +1,4 @@
-as yet unclassified
+announce
 reportChanged: aReport
 
 	self announce: (RePortChanged 

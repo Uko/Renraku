@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "YuriyTymchuk 7/22/2014 09:34",
 	"instvars" : [
 		"environment",
 		"mirroredEntity",
-		"violations",
 		"reports" ],
 	"name" : "ReEntity",
 	"pools" : [

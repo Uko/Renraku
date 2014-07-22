@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newFrom: aClass inEnvironment: anEnvironment
 
 	^ self new
@@ -8,4 +8,5 @@ newFrom: aClass inEnvironment: anEnvironment
 			select: [ :method |
 				anEnvironment includesMethod: method ]
 			thenCollect: [ :method |
-				ReMethod newFrom: method inEnvironment: anEnvironment ] ) 
+				ReMethod newFrom: method inEnvironment: anEnvironment ] ) ;
+		yourself 

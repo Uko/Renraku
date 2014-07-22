@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newFrom: aMethod inEnvironment: anEnvironment 
 	^ self new
 		method: aMethod;

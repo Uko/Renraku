@@ -1,4 +1,4 @@
-as yet unclassified
+events
 registerToAnnouncer
 
 	SystemAnnouncer uniqueInstance weak

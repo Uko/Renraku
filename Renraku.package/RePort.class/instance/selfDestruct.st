@@ -1,4 +1,4 @@
-as yet unclassified
+finalization
 selfDestruct
 	rule killReport: self.
 	entity killReport: self.

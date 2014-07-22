@@ -1,4 +1,4 @@
-as yet unclassified
+validation
 revalidate
 	| oldFeedBack oldSelection |
 	oldSelection := selection.

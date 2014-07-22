@@ -1,4 +1,4 @@
-as yet unclassified
+announcements
 methodRecategorized: evt
 
 	evt methodAffected == self mirroredEntity

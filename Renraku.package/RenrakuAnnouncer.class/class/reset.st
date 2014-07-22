@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 reset
 	announcer := nil.

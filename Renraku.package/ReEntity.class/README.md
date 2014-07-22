@@ -1,0 +1,1 @@
+I am a general superclass for all entitie models

@@ -1,4 +1,4 @@
-as yet unclassified
+announce
 entityUpdated: anEntity
 
 	self announce: (ReEntityUpdated

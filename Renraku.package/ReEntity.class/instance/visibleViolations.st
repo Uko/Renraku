@@ -1,3 +1,3 @@
 accessing
 visibleViolations
-	^ self violations select: [ :v | v rule hiden not ]
+	^ self violations reject: [ :v | v rule hiden ]

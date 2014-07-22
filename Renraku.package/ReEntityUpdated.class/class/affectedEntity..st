@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 affectedEntity: anEntity
 	^ self new
 		affectedEntity: anEntity;

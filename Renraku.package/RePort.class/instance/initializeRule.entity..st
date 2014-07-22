@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeRule: aRule entity: anEntity
 	self initialize.
 	rule := aRule storeReport: self; yourself.

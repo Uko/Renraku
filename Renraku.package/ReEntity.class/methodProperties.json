@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"newFrom:" : "YuriyTymchuk 7/11/2014 10:56" },
+		"newFrom:" : "YuriyTymchuk 7/11/2014 10:56",
+		"newFrom:inEnvironment:" : "YuriyTymchuk 7/22/2014 10:39" },
 	"instance" : {
 		"allDescendents" : "YuriyTymchuk 7/11/2014 09:35",
 		"checkWith:" : "YuriyTymchuk 7/11/2014 11:48",
@@ -9,7 +10,7 @@
 		"environment:" : "YuriyTymchuk 7/11/2014 09:35",
 		"hasViolations" : "YuriyTymchuk 7/11/2014 09:35",
 		"infoText" : "YuriyTymchuk 7/17/2014 15:36",
-		"infoTextOn:" : "YuriyTymchuk 7/17/2014 15:43",
+		"infoTextOn:" : "YuriyTymchuk 7/22/2014 10:08",
 		"initialize" : "YuriyTymchuk 7/21/2014 16:06",
 		"isForeign" : "YuriyTymchuk 7/11/2014 09:35",
 		"isNotForeign" : "YuriyTymchuk 7/11/2014 09:35",
@@ -22,12 +23,10 @@
 		"printString" : "YuriyTymchuk 7/11/2014 09:35",
 		"registerToAnnouncer" : "YuriyTymchuk 7/18/2014 14:59",
 		"reports" : "YuriyTymchuk 7/11/2014 10:07",
-		"revalidate" : "YuriyTymchuk 7/21/2014 10:45",
-		"selectReports:" : "YuriyTymchuk 7/14/2014 09:24",
-		"selectViolations:" : "YuriyTymchuk 7/14/2014 11:14",
+		"revalidate" : "YuriyTymchuk 7/22/2014 09:24",
 		"signalUpdate" : "YuriyTymchuk 7/21/2014 15:52",
 		"size" : "YuriyTymchuk 7/11/2014 09:35",
 		"storeReport:" : "YuriyTymchuk 7/18/2014 16:11",
 		"violatingRule:" : "YuriyTymchuk 7/11/2014 12:01",
 		"violations" : "YuriyTymchuk 7/15/2014 12:13",
-		"visibleViolations" : "YuriyTymchuk 7/17/2014 11:07" } }
+		"visibleViolations" : "YuriyTymchuk 7/22/2014 10:43" } }
