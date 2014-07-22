@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testClassUpdate1
 
 	| report |	

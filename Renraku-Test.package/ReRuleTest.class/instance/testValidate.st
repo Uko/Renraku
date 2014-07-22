@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testValidate
 	| rule entity report |
 	rule := ReRule new: RBExcessiveArgumentsRule new.

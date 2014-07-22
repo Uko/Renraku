@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMethodChanged
 
 	| reMethod newMethod protocol updates |

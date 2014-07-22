@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testClassChanged
 
 	| reClass newClass comment updates |

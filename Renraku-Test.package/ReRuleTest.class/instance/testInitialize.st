@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testInitialize
 	| rule lintRule |
 	rule := ReRule new: (lintRule := RBExcessiveArgumentsRule new).
