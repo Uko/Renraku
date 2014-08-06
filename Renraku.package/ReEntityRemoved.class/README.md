@@ -1,0 +1,1 @@
+I announce temoval of the entity

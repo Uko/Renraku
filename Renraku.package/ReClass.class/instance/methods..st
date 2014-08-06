@@ -1,3 +1,3 @@
 accessing
 methods: aCollection 
-	methods := aCollection
+	methods := aCollection asOrderedCollection

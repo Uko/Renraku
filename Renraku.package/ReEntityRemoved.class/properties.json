@@ -1,0 +1,14 @@
+{
+	"category" : "Renraku-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 8/6/2014 14:16",
+	"instvars" : [
+		"affectedEntity" ],
+	"name" : "ReEntityRemoved",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }
