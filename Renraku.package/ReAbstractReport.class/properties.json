@@ -4,12 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 7/22/2014 09:37",
+	"commentStamp" : "YuriyTymchuk 8/11/2014 10:29",
 	"instvars" : [
-		"rule",
-		"selection" ],
-	"name" : "RePort",
+		"entity",
+		"feedback" ],
+	"name" : "ReAbstractReport",
 	"pools" : [
 		 ],
-	"super" : "ReAbstractReport",
+	"super" : "Object",
 	"type" : "normal" }

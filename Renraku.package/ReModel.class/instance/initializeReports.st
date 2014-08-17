@@ -6,7 +6,8 @@ initializeReports
 		reports addAll: (self rules collect: [ :rule |
 			RePort
 				rule: rule
-				entity: entity ]) ].
+				entity: entity ]).
+		Processor yield ].
 
 	self classes
 		do: entityValidationBlock

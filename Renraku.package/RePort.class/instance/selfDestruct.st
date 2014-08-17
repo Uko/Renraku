@@ -1,7 +1,6 @@
 finalization
 selfDestruct
-	rule killReport: self.
-	entity killReport: self.
-	
+	super selfDestruct.	
+
+	rule killReport: self.	
 	rule := nil.
-	entity := nil
