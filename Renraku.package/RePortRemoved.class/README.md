@@ -1,0 +1,1 @@
+I am announced when a report get's removed

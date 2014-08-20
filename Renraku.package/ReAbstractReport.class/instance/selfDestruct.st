@@ -1,5 +1,10 @@
 finalization
 selfDestruct
-
+	| entityHolder |
 	entity killReport: self.
-	entity := nil
+	entityHolder := entity.
+	entity := nil.
+	
+	(RenrakuAnnouncer uniqueInstance
+		reportRemoved: self
+		forEntity: entityHolder)
