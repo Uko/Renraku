@@ -4,3 +4,5 @@ initializeNote: aText entity: anEntity
 	text := aText.
 	feedback := false.
 	entity := anEntity storeReport: self; yourself.
+	
+	RenrakuAnnouncer uniqueInstance reportAdded: self
