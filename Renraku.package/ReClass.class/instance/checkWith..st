@@ -1,6 +1,3 @@
 lint hack
 checkWith: lintRule
-	lintRule checkClass: (
-		RBSmalllintContext newNoCache
-			selectedClass: self mirroredEntity;
-			yourself)
+	lintRule checkClass: self mirroredEntity
