@@ -5,7 +5,7 @@ testSelfDestruct
 	
 	report := RePort
 		rule: (rule := ReRule new: RBExcessiveArgumentsRule new)
-		entity: (entity := ReClass newFrom: HandMorph).
+		entity: (entity := HandMorph).
 		
 	report selfDestruct.
 	

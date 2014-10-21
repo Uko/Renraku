@@ -12,7 +12,7 @@ testRevalidate
 
 	report := RePort
 		rule: (ReRule new: RBExcessiveVariablesRule new)
-		entity: (ReClass newFrom: class).
+		entity: class.
 	
 	self assert: report isNegative.
 	

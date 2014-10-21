@@ -1,7 +1,7 @@
 tests
 testClassUpdate1
 
-	| report |	
+	| report model |	
 		
 	testClass superclass
 		subclass: testClass name
@@ -9,10 +9,13 @@ testClassUpdate1
 		classVariableNames: ''
 		category: testClass category.
 
-	report := RePort
-		rule: (ReRule new: RBOnlyReadOrWrittenVariableRule new)
-		entity: (ReClass newFrom: testClass).
-		
+	model := ReModel new
+		environment: testClass asEnvironment;
+		lintRule: RBOnlyReadOrWrittenVariableRule new;
+		yourself.
+
+	report := model reports detect: [ :rep | rep entity = testClass ].
+
 	self assert: report isNegative.
 	
 	testClass superclass
@@ -20,5 +23,7 @@ testClassUpdate1
 		instanceVariableNames: ''
 		classVariableNames: ''
 		category: testClass category.
+		
+	report := model reports detect: [ :rep | rep entity = testClass ].
 	
 	self assert: report isPositive.

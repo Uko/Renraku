@@ -8,8 +8,8 @@ testEnvironment
 		
 	self
 		assert: (model packages anySatisfy: [ :package |
-			package     mirroredEntity = self class package ]);
-		assert: (model  classes anySatisfy: [ :classModel |
-			classModel  mirroredEntity = self class ]);
-		assert: (model  methods anySatisfy: [ :methodModel |
-			methodModel mirroredEntity = thisContext method ])
+			package = self class package ]);
+		assert: (model  classes anySatisfy: [ :class |
+			class = self class ]);
+		assert: (model  methods anySatisfy: [ :method |
+			method = thisContext method ])

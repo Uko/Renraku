@@ -1,1 +1,0 @@
-I check the consistenscy of entities upon rule changes

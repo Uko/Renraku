@@ -1,11 +1,18 @@
 tests
 testMethodUpdate
 
-	| report |	
+	| report model |	
 
-	report := RePort
-		rule: (ReRule new: RBUnclassifiedMethodsRule new)
-		entity: (ReMethod newFrom: testMethod).
+	model := ReModel new
+		environment: testMethod methodClass asEnvironment;
+		lintRule: RBUnclassifiedMethodsRule new;
+		yourself.
+		
+	self
+		assert: testMethod reports size
+		equals: 1.
+		
+	report := testMethod reports anyOne.
 		
 	self assert: report isNegative.
 	

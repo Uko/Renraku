@@ -2,7 +2,7 @@ tests
 testInitialize
 	| entities |
 	
-	entities := ReEntity allSubclasses collect: #new.
+	entities := self class methods, { self class }.
 	
 	entities do: [ :entity |
 	self

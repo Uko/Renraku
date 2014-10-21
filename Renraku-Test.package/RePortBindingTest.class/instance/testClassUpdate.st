@@ -1,11 +1,16 @@
 tests
 testClassUpdate
 
-	| report |	
+	| report model |	
 
-	report := RePort
-		rule: (ReRule new: RBNoClassCommentRule new)
-		entity: (ReClass newFrom: testClass).
+	model := ReModel new
+		environment: testClass asEnvironment;
+		lintRule: RBNoClassCommentRule new;
+		yourself.
+
+	report := model reports detect: [ :rep | rep entity = testClass ].
+	
+	
 		
 	self assert: report isNegative.
 	

@@ -5,7 +5,7 @@ testInitialize
 	
 	report := RePort
 		rule: (rule := ReRule new: RBExcessiveArgumentsRule new)
-		entity: (entity := ReClass newFrom: HandMorph).
+		entity: (entity := HandMorph).
 		
 	self
 		assert: report rule
