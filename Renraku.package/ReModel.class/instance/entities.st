@@ -1,5 +1,4 @@
 accessing
 entities
-	^ self packages,
-	  self classes,
+	^ self classes,
 	  self methods

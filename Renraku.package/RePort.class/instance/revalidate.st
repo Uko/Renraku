@@ -7,7 +7,7 @@ revalidate
 	selection := nil.
 	
 	feedback := (entity violatingRule: rule) not.
-	selection := rule lintRule result selectionIntervalFor: entity mirroredEntity definition.
+	selection := rule lintRule result selectionIntervalFor: entity definition.
 	
 	  (feedback ~= oldFeedBack or:
 	[ selection ~= oldSelection ]) ifTrue: [ 

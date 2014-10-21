@@ -10,7 +10,8 @@
 		"methods",
 		"classes",
 		"rules",
-		"reports" ],
+		"reports",
+		"environment" ],
 	"name" : "ReModel",
 	"pools" : [
 		 ],

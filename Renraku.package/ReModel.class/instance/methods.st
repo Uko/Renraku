@@ -1,3 +1,3 @@
 accessing
 methods
-	^ methods ifNil: [ methods := self classes flatCollect: #descendents ]
+	^ methods ifNil: [ methods := environment methods ]

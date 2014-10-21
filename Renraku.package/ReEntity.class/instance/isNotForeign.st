@@ -1,3 +1,0 @@
-testing
-isNotForeign
-	self subclassResponsibility

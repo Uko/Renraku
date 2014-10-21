@@ -1,6 +1,7 @@
 initialization
 initialize
 	super initialize.
-	packages := #().
+	environment := RBPackageEnvironment new.
 	rules := #().
-	reports := Set new.
+	reports := WeakSet new.
+	self registerToAnnouncer.

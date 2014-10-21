@@ -3,10 +3,7 @@ initializeReports
 	| entityValidationBlock |
 	
 	entityValidationBlock := [ :entity |
-		reports addAll: (self rules collect: [ :rule |
-			RePort
-				rule: rule
-				entity: entity ]).
+		self generateReportsFor: entity.
 		Processor yield ].
 
 	self classes

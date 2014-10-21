@@ -1,3 +1,3 @@
 accessing
 classes
-	^ classes ifNil: [ classes := self packages flatCollect: #descendents ]
+	^ classes ifNil: [ classes := environment definedClasses ]
