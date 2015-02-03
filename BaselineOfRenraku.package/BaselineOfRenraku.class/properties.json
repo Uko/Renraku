@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfRenraku",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfRenraku",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
