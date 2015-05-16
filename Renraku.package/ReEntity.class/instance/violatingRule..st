@@ -6,5 +6,4 @@ violatingRule: aRule
 	
 	self checkWith: lintRule.
 	
-	^ lintRule critics includes: mirroredEntity
-	
+	^ lintRule critics notEmpty
