@@ -1,0 +1,4 @@
+list-morph
+getCritics
+
+	^ critics

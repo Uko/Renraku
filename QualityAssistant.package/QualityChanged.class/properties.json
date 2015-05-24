@@ -1,0 +1,14 @@
+{
+	"category" : "QualityAssistant-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 4/21/2015 19:03",
+	"instvars" : [
+		"entity" ],
+	"name" : "QualityChanged",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }
