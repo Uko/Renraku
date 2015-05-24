@@ -1,0 +1,15 @@
+{
+	"category" : "Renraku",
+	"classinstvars" : [
+		"uniqueInstance",
+		"icon" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 5/25/2015 01:18",
+	"instvars" : [
+		"rules" ],
+	"name" : "ReEngine",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

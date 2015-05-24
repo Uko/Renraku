@@ -1,0 +1,14 @@
+{
+	"category" : "Renraku",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 4/21/2015 19:03",
+	"instvars" : [
+		"entity" ],
+	"name" : "ReQualityChanged",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

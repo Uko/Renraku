@@ -1,1 +1,0 @@
-I'm a notice that can be attached to the entity

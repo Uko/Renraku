@@ -1,1 +1,0 @@
-I announce when new report is initialized

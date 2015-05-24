@@ -2,11 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"asEnvironment" : "YuriyTymchuk 7/11/2014 10:35",
-		"checkWith:" : "YuriyTymchuk 10/20/2014 11:22",
-		"killReport:" : "YuriyTymchuk 10/20/2014 11:33",
-		"reports" : "YuriyTymchuk 10/20/2014 10:38",
-		"revalidate" : "YuriyTymchuk 10/20/2014 15:06",
-		"signalUpdate" : "YuriyTymchuk 10/20/2014 14:53",
-		"storeReport:" : "YuriyTymchuk 10/20/2014 14:53",
-		"violatingRule:" : "YuriyTymchuk 10/20/2014 11:22" } }
+		"cachedCritics" : "Uko 5/24/2015 23:46:14",
+		"critics" : "YuriyTymchuk 5/25/2015 01:13",
+		"skip:" : "Uko 5/24/2015 23:46:14",
+		"wipeCritics" : "Uko 5/24/2015 23:46:14" } }

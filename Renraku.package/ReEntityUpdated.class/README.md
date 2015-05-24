@@ -1,1 +1,0 @@
-A announce that ReEntity was updated (eg. mirrored entity was updated).
