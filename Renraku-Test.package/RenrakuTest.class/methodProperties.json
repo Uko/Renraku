@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "Uko 10/21/2014 11:20:36",
-		"tearDown" : "Uko 10/21/2014 11:20:36",
-		"testNoClassComment" : "YuriyTymchuk 5/25/2015 00:22",
-		"testUnclassifiedMethod" : "YuriyTymchuk 5/25/2015 00:22",
-		"testUnusedVar" : "YuriyTymchuk 5/25/2015 00:22" } }
+		"testNoClassComment" : "YuriyTymchuk 5/26/2015 09:56",
+		"testSkip" : "YuriyTymchuk 5/26/2015 10:11",
+		"testSkip1" : "YuriyTymchuk 5/26/2015 10:13",
+		"testSkip2" : "YuriyTymchuk 5/26/2015 10:13",
+		"testUnclassifiedMethod" : "YuriyTymchuk 5/26/2015 09:56",
+		"testUnusedVar" : "YuriyTymchuk 5/26/2015 09:56" } }

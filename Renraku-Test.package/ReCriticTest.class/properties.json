@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "RenrakuTest",
+	"name" : "ReCriticTest",
 	"pools" : [
 		 ],
 	"super" : "RenrakuBaseTestCase",

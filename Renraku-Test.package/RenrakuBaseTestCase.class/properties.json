@@ -1,0 +1,16 @@
+{
+	"category" : "Renraku-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 7/18/2014 11:29",
+	"instvars" : [
+		"testClass",
+		"testPackage",
+		"testMethod" ],
+	"name" : "RenrakuBaseTestCase",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
