@@ -6,7 +6,7 @@ critics
 	builder := TheManifestBuilder new.
 	manifest := builder manifestOf: self.
 		
-	rules := QualityAssistant uniqueInstance rules.
+	rules := ReEngine uniqueInstance rules.
 	critics := Set new.
 	rules
 		reject: [ :rule |
@@ -16,7 +16,7 @@ critics
 			rule resetResult.
 			rule checkClass: self.
 			rule critics ifNotEmpty: [
-				critics add: (QACritic
+				critics add: (ReCritic
 					for: self
 					by: rule
 					at: (rule result selectionIntervalFor: self definition)) ].
