@@ -1,1 +1,0 @@
-I am Renraku rule which should validate an entity, For now I wrap lint rule

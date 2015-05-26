@@ -1,3 +1,0 @@
-testing
-isNegative
-	^ feedback not

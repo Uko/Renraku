@@ -1,1 +1,0 @@
-I am a report of a rule validating certain entity

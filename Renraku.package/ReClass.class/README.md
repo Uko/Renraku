@@ -1,1 +1,0 @@
-I model Pharo Class (maybe also Trait)

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "Uko 10/21/2014 11:20:36",
+		"tearDown" : "Uko 10/21/2014 11:20:36",
+		"testNoClassComment" : "YuriyTymchuk 5/25/2015 00:22",
+		"testUnclassifiedMethod" : "YuriyTymchuk 5/25/2015 00:22",
+		"testUnusedVar" : "YuriyTymchuk 5/25/2015 00:22" } }
