@@ -1,9 +1,9 @@
-![Renraku logo](media/logo_30.png)Renraku
+![Renraku logo](media/logo_100.png) Renraku
 =======
 
-load specific `branch` as:
+This is the code quality framework for [Pharo](http://pharo.org). The main goal of Renraku is to provide a concept of quality as a first class entity that can be used by a different tools to improve programming experience.
 
-    Metacello new
-      baseline: #Renraku;
-      repository: 'github://Uko/Renraku:branch';
-      load
+At the moment Renraku is used by:
+
+ * [QualityAssistant](https://github.com/Uko/QualityAssistant)
+ * [ViDI](https://github.com/Uko/Vidi) _(uses older version)_
