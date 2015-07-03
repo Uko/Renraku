@@ -1,0 +1,14 @@
+{
+	"category" : "Renraku",
+	"classinstvars" : [
+		"uuid" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ReComplainer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
