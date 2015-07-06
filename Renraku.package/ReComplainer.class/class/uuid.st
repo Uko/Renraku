@@ -1,3 +1,3 @@
-as yet unclassified
+properties
 uuid
 	^ uuid ifNil: [ uuid := UUID new ]

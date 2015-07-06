@@ -1,11 +1,10 @@
-as yet unclassified
+actions
 complainAbout: aReCritic
 	[ 
 	ZnClient new
 		beOneShot;
 		http;
-		host: 'localhost';
-		port: 4000;
+		host: 'renraku.inf.usi.ch';
 		addPath: 'complaints';
 		formAt: 'uuid' put: self uuid asString;
 		formAt: 'pharoVersion' put: SystemVersion current highestUpdate asString;
@@ -15,4 +14,6 @@ complainAbout: aReCritic
 		formAt: 'time' put: DateAndTime now asString;
 		post ]
 		on: NetworkError
-		do: [ :ex |  ]
+		do: [ :ex | ^ false ].
+		
+	^ true
