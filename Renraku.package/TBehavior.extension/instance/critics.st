@@ -22,4 +22,6 @@ critics
 					at: (rule result selectionIntervalFor: self definition)) ].
 			Processor yield ].
 	
+	RELogger logRevalidatedEntity: self andGot: critics.
+	
 	^ critics
