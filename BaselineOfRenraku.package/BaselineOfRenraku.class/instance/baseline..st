@@ -5,6 +5,7 @@ baseline: spec
 	spec for: #common do: [
 		spec blessing: #baseline.
 		spec
+			preLoadDoIt: #unsubscribeReEngine;
 			package: 'Renraku';
 			package: 'Renraku-Test' with: [ spec requires: 'Renraku' ].
 
