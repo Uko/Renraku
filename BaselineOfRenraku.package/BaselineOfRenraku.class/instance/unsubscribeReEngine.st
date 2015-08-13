@@ -1,4 +1,5 @@
 as yet unclassified
 unsubscribeReEngine
 
-	SystemAnnouncer uniqueInstance unsubscribe: ReEngine uniqueInstance 
+	#ReEngine asClassIfPresent: [ :engineClass |
+		SystemAnnouncer uniqueInstance unsubscribe: engineClass uniqueInstance ]
