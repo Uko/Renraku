@@ -1,15 +1,8 @@
 {
 	"class" : {
-		"initialize" : "Uko 5/25/2015 01:20:19",
+		"cleanUp" : "YuriyTymchuk 8/15/2015 20:26",
+		"reset" : "YuriyTymchuk 8/15/2015 20:25",
 		"uniqueInstance" : "Uko 5/25/2015 01:20:19" },
 	"instance" : {
-		"classCommented:" : "Uko 5/25/2015 01:20:19",
-		"classDefinitionModified:" : "Uko 5/25/2015 01:20:19",
-		"classModified:" : "Uko 5/25/2015 01:20:19",
 		"initialize" : "YuriyTymchuk 8/9/2015 22:13",
-		"methodModified:" : "Uko 5/25/2015 01:20:19",
-		"methodRecategorized:" : "Uko 5/25/2015 01:20:19",
-		"resetCriticCache:" : "Uko 5/25/2015 01:20:19",
-		"rules" : "YuriyTymchuk 8/9/2015 00:17",
-		"subscribe" : "YuriyTymchuk 7/30/2015 10:37",
-		"unSubscribe" : "Uko 5/25/2015 01:20:19" } }
+		"rules" : "YuriyTymchuk 8/9/2015 00:17" } }
