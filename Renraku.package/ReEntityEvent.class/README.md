@@ -1,0 +1,1 @@
+A Renraku event about an entity

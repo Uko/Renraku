@@ -5,9 +5,10 @@
 		"icon" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 8/9/2015 00:33",
+	"commentStamp" : "YuriyTymchuk 8/23/2015 14:11",
 	"instvars" : [
-		"rules" ],
+		"rules",
+		"announcer" ],
 	"name" : "ReEngine",
 	"pools" : [
 		 ],

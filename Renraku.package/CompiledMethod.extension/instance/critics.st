@@ -23,4 +23,6 @@ critics
 					at: (rule result selectionIntervalFor: self definition)) ].
 			Processor yield ].
 	
+	ReEngine uniqueInstance notifyEntityCriticized: self with: critics. 
+	
 	^ critics
