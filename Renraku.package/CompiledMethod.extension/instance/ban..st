@@ -1,7 +1,7 @@
 *renraku
-ban: aQACritic
+ban: aCritic
 
-	ReEngine uniqueInstance notifyCritic: aQACritic BannedOn: self.
+	ReEngine uniqueInstance notifyCritic: aCritic of: aCritic target BannedOn: self.
 
 	(TheManifestBuilder of: self)
-		banRule: aQACritic rule for: self.
+		banRule: aCritic rule for: self.

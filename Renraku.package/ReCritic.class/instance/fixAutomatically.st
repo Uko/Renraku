@@ -1,5 +1,5 @@
 actions
 fixAutomatically
 
-	ReEngine uniqueInstance notifyCriticAutoFixed: self.
+	ReEngine uniqueInstance notifyCritic: self AutoFixedFor: target
 	rule transform: target

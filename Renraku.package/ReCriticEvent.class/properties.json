@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "YuriyTymchuk 8/29/2015 21:31",
 	"instvars" : [
-		 ],
+		"entity" ],
 	"name" : "ReCriticEvent",
 	"pools" : [
 		 ],

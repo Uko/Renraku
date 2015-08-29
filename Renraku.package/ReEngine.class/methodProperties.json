@@ -7,7 +7,7 @@
 		"announce:" : "Uko 8/23/2015 18:56:36",
 		"announcer" : "Uko 8/23/2015 18:56:36",
 		"initialize" : "YuriyTymchuk 8/9/2015 22:13",
-		"notifyCritic:BannedOn:" : "YuriyTymchuk 8/29/2015 21:53",
-		"notifyCriticAutoFixed:" : "YuriyTymchuk 8/29/2015 21:35",
-		"notifyEntityCriticizedWith:" : "YuriyTymchuk 8/29/2015 21:34",
+		"notifyCritic:AutoFixedFor:" : "YuriyTymchuk 8/29/2015 23:25",
+		"notifyCritic:of:BannedOn:" : "YuriyTymchuk 8/29/2015 23:27",
+		"notifyEntity:CriticizedWith:" : "YuriyTymchuk 8/29/2015 23:21",
 		"rules" : "YuriyTymchuk 8/9/2015 00:17" } }
