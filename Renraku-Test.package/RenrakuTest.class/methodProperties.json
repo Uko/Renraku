@@ -4,7 +4,7 @@
 	"instance" : {
 		"testBan" : "YuriyTymchuk 8/29/2015 22:00",
 		"testBan1" : "YuriyTymchuk 8/29/2015 22:00",
+		"testBan2" : "YuriyTymchuk 8/29/2015 23:31",
 		"testNoClassComment" : "YuriyTymchuk 5/26/2015 09:56",
-		"testSkip2" : "YuriyTymchuk 5/26/2015 10:13",
 		"testUnclassifiedMethod" : "YuriyTymchuk 5/26/2015 09:56",
 		"testUnusedVar" : "YuriyTymchuk 5/26/2015 09:56" } }
