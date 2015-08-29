@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testBan" : "YuriyTymchuk 8/29/2015 22:00",
+		"testBan1" : "YuriyTymchuk 8/29/2015 22:00",
 		"testDescription" : "YuriyTymchuk 5/26/2015 10:35",
 		"testIsAutoFixable" : "YuriyTymchuk 5/26/2015 10:25",
 		"testRule" : "YuriyTymchuk 5/26/2015 10:34",
-		"testSkip" : "YuriyTymchuk 5/26/2015 10:07",
-		"testSkip1" : "YuriyTymchuk 5/26/2015 10:10",
 		"testTarget" : "YuriyTymchuk 5/26/2015 10:36",
 		"testTitle" : "YuriyTymchuk 5/26/2015 10:35" } }

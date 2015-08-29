@@ -1,11 +1,11 @@
 tests
-testSkip
+testBan
 	| criticToSkip |
 		
 	criticToSkip := testClass critics detect: [ :critic |
 		critic rule class = RBNoClassCommentRule ].
 	
-	testClass skip: criticToSkip.
+	testClass ban: criticToSkip.
 	
 	self assert: (testClass critics noneSatisfy: [ :critic |
 		critic rule class = RBNoClassCommentRule ]).
