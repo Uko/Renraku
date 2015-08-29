@@ -11,7 +11,7 @@ critics
 	rules
 		reject: [ :rule |
 			manifest isNotNil and:
-			[ builder skipsRule: rule for: self ] ]
+			[ builder bansRule: rule for: self ] ]
 		thenDo: [ :rule |
 			rule resetResult.
 			rule checkClass: self.

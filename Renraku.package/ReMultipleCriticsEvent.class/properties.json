@@ -10,5 +10,5 @@
 	"name" : "ReMultipleCriticsEvent",
 	"pools" : [
 		 ],
-	"super" : "ReEntityEvent",
+	"super" : "ReCriticEvent",
 	"type" : "normal" }

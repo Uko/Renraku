@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 8/23/2015 14:00",
+	"commentStamp" : "YuriyTymchuk 8/29/2015 21:52",
 	"instvars" : [
-		"entity" ],
-	"name" : "ReEntityEvent",
+		"entityBanLevel" ],
+	"name" : "ReCriticBanned",
 	"pools" : [
 		 ],
-	"super" : "Announcement",
+	"super" : "ReSingleCriticEvent",
 	"type" : "normal" }

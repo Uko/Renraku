@@ -11,8 +11,8 @@ critics
 	rules
 		reject: [ :rule |
 			manifest isNotNil and:
-			[ (builder skipsRule: rule for: self) or:
-			[  builder skipsRule: rule for: self methodClass ] ] ]
+			[ (builder bansRule: rule for: self) or:
+			[  builder bansRule: rule for: self methodClass ] ] ]
 		thenDo: [ :rule |
 			rule resetResult.
 			rule checkMethod: self.
@@ -23,6 +23,6 @@ critics
 					at: (rule result selectionIntervalFor: self definition)) ].
 			Processor yield ].
 	
-	ReEngine uniqueInstance notifyEntityCriticized: self with: critics. 
+	ReEngine uniqueInstance notifyEntityCriticizedWith: critics. 
 	
 	^ critics

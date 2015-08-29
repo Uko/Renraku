@@ -1,8 +1,7 @@
 announce
-notifyCritic: aCritic autoFixedFor: anEntity
+notifyCriticAutoFixed: aCritic
 
 	self announce: (
 		ReCriticAutofixed new
-			entity: anEntity; 
 			critic: aCritic;
 			yourself)

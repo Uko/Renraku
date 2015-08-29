@@ -1,5 +1,5 @@
 *renraku
-skipsRule: aRule for: anEntity
+bansRule: aRule for: anEntity
 	| name number |
 	  name := aRule class name.
 	number := aRule class identifierMinorVersionNumber.

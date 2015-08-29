@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 8/23/2015 14:03",
+	"commentStamp" : "YuriyTymchuk 8/29/2015 21:31",
 	"instvars" : [
-		"critic" ],
-	"name" : "ReSingleCriticEvent",
+		 ],
+	"name" : "ReCriticEvent",
 	"pools" : [
 		 ],
-	"super" : "ReCriticEvent",
+	"super" : "Announcement",
 	"type" : "normal" }
