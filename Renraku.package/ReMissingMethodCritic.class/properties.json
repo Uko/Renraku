@@ -1,0 +1,16 @@
+{
+	"category" : "Renraku",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 10/16/2015 01:59",
+	"instvars" : [
+		"selector",
+		"class",
+		"source" ],
+	"name" : "ReMissingMethodCritic",
+	"pools" : [
+		 ],
+	"super" : "ReAbstractCritic",
+	"type" : "normal" }

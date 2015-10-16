@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"for:by:class:selector:" : "YuriyTymchuk 10/16/2015 00:50" },
+	"instance" : {
+		"beShouldBeImplemented" : "YuriyTymchuk 10/16/2015 00:34",
+		"beSubclassResponsibility" : "YuriyTymchuk 10/16/2015 00:19",
+		"change" : "YuriyTymchuk 10/16/2015 00:20",
+		"initialize" : "YuriyTymchuk 10/16/2015 00:18",
+		"initializeRule:target:class:selector:" : "YuriyTymchuk 10/16/2015 00:18",
+		"providesChange" : "YuriyTymchuk 10/15/2015 23:41",
+		"providesSelection" : "YuriyTymchuk 10/16/2015 00:45",
+		"selection" : "YuriyTymchuk 10/16/2015 00:47",
+		"title" : "YuriyTymchuk 10/16/2015 00:35" } }

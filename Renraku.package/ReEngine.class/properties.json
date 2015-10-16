@@ -7,8 +7,9 @@
 		 ],
 	"commentStamp" : "YuriyTymchuk 8/23/2015 14:11",
 	"instvars" : [
-		"rules",
-		"announcer" ],
+		"announcer",
+		"classRules",
+		"methodRules" ],
 	"name" : "ReEngine",
 	"pools" : [
 		 ],

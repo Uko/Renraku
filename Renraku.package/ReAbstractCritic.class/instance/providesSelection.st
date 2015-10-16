@@ -1,0 +1,4 @@
+testing
+providesSelection
+
+	^ self subclassResponsibility 

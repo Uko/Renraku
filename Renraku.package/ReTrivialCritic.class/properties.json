@@ -1,0 +1,14 @@
+{
+	"category" : "Renraku",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 10/16/2015 01:53",
+	"instvars" : [
+		 ],
+	"name" : "ReTrivialCritic",
+	"pools" : [
+		 ],
+	"super" : "ReAbstractCritic",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Renraku",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 10/16/2015 01:57",
+	"instvars" : [
+		"badSubstring" ],
+	"name" : "ReStringSearchCritic",
+	"pools" : [
+		 ],
+	"super" : "ReAbstractCritic",
+	"type" : "normal" }

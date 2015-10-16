@@ -1,9 +1,11 @@
 announcement handling
 classRemoved: aClassRemovedAnnouncement
 
-	rules ifNil: [ ^ self ].
+	(methodRules isNil and: classRules isNil) ifTrue: [ ^ self ].
 	(aClassRemovedAnnouncement classRemoved includesBehavior: RBLintRule) ifFalse: [ ^ self ].
-	(rules anySatisfy: [ :rule |
-		rule class == aClassRemovedAnnouncement classAffected ]) ifFalse: [ ^ self ].
+	((methodRules noneSatisfy: [ :rule |
+		rule class == aClassRemovedAnnouncement classAffected ]) and: [  
+	classRules anySatisfy: [ :rule |
+		rule class == aClassRemovedAnnouncement classAffected ]]) ifTrue: [ ^ self ].
 
 	self reset

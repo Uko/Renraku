@@ -1,4 +1,5 @@
 actions
 reset
 
-	rules := nil
+	classRules := nil.
+	methodRules := nil
