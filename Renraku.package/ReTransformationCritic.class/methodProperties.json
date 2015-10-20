@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"for:by:tree:" : "YuriyTymchuk 10/16/2015 00:50" },
+		"for:by:tree:" : "Uko 10/16/2015 10:41:49" },
 	"instance" : {
-		"change" : "YuriyTymchuk 10/15/2015 16:36",
-		"initializeRule:target:tree:" : "YuriyTymchuk 10/15/2015 16:25",
-		"providesChange" : "YuriyTymchuk 10/15/2015 16:20",
-		"providesSelection" : "YuriyTymchuk 10/16/2015 00:46",
-		"selection" : "YuriyTymchuk 10/16/2015 00:47" } }
+		"change" : "Uko 10/16/2015 10:41:49",
+		"initializeRule:target:tree:" : "Uko 10/16/2015 10:41:49",
+		"providesChange" : "Uko 10/16/2015 10:41:49",
+		"providesSelection" : "Uko 10/16/2015 10:41:49",
+		"selection" : "Uko 10/16/2015 10:41:49" } }

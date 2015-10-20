@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"for:by:class:selector:" : "YuriyTymchuk 10/16/2015 00:50" },
+		"for:by:class:selector:" : "Uko 10/16/2015 10:41:49" },
 	"instance" : {
-		"beShouldBeImplemented" : "YuriyTymchuk 10/16/2015 00:34",
-		"beSubclassResponsibility" : "YuriyTymchuk 10/16/2015 00:19",
-		"change" : "YuriyTymchuk 10/16/2015 00:20",
-		"initialize" : "YuriyTymchuk 10/16/2015 00:18",
-		"initializeRule:target:class:selector:" : "YuriyTymchuk 10/16/2015 00:18",
-		"providesChange" : "YuriyTymchuk 10/15/2015 23:41",
-		"providesSelection" : "YuriyTymchuk 10/16/2015 00:45",
-		"selection" : "YuriyTymchuk 10/16/2015 00:47",
-		"title" : "YuriyTymchuk 10/16/2015 00:35" } }
+		"beShouldBeImplemented" : "Uko 10/16/2015 10:41:49",
+		"beSubclassResponsibility" : "Uko 10/16/2015 10:41:49",
+		"change" : "Uko 10/16/2015 10:41:49",
+		"initialize" : "Uko 10/16/2015 10:41:49",
+		"initializeRule:target:class:selector:" : "Uko 10/16/2015 10:41:49",
+		"providesChange" : "Uko 10/16/2015 10:41:49",
+		"providesSelection" : "Uko 10/16/2015 10:41:49",
+		"selection" : "Uko 10/16/2015 10:41:49",
+		"title" : "Uko 10/16/2015 10:41:49" } }
