@@ -1,4 +1,4 @@
 *renraku
 check: anEntity
 
-	self check: anEntity ifNoCritics: [ ^ nil ]
+	^ self check: anEntity ifNoCritics: [ "do nothing" ]
