@@ -4,12 +4,11 @@
 		"uniqueInstance" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 8/23/2015 14:11",
+	"commentStamp" : "YuriyTymchuk 11/20/2015 16:41",
 	"instvars" : [
-		"announcer",
 		"classRules",
 		"methodRules" ],
-	"name" : "ReEngine",
+	"name" : "ReRuleManager",
 	"pools" : [
 		 ],
 	"super" : "Object",
