@@ -1,5 +1,5 @@
 {
-	"category" : "Renraku",
+	"category" : "Renraku-Critics",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,7 +7,7 @@
 	"commentStamp" : "YuriyTymchuk 10/16/2015 01:52",
 	"instvars" : [
 		"rule",
-		"target" ],
+		"sourceAnchor" ],
 	"name" : "ReAbstractCritic",
 	"pools" : [
 		 ],

@@ -1,4 +1,0 @@
-testing
-providesSelection
-	
-	^ badSubstring notNil 

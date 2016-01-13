@@ -1,3 +1,3 @@
 accessing
 change
-	^ self shouldBeImplemented
+	^ self shouldNotImplement 

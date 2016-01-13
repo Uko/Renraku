@@ -1,0 +1,14 @@
+{
+	"category" : "Renraku-SourceAnchors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 1/13/2016 11:10",
+	"instvars" : [
+		"sourceEntity" ],
+	"name" : "ReSourceAnchor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

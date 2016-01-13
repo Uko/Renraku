@@ -7,9 +7,9 @@ check: aMethod forCriticsDo: aCriticBlock ifNone: alternativeBlock
 			node isUndeclared and: [
 			node name first isUppercase ]]]
 		thenCollect: [ :node | aCriticBlock cull:
-			(ReStringSearchCritic
+			(ReStringBasedCritic
 				for: aMethod
 				by: self
-				badSubstring: node name) ])
+				badString: node name) ])
 	
 	ifEmpty: alternativeBlock value 

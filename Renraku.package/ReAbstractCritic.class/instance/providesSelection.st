@@ -1,4 +1,0 @@
-testing
-providesSelection
-
-	^ self subclassResponsibility 

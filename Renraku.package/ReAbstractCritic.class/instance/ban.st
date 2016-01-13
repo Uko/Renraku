@@ -1,4 +1,4 @@
 actions
 ban
 	
-	target ban: self  
+	sourceAnchor sourceEntity ban: self  

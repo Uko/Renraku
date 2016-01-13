@@ -12,7 +12,7 @@ check: aClass forCriticsDo: aCriticBlock ifNone: alternativeBlock
 				[
 					encounteredCritic := true.
 					aCriticBlock cull: (
-						ReStringSearchCritic for: aClass by: self badSubstring: each ) ] ].
+						ReStringBasedCritic for: aClass by: self badString: each ) ] ].
 				
 	aClass isMeta ifFalse: 
 		[ aClass classPool associationsDo: 
@@ -20,6 +20,6 @@ check: aClass forCriticsDo: aCriticBlock ifNone: alternativeBlock
 			(SystemNavigation default allCallsOn: each) ifEmpty: 
 				[ encounteredCritic := true.
 					aCriticBlock cull: (
-						ReStringSearchCritic for: aClass by: self badSubstring: each key ) ] ] ].
+						ReStringBasedCritic for: aClass by: self badString: each key ) ] ] ].
 			
 	encounteredCritic ifFalse: alternativeBlock 
