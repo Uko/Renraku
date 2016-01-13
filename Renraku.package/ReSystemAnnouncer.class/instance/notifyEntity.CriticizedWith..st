@@ -1,5 +1,5 @@
 announce
-notifyEntity: anEntity CriticizedWith: critics
+notifyEntity: anEntity criticizedWith: critics
 
 	self announce: (
 		ReEntityCriticized new 

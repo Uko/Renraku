@@ -1,5 +1,5 @@
 announce
-notifyCritic: aCritic of: anEntity BannedOn: anEntityBanLevel
+notifyCritic: aCritic of: anEntity bannedOn: anEntityBanLevel
 
 	self announce: (
 		ReCriticBanned new
