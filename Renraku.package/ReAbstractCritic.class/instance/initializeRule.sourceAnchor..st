@@ -1,6 +1,5 @@
 initialization
 initializeRule: aRule sourceAnchor: anAnchor
 
-	self initialize.
+	self initializeSourceAnchor: anAnchor.
 	rule := aRule.
-	sourceAnchor := anAnchor 

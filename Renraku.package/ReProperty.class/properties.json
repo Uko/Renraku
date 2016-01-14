@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 10/16/2015 01:52",
+	"commentStamp" : "YuriyTymchuk 1/14/2016 15:26",
 	"instvars" : [
-		"rule" ],
-	"name" : "ReAbstractCritic",
+		"sourceAnchor" ],
+	"name" : "ReProperty",
 	"pools" : [
 		 ],
-	"super" : "ReProperty",
+	"super" : "Object",
 	"type" : "normal" }
