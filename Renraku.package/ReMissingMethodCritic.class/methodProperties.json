@@ -4,8 +4,9 @@
 	"instance" : {
 		"beShouldBeImplemented" : "Uko 10/16/2015 10:41:49",
 		"beSubclassResponsibility" : "Uko 10/16/2015 10:41:49",
-		"change" : "Uko 10/16/2015 10:41:49",
+		"change" : "YuriyTymchuk 1/13/2016 23:34",
 		"initialize" : "Uko 10/16/2015 10:41:49",
 		"initializeRule:target:class:selector:" : "Uko 10/16/2015 10:41:49",
+		"methodHeader" : "YuriyTymchuk 1/13/2016 23:35",
 		"providesChange" : "Uko 10/16/2015 10:41:49",
 		"title" : "YuriyTymchuk 1/13/2016 14:01" } }
