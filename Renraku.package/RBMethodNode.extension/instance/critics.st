@@ -11,9 +11,9 @@ critics
 
 	rules
 		reject: [ :rule |
-			manifest isNotNil and:
+			manifest isNotNil and: [ self method isNotNil and:
 			[ (builder bansRule: rule for: self method) or:
-			[  builder bansRule: rule for: self methodClass ] ] ]
+			[  builder bansRule: rule for: self methodClass ] ] ] ]
 		thenDo: [ :rule |
 			rule resetResult.
 			rule check: self forCriticsDo: [ :critic | critics add: critic ].

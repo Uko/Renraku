@@ -3,6 +3,7 @@ critics
 	<eProperty>
 	| rules critics manifest builder |
 	
+		
 	builder := TheManifestBuilder new.
 	manifest := builder manifestOf: self.
 		
