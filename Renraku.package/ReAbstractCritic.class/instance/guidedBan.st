@@ -1,4 +1,4 @@
 actions
-guidedSkip
+guidedBan
 
 	sourceAnchor entity guidedBan: self  

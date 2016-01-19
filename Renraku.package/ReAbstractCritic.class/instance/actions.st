@@ -10,6 +10,6 @@ actions
 		RePropertyAction new
 			icon: (Smalltalk ui icons iconNamed: #smallCancelIcon);
 			description: 'Ban this rule';
-			action: [ :crit | crit guidedSkip ];
+			action: [ :crit | crit guidedBan ];
 			yourself	
 	 }
