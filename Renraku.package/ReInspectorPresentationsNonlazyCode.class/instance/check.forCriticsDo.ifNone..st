@@ -6,9 +6,11 @@ check: anAST forCriticsDo: aCriticBlock ifNone: alternativeBlock
 	
 	^ (anAST statements
 			reject: [ :statement |
-				(statement isMessage or:
-			  [ statement isCascade ]) and: [ 
-				 statement leftmostChainReceiver = anAST arguments first ] ]
+				self
+					presentation: anAST arguments first
+					isTheLeftmostRecepientIn: (statement isReturn
+						ifTrue: [ statement value ]
+						ifFalse: [ statement ]) ]			
 			thenCollect: [ :statement |
 				aCriticBlock cull: (ReTrivialCritic
 					withAnchor: (ReIntervalSourceAnchor

@@ -3,8 +3,10 @@ basicCheck: anAST
 
 	anAST pragmaNamed: #gtInspectorPresentationOrder: ifPresent: [ 
 		^ (anAST statements allSatisfy: [ :statement |
-			 (statement isMessage or:
-			[ statement isCascade ]) and: [ 
-				statement leftmostChainReceiver = anAST arguments first ] ]) not ].
+			 self
+				presentation: anAST arguments first
+				isTheLeftmostRecepientIn: (statement isReturn
+					ifTrue: [ statement value ]
+					ifFalse: [ statement ]) ]) not ].
 
 	^ false
