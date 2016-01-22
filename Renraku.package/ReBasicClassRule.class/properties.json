@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 1/22/2016 20:50",
+	"commentStamp" : "YuriyTymchuk 1/22/2016 20:49",
 	"instvars" : [
 		 ],
-	"name" : "ReBasicMethodRule",
+	"name" : "ReBasicClassRule",
 	"pools" : [
 		 ],
 	"super" : "RBBasicLintRule",
