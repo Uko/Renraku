@@ -1,18 +1,18 @@
 {
 	"class" : {
-		"cleanUp" : "YuriyTymchuk 11/20/2015 16:30",
-		"reset" : "YuriyTymchuk 11/20/2015 16:30",
-		"uniqueInstance" : "YuriyTymchuk 11/20/2015 16:30",
-		"unload" : "YuriyTymchuk 11/20/2015 17:07" },
+		"cleanUp" : "HenrikNergaard 2/8/2016 00:37",
+		"reset" : "HenrikNergaard 2/8/2016 00:54",
+		"uniqueInstance" : "HenrikNergaard 2/8/2016 00:37",
+		"unload" : "HenrikNergaard 2/8/2016 00:37" },
 	"instance" : {
-		"astRules" : "YuriyTymchuk 1/14/2016 17:58",
-		"classAdded:" : "YuriyTymchuk 11/20/2015 16:30",
-		"classRemoved:" : "YuriyTymchuk 11/20/2015 16:30",
-		"classRules" : "YuriyTymchuk 11/20/2015 16:30",
-		"excludedRuleNames" : "YuriyTymchuk 11/20/2015 16:30",
-		"initialize" : "YuriyTymchuk 11/20/2015 16:30",
-		"initializeRules" : "YuriyTymchuk 1/14/2016 17:59",
-		"methodRules" : "YuriyTymchuk 11/20/2015 16:30",
-		"packageRules" : "YuriyTymchuk 1/14/2016 00:14",
-		"reset" : "YuriyTymchuk 11/20/2015 16:30",
-		"subscribe" : "YuriyTymchuk 11/20/2015 16:30" } }
+		"astRules" : "HenrikNergaard 2/8/2016 00:39",
+		"classAdded:" : "HenrikNergaard 2/8/2016 00:50",
+		"classRemoved:" : "HenrikNergaard 2/8/2016 01:18",
+		"classRules" : "HenrikNergaard 2/8/2016 00:39",
+		"excludedRuleNames" : "HenrikNergaard 2/8/2016 00:37",
+		"initialize" : "HenrikNergaard 2/8/2016 00:49",
+		"methodRules" : "HenrikNergaard 2/8/2016 00:58",
+		"packageRules" : "HenrikNergaard 2/8/2016 00:40",
+		"resetRules" : "HenrikNergaard 2/8/2016 00:50",
+		"subscribe" : "HenrikNergaard 2/8/2016 01:16",
+		"unsubscribe" : "HenrikNergaard 2/8/2016 00:55" } }

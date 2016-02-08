@@ -4,12 +4,9 @@
 		"uniqueInstance" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 11/20/2015 16:41",
+	"commentStamp" : "HenrikNergaard 2/8/2016 00:55",
 	"instvars" : [
-		"classRules",
-		"methodRules",
-		"packageRules",
-		"astRules" ],
+		"rules" ],
 	"name" : "ReRuleManager",
 	"pools" : [
 		 ],

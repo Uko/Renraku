@@ -1,8 +1,8 @@
-initialization
+announcement handling
 subscribe
 
-	SystemAnnouncer uniqueInstance unsubscribe: self.
+	self unsubscribe.
 	
 	SystemAnnouncer uniqueInstance weak
-		when: ClassAdded   send: #classAdded: to: self;
-		when: ClassRemoved send: #classRemoved: to: self
+		when: ClassAdded   send: #classAdded: 	to: self;
+		when: ClassRemoved send: #classRemoved: to: self.
