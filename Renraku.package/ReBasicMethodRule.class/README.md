@@ -1,1 +1,1 @@
-I'm a basic root for all method rules of renraku.
+I'm a basic root for all mathod rules of renraku.
