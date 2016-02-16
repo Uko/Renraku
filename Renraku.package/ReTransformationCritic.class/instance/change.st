@@ -1,4 +1,4 @@
 accessing
 change
 	
-	^ RBAddMethodChange compile: newTree newSource in: sourceAnchor methodClass
+	^ RBAddMethodChange compile: newTree newSource in: sourceAnchor entity methodClass
