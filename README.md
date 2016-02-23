@@ -1,4 +1,4 @@
-![Renraku logo](media/logo_100.png) Renraku
+![Renraku logo](media/logo_100.png) Renraku [![Build Status](https://travis-ci.org/Uko/Renraku.svg?branch=master)](https://travis-ci.org/Uko/Renraku)
 =======
 
 This is the code quality framework for [Pharo](http://pharo.org). The main goal of Renraku is to provide a concept of quality as a first class entity that can be used by a different tools to improve programming experience.
