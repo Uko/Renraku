@@ -4,7 +4,7 @@
 		"uniqueInstance" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "HenrikNergaard 2/8/2016 00:55",
+	"commentStamp" : "YuriyTymchuk 11/20/2015 16:41",
 	"instvars" : [
 		"rules" ],
 	"name" : "ReRuleManager",
