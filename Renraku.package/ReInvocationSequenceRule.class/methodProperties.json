@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"exampleSequenceMethods" : "YuriyTymchuk 3/4/2016 15:44",
+		"isVisible" : "YuriyTymchuk 3/3/2016 10:10" },
+	"instance" : {
+		"add:requiresPostSend:" : "YuriyTymchuk 3/4/2016 12:16",
+		"add:requiresPreSend:" : "YuriyTymchuk 3/2/2016 10:58",
+		"basicCheck:" : "YuriyTymchuk 3/3/2016 10:01",
+		"check:forCriticsDo:ifNone:" : "YuriyTymchuk 3/4/2016 12:08",
+		"critic:for:at:regarding:" : "YuriyTymchuk 3/4/2016 11:48",
+		"initialize" : "YuriyTymchuk 3/4/2016 12:21",
+		"name" : "YuriyTymchuk 3/3/2016 10:12",
+		"postCheck:forCriticsDo:" : "YuriyTymchuk 3/4/2016 11:34",
+		"postCriticFor:at:regarding:" : "YuriyTymchuk 3/4/2016 11:48",
+		"preCheck:forCriticsDo:" : "YuriyTymchuk 3/4/2016 11:29",
+		"preCriticFor:at:regarding:" : "YuriyTymchuk 3/4/2016 11:48" } }

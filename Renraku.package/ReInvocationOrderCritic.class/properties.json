@@ -1,0 +1,15 @@
+{
+	"category" : "Renraku-Critics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 3/4/2016 14:42",
+	"instvars" : [
+		"targetMethodName",
+		"condition" ],
+	"name" : "ReInvocationOrderCritic",
+	"pools" : [
+		 ],
+	"super" : "ReAbstractCritic",
+	"type" : "normal" }
