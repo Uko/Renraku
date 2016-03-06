@@ -1,7 +1,7 @@
 adding
-add: postSelector requiresPreSend: preSelector
+add: postSelectors requiresPreSend: preSelectors
 
 	preConditions add: (
 		ReInvocationSequenceRuleSequence
-			before: preSelector
-			after: postSelector)
+			before: preSelectors
+			after: postSelectors)

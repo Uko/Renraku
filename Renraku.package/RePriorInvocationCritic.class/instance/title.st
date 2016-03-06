@@ -1,4 +1,5 @@
 accessing
 title
 
-	^ 'Message #', targetMethodName, ' not preceded by ', condition beforeDescriptionString
+	^ 'Message #', targetMethodName,
+		' not preceded by ', (condition beforeDescriptionString truncate: 30)

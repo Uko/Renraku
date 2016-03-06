@@ -4,10 +4,10 @@ initializeBefore: beforeSymols after: afterSymbols
 	before :=
 		 (beforeSymols isCollection and:
 		[ beforeSymols isString not ])
-			ifFalse: [ Set with: beforeSymols asSymbol ]
-			ifTrue: [ beforeSymols asSet ].
+			ifFalse: [ Array with: beforeSymols asSymbol ]
+			ifTrue: [ beforeSymols ].
 	after := 
 		(afterSymbols isCollection and:
 		[ afterSymbols isString not ])
-			ifFalse: [ Set with: afterSymbols asSymbol ]
-			ifTrue: [ afterSymbols asSet ].
+			ifFalse: [ Array with: afterSymbols asSymbol ]
+			ifTrue: [ afterSymbols ].
