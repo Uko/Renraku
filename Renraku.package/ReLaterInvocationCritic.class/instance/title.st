@@ -1,5 +1,5 @@
 accessing
 title
 
-	^ 'Message #', targetMethodName,
-		' not followed by ', (condition afterDescriptionString truncate: 30)
+	^ 'Message #', targetMethodName, ' not followed by ',
+		(condition afterDescriptionString truncateWithElipsisTo: 30)
