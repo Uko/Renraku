@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "YuriyTymchuk 10/16/2015 01:57",
 	"instvars" : [
-		"badSubstring" ],
+		 ],
 	"name" : "ReStringBasedCritic",
 	"pools" : [
 		 ],
