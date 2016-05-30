@@ -14,7 +14,7 @@ critiques
 			[ builder bansRule: rule for: self ] ]
 		thenDo: [ :rule |
 			rule resetResult.
-			rule check: self forCriticsDo: [ :critique | critiques add: critique ].
+			rule check: self forCritiquesDo: [ :critique | critiques add: critique ].
 			Processor yield ].
 	
 	ReSystemAnnouncer uniqueInstance notifyEntity: self criticizedWith: critiques. .

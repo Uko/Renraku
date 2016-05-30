@@ -2,7 +2,7 @@
 ban: aCritique
 
 	ReSystemAnnouncer uniqueInstance
-		notifyCritic: aCritique
+		notifyCritique: aCritique
 		of: aCritique sourceAnchor entity
 		bannedOn: self.
 
