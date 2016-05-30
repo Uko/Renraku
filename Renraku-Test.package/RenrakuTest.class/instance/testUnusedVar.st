@@ -7,7 +7,7 @@ testUnusedVar
 		classVariableNames: ''
 		category: testClass category.
 
-	self assert: (testClass critics anySatisfy: [ :critic |
+	self assert: (testClass critiques anySatisfy: [ :critic |
 		critic rule class = RBOnlyReadOrWrittenVariableRule ]).
 	
 	testClass superclass
@@ -16,6 +16,6 @@ testUnusedVar
 		classVariableNames: ''
 		category: testClass category.
 		
-	self assert: (testClass critics noneSatisfy: [ :critic |
+	self assert: (testClass critiques noneSatisfy: [ :critic |
 		critic rule class = RBOnlyReadOrWrittenVariableRule ]).
 
