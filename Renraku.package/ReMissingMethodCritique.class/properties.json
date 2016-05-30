@@ -1,0 +1,16 @@
+{
+	"category" : "Renraku-Critiques",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 10/16/2015 01:59",
+	"instvars" : [
+		"selector",
+		"class",
+		"source" ],
+	"name" : "ReMissingMethodCritique",
+	"pools" : [
+		 ],
+	"super" : "ReAbstractCritique",
+	"type" : "normal" }

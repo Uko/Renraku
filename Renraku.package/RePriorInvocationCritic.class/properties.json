@@ -1,14 +1,14 @@
 {
-	"category" : "Renraku-Critics",
+	"category" : "Renraku-Critiques",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 3/4/2016 14:50",
+	"commentStamp" : "YuriyTymchuk 5/23/2016 16:30",
 	"instvars" : [
 		 ],
 	"name" : "RePriorInvocationCritic",
 	"pools" : [
 		 ],
-	"super" : "ReInvocationOrderCritic",
+	"super" : "RePriorInvocationCritique",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
 *renraku
-ban: aCritic
+ban: aCritique
 
-	self method ban: aCritic
+	self method ban: aCritique

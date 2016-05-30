@@ -1,4 +1,4 @@
 *renraku
-guidedBan: aCritic
+guidedBan: aCritique
 
-	self ban: aCritic.
+	self ban: aCritique.

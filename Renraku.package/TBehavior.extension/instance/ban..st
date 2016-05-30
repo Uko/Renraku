@@ -1,10 +1,10 @@
 *renraku
-ban: aCritic
+ban: aCritique
 
 	ReSystemAnnouncer uniqueInstance
-		notifyCritic: aCritic
-		of: aCritic sourceAnchor entity
+		notifyCritic: aCritique
+		of: aCritique sourceAnchor entity
 		bannedOn: self.
 
 	(TheManifestBuilder of: self)
-		banRule: aCritic rule for: self.
+		banRule: aCritique rule for: self.
