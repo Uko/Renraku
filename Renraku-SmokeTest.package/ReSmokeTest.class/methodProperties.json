@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"testPackageSmoke" : "YuriyTymchuk 6/8/2016 11:43",
+		"testTraitSmoke" : "YuriyTymchuk 6/8/2016 11:45",
+		"testMetaclassSmoke" : "YuriyTymchuk 6/8/2016 11:45",
+		"smokeTestOf:" : "YuriyTymchuk 6/8/2016 11:33",
+		"smokeTestOf:named:" : "YuriyTymchuk 6/8/2016 14:08",
+		"testClassTraitSmoke" : "YuriyTymchuk 6/8/2016 11:46",
+		"testMethodNodeSmoke" : "YuriyTymchuk 6/8/2016 14:19",
+		"testMethodSmoke" : "YuriyTymchuk 6/8/2016 11:48",
+		"testClassSmoke" : "YuriyTymchuk 6/8/2016 11:36"
+	},
+	"class" : { }
+}
