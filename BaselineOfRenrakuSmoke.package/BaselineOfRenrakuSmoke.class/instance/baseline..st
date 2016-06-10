@@ -6,5 +6,5 @@ baseline: spec
 		spec blessing: #baseline.
 		spec
 			package: 'Renraku-SmokeTest' with: [ spec requires: 'Renraku' ];
-		 	baseline: 'Renraku'
+		 	baseline: 'Renraku' with: [ spec repository: 'github://Uko/Renraku' ]
 		]
