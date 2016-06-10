@@ -4,6 +4,11 @@ SmalltalkCISpec {
       #baseline : 'Renraku',
       #directory : '',
       #platforms : [ #pharo ]
+    },
+
+    SCIGoferLoadSpec {
+      #packages : [ 'Renraku-SmokeTest' ],
+      #platforms : [ #pharo ]
     }
   ]
 }

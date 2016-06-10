@@ -8,6 +8,3 @@ os:
 smalltalk:
   - Pharo-5.0
   - Pharo-6.0
-
-before_script:
-  - "$SMALLTALK_CI_VM $SMALLTALK_CI_IMAGE eval --save \"Gofer new package: 'Renraku-SmokeTest'; load\" > /dev/null"
