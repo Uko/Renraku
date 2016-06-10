@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "YuriyTymchuk 6/10/2016 16:11",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfRenrakuSmoke",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfRenrakuSmoke",
+	"type" : "normal"
+}
