@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"group" : "YuriyTymchuk 1/18/2016 15:08",
 		"basicCheck:" : "YuriyTymchuk 1/20/2016 17:13",
 		"check:forCritiquesDo:ifNone:" : "YuriyTymchuk 5/30/2016 14:53",
-		"group" : "YuriyTymchuk 1/18/2016 15:08",
 		"name" : "YuriyTymchuk 1/13/2016 10:33",
-		"presentation:isTheLeftmostRecepientIn:" : "YuriyTymchuk 1/20/2016 17:13" } }
+		"presentation:isTheLeftmostRecepientIn:" : "YuriyTymchuk 1/20/2016 17:13"
+	},
+	"class" : { }
+}

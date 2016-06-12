@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"description" : "YuriyTymchuk 3/4/2016 10:33",
-		"title" : "YuriyTymchuk 3/8/2016 20:22" } }
+		"title" : "YuriyTymchuk 3/8/2016 20:22",
+		"description" : "YuriyTymchuk 3/4/2016 10:33"
+	},
+	"class" : { }
+}

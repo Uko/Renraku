@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"reverseNodesDo:" : "YuriyTymchuk 3/2/2016 10:24" } }
+		"reverseNodesDo:" : "YuriyTymchuk 3/2/2016 10:24"
+	},
+	"class" : { }
+}

@@ -1,17 +1,20 @@
 {
-	"class" : {
-		"exampleSequenceMethods" : "YuriyTymchuk 3/4/2016 15:44",
-		"isVisible" : "YuriyTymchuk 3/3/2016 10:10",
-		"noteCompilationOf:meta:" : "YuriyTymchuk 3/6/2016 14:23" },
 	"instance" : {
 		"add:requiresPostSend:" : "YuriyTymchuk 3/4/2016 12:16",
-		"add:requiresPreSend:" : "YuriyTymchuk 3/6/2016 13:13",
-		"basicCheck:" : "YuriyTymchuk 5/30/2016 14:54",
+		"postCriticFor:at:regarding:" : "YuriyTymchuk 5/23/2016 16:15",
 		"check:forCritiquesDo:ifNone:" : "YuriyTymchuk 5/30/2016 14:55",
 		"critic:for:at:regarding:" : "YuriyTymchuk 3/4/2016 11:48",
-		"initialize" : "YuriyTymchuk 3/4/2016 12:21",
+		"add:requiresPreSend:" : "YuriyTymchuk 3/6/2016 13:13",
 		"name" : "YuriyTymchuk 3/3/2016 10:12",
+		"preCriticFor:at:regarding:" : "YuriyTymchuk 5/23/2016 16:17",
 		"postCheck:forCriticsDo:" : "YuriyTymchuk 3/6/2016 13:16",
-		"postCriticFor:at:regarding:" : "YuriyTymchuk 5/23/2016 16:15",
-		"preCheck:forCriticsDo:" : "YuriyTymchuk 3/4/2016 11:29",
-		"preCriticFor:at:regarding:" : "YuriyTymchuk 5/23/2016 16:17" } }
+		"initialize" : "YuriyTymchuk 3/4/2016 12:21",
+		"basicCheck:" : "YuriyTymchuk 5/30/2016 14:54",
+		"preCheck:forCriticsDo:" : "YuriyTymchuk 3/4/2016 11:29"
+	},
+	"class" : {
+		"exampleSequenceMethods" : "YuriyTymchuk 3/4/2016 15:44",
+		"noteCompilationOf:meta:" : "YuriyTymchuk 3/6/2016 14:23",
+		"isVisible" : "YuriyTymchuk 3/3/2016 10:10"
+	}
+}

@@ -1,11 +1,14 @@
 {
-	"class" : {
-		"checksAST" : "YuriyTymchuk 1/12/2016 15:37" },
 	"instance" : {
-		"check:" : "YuriyTymchuk 5/30/2016 17:14",
-		"check:forCriticsDo:" : "YuriyTymchuk 5/30/2016 14:46",
-		"check:forCriticsDo:ifNone:" : "YuriyTymchuk 5/30/2016 14:46",
 		"check:forCritiquesDo:" : "YuriyTymchuk 5/30/2016 14:46",
-		"check:forCritiquesDo:ifNone:" : "YuriyTymchuk 5/30/2016 14:46",
 		"check:ifNoCritics:" : "YuriyTymchuk 5/30/2016 14:46",
-		"check:ifNoCritiques:" : "YuriyTymchuk 5/30/2016 14:46" } }
+		"check:" : "YuriyTymchuk 5/30/2016 17:14",
+		"check:ifNoCritiques:" : "YuriyTymchuk 5/30/2016 14:46",
+		"check:forCritiquesDo:ifNone:" : "YuriyTymchuk 5/30/2016 14:46",
+		"check:forCriticsDo:" : "YuriyTymchuk 5/30/2016 14:46",
+		"check:forCriticsDo:ifNone:" : "YuriyTymchuk 5/30/2016 14:46"
+	},
+	"class" : {
+		"checksAST" : "YuriyTymchuk 1/12/2016 15:37"
+	}
+}

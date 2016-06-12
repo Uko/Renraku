@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"check:forCritiquesDo:ifNone:" : "YuriyTymchuk 5/30/2016 14:45" } }
+		"check:forCritiquesDo:ifNone:" : "YuriyTymchuk 5/30/2016 14:45"
+	},
+	"class" : { }
+}

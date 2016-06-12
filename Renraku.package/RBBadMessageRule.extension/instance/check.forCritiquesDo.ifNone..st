@@ -1,12 +1,13 @@
 *renraku
 check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 	
-	(self badSelectors
+	self badSelectors
 		select: [ :each | aMethod sendsSelector: each ]
-		thenCollect: [ :each |
-			aCriticBlock cull: (ReStringBasedCritique
-					for: aMethod
+		thenDo: [ :each |
+			aCriticBlock cull: (ReTrivialCritique
+					withAnchor: (ReSearchStringSourceAnchor
+						entity: aMethod
+						string: each)
 					by: self
-					badString: each) ])
-				
-	ifEmpty: alternativeBlock 
+					hint: each) ]
+		ifNone: alternativeBlock 

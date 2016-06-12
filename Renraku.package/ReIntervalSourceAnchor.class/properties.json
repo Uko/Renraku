@@ -1,14 +1,13 @@
 {
-	"category" : "Renraku-SourceAnchors",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "YuriyTymchuk 1/13/2016 15:56",
-	"instvars" : [
-		"interval" ],
-	"name" : "ReIntervalSourceAnchor",
-	"pools" : [
-		 ],
 	"super" : "ReSourceAnchor",
-	"type" : "normal" }
+	"category" : "Renraku-SourceAnchors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"interval"
+	],
+	"name" : "ReIntervalSourceAnchor",
+	"type" : "normal"
+}

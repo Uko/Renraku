@@ -1,23 +1,27 @@
 {
-	"class" : {
-		"for:by:" : "Uko 10/16/2015 10:41:49",
-		"withAnchor:by:" : "YuriyTymchuk 1/13/2016 16:10" },
 	"instance" : {
 		"actions" : "YuriyTymchuk 5/30/2016 14:51",
-		"ban" : "YuriyTymchuk 1/13/2016 12:05",
-		"change" : "Uko 10/16/2015 10:41:49",
-		"description" : "Uko 10/16/2015 10:41:49",
-		"gtInspectorDescriptionIn:" : "YuriyTymchuk 1/20/2016 16:56",
-		"gtInspectorSourceCodeIn:" : "YuriyTymchuk 1/14/2016 14:45",
-		"guidedBan" : "YuriyTymchuk 1/18/2016 14:26",
-		"icon" : "YuriyTymchuk 1/14/2016 15:30",
-		"initializeRule:sourceAnchor:" : "YuriyTymchuk 1/14/2016 15:35",
-		"initializeRule:target:" : "YuriyTymchuk 1/13/2016 14:08",
-		"isCritic" : "YuriyTymchuk 1/14/2016 15:23",
-		"popDescriptionUp" : "YuriyTymchuk 5/25/2015 09:02",
-		"provideNegativeFeedback:" : "Uko 10/16/2015 10:41:49",
-		"providePositiveFeedback:" : "Uko 10/16/2015 10:41:49",
-		"providesChange" : "Uko 10/16/2015 10:41:49",
-		"rule" : "Uko 10/16/2015 10:41:49",
 		"spotterPreviewRationaleIn:" : "YuriyTymchuk 5/25/2015 09:02",
-		"title" : "Uko 10/16/2015 10:41:49" } }
+		"guidedBan" : "YuriyTymchuk 1/18/2016 14:26",
+		"rule" : "Uko 10/16/2015 10:41:49",
+		"provideNegativeFeedback:" : "Uko 10/16/2015 10:41:49",
+		"initializeRule:sourceAnchor:" : "YuriyTymchuk 1/14/2016 15:35",
+		"icon" : "YuriyTymchuk 1/14/2016 15:30",
+		"ban" : "YuriyTymchuk 1/13/2016 12:05",
+		"tinyHint" : "YuriyTymchuk 6/12/2016 21:11",
+		"providesChange" : "Uko 10/16/2015 10:41:49",
+		"isCritic" : "YuriyTymchuk 1/14/2016 15:23",
+		"providePositiveFeedback:" : "Uko 10/16/2015 10:41:49",
+		"title" : "YuriyTymchuk 6/12/2016 23:28",
+		"gtInspectorDescriptionIn:" : "YuriyTymchuk 1/20/2016 16:56",
+		"description" : "Uko 10/16/2015 10:41:49",
+		"change" : "Uko 10/16/2015 10:41:49",
+		"initializeRule:target:" : "YuriyTymchuk 1/13/2016 14:08",
+		"popDescriptionUp" : "YuriyTymchuk 5/25/2015 09:02",
+		"gtInspectorSourceCodeIn:" : "YuriyTymchuk 1/14/2016 14:45"
+	},
+	"class" : {
+		"withAnchor:by:" : "YuriyTymchuk 1/13/2016 16:10",
+		"for:by:" : "Uko 10/16/2015 10:41:49"
+	}
+}

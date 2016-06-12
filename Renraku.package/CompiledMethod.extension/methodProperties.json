@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"ban:" : "YuriyTymchuk 5/30/2016 14:42",
-		"critiques" : "YuriyTymchuk 5/30/2016 14:42",
 		"guidedBan:" : "YuriyTymchuk 5/30/2016 14:42",
-		"overriddenMethods" : "YuriyTymchuk 1/18/2016 17:10" } }
+		"overriddenMethods" : "YuriyTymchuk 1/18/2016 17:10",
+		"critiques" : "YuriyTymchuk 5/30/2016 14:42"
+	},
+	"class" : { }
+}

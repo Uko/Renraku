@@ -1,6 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"change" : "YuriyTymchuk 1/13/2016 15:02",
-		"providesChange" : "Uko 10/16/2015 10:41:49" } }
+		"providesChange" : "Uko 10/16/2015 10:41:49",
+		"tinyHint:" : "YuriyTymchuk 6/12/2016 21:06",
+		"tinyHint" : "YuriyTymchuk 6/12/2016 23:18"
+	},
+	"class" : {
+		"withAnchor:by:hint:" : "YuriyTymchuk 6/12/2016 23:11"
+	}
+}
