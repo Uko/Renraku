@@ -8,6 +8,6 @@ SmalltalkCISpec {
   ],
 
   #testing : {
-    #packages : [ 'Renraku.*' ]
+    #categories : [ 'Renraku-*' ]
   }
 }
