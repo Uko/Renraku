@@ -5,5 +5,9 @@ SmalltalkCISpec {
       #directory : '',
       #platforms : [ #pharo ]
     }
-  ]
+  ],
+
+  #testing : {
+    #packages : [ 'Renraku.*' ],                            // Define packages to test (Pharo and GemStone)
+  }
 }
