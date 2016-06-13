@@ -10,4 +10,4 @@ smalltalk:
   - Pharo-6.0
 
 env:
-  - SMALLTALK_CI_TIMEOUT=30
+  - SMALLTALK_CI_TIMEOUT=40
