@@ -8,6 +8,6 @@ SmalltalkCISpec {
   ],
 
   #testing : {
-    #packages : [ 'Renraku.*' ],                            // Define packages to test (Pharo and GemStone)
+    #packages : [ 'Renraku.*' ]
   }
 }
