@@ -1,15 +1,14 @@
 {
 	"instance" : {
-		"methodHeader" : "YuriyTymchuk 1/13/2016 23:35",
-		"beShouldBeImplemented" : "Uko 10/16/2015 10:41:49",
-		"source:" : "YuriyTymchuk 1/22/2016 16:23",
 		"beSubclassResponsibility" : "Uko 10/16/2015 10:41:49",
+		"beShouldBeImplemented" : "Uko 10/16/2015 10:41:49",
+		"source" : "YuriyTymchuk 1/22/2016 16:23",
 		"initialize" : "Uko 10/16/2015 10:41:49",
 		"providesChange" : "Uko 10/16/2015 10:41:49",
-		"tinyHint" : "YuriyTymchuk 6/12/2016 22:11",
-		"change" : "YuriyTymchuk 1/13/2016 23:34",
-		"initializeRule:target:class:selector:" : "Uko 10/16/2015 10:41:49",
-		"source" : "YuriyTymchuk 1/22/2016 16:23"
+		"source:" : "YuriyTymchuk 1/22/2016 16:23",
+		"initializeRule:target:class:selector:" : "YuriyTymchuk 6/13/2016 00:24",
+		"methodHeader" : "YuriyTymchuk 1/13/2016 23:35",
+		"change" : "YuriyTymchuk 1/13/2016 23:34"
 	},
 	"class" : {
 		"for:by:class:selector:" : "Uko 10/16/2015 10:41:49"

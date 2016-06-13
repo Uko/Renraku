@@ -8,5 +8,6 @@ check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 				withAnchor: (ReSearchStringSourceAnchor
 					entity: aMethod
 					string: each)
-				by: self) ]
+				by: self
+				hint: each) ]
 		ifNone: alternativeBlock 

@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"rule"
+		"rule",
+		"tinyHint"
 	],
 	"name" : "ReAbstractCritique",
 	"type" : "normal"

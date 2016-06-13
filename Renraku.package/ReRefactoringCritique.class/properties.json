@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "YuriyTymchuk 10/16/2015 01:53",
+	"commentStamp" : "YuriyTymchuk 6/13/2016 00:31",
 	"super" : "ReAbstractCritique",
 	"category" : "Renraku-Critiques",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "ReTrivialCritique",
+	"instvars" : [
+		"refactoring",
+		"alreadyExecuted"
+	],
+	"name" : "ReRefactoringCritique",
 	"type" : "normal"
 }
