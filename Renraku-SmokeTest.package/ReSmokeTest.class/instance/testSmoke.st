@@ -1,11 +1,12 @@
 private
-smokeTestOf: aCollection named: aString
+testSmoke
 
 	| errors |
 	
 	errors := OrderedCollection new.
 
-	aCollection do: [ :el | 
+	SystemNavigation new allObjects do: [ :el | 
+		FileStream stdout nextPut: $.. 
 		[ el externalProperties ]
 			on: Error
 			do: [ :er |
@@ -16,25 +17,24 @@ smokeTestOf: aCollection named: aString
 						context receiver isKindOf: RBLintRule ]
 					) receiver class
 				} ] ]
-		displayingProgress: 'Checking ', aString.
+		displayingProgress: 'Checking objects'.
+		
+	'errors.properties' asFileReference
+		ensureDelete;
+		writeStreamDo: [ :str |
+			str << 'YVALUE=' << errors size ].
 		
 	self
 		assert: errors isEmpty
 		description: [
 			String streamContents: [ :s |
 				s
-					<< 'This ';
-					<< aString;
-					<< ' errored:';
+					<< 'These objects errored:';
 					cr.
-				errors do: [ :e | | chompedName |
-					chompedName :=
-						(e first name truncateWithElipsisTo: 30)
-							replaceAll: Character cr
-							with: Character space. 
+				errors do: [ :e | 	
 					s
 						cr;
-						<< chompedName;
+						<< (e first printStringLimitedTo: 30);
 						<< ' ∫'; tab.
 					e second printOn: s.
 					s

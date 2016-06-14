@@ -1,16 +1,8 @@
 {
 	"instance" : {
-		"smokeTestOf:" : "YuriyTymchuk 6/8/2016 11:33",
-		"testClassSmoke" : "YuriyTymchuk 6/8/2016 11:36",
 		"tearDown" : "YuriyTymchuk 6/14/2016 15:51",
-		"testMethodNodeSmoke" : "YuriyTymchuk 6/8/2016 14:19",
-		"testTraitSmoke" : "YuriyTymchuk 6/8/2016 11:45",
-		"testPackageSmoke" : "YuriyTymchuk 6/8/2016 11:43",
-		"testMetaclassSmoke" : "YuriyTymchuk 6/8/2016 11:45",
-		"smokeTestOf:named:" : "YuriyTymchuk 6/14/2016 16:13",
-		"testClassTraitSmoke" : "YuriyTymchuk 6/8/2016 11:46",
-		"testMethodSmoke" : "YuriyTymchuk 6/8/2016 11:48",
-		"setUp" : "YuriyTymchuk 6/14/2016 15:51"
+		"setUp" : "YuriyTymchuk 6/14/2016 15:51",
+		"testSmoke" : "YuriyTymchuk 6/14/2016 18:59"
 	},
 	"class" : { }
 }
