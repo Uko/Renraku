@@ -9,7 +9,6 @@ smokeTestOf: aCollection named: aString
 		[ el externalProperties ]
 			on: Error
 			do: [ :er |
-				er pass.
 				errors add: {
 					el .
 					er .
