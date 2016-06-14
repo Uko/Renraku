@@ -1,4 +1,4 @@
 accessing
 methodRules
 
-	^rules select: [ :rule | rule class checksMethod ]
+	^ self allRules select: [ :rule | rule class checksMethod ]

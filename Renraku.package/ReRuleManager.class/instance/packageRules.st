@@ -1,4 +1,4 @@
 accessing
 packageRules
 
-	^rules select: [ :rule | rule class checksPackage ]
+	^ self allRules select: [ :rule | rule class checksPackage ]

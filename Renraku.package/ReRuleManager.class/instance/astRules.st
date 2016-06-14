@@ -1,4 +1,4 @@
 accessing
 astRules
 	
-	^rules select: [ :rule | rule class checksAST ]
+	^ self allRules select: [ :rule | rule class checksAST ]

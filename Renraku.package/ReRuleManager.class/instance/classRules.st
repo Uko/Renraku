@@ -1,4 +1,4 @@
 accessing
 classRules
 
-	^rules select: [ :rule | rule class checksClass ]
+	^ self allRules select: [ :rule | rule class checksClass ]

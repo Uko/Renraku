@@ -1,15 +1,16 @@
 {
 	"instance" : {
-		"packageRules" : "YuriyTymchuk 2/10/2016 14:59",
+		"packageRules" : "YuriyTymchuk 6/14/2016 14:45",
+		"classRules" : "YuriyTymchuk 6/14/2016 14:45",
+		"classRemoved:" : "YuriyTymchuk 6/14/2016 13:06",
 		"subscribe" : "HenrikNergaard 2/8/2016 01:16",
-		"classRules" : "HenrikNergaard 2/8/2016 00:39",
-		"classRemoved:" : "HenrikNergaard 2/8/2016 01:18",
 		"excludedRuleNames" : "YuriyTymchuk 11/20/2015 16:30",
 		"unsubscribe" : "HenrikNergaard 2/8/2016 00:55",
-		"initialize" : "HenrikNergaard 2/8/2016 00:49",
-		"astRules" : "HenrikNergaard 2/8/2016 00:39",
-		"methodRules" : "HenrikNergaard 2/8/2016 00:58",
-		"resetRules" : "HenrikNergaard 2/8/2016 00:50",
+		"initialize" : "YuriyTymchuk 6/14/2016 14:41",
+		"astRules" : "YuriyTymchuk 6/14/2016 14:45",
+		"allRules" : "YuriyTymchuk 6/14/2016 14:41",
+		"resetRules" : "YuriyTymchuk 6/14/2016 14:44",
+		"methodRules" : "YuriyTymchuk 6/14/2016 14:45",
 		"classAdded:" : "HenrikNergaard 2/8/2016 00:50"
 	},
 	"class" : {
