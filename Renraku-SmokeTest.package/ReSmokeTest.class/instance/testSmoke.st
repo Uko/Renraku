@@ -6,17 +6,19 @@ testSmoke
 	errors := OrderedCollection new.
 
 	SystemNavigation new allObjects do: [ :el | 
-		FileStream stdout nextPut: $.. 
-		[ el externalProperties ]
-			on: Error
+		[ el externalProperties.
+		  FileStream stdout nextPut: $..
+		]  on: Error
 			do: [ :er |
+				FileStream stdout nextPut: $X.
 				errors add: {
 					el .
 					er .
 					(er signalerContext findContextSuchThat: [ :context |
 						context receiver isKindOf: RBLintRule ]
 					) receiver class
-				} ] ]
+				} ].
+			FileStream stdout flush ]
 		displayingProgress: 'Checking objects'.
 		
 	'errors.properties' asFileReference
