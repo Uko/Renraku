@@ -1,13 +1,9 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'RenrakuSmoke',
+      #baseline : 'Renraku',
       #directory : '',
       #platforms : [ #pharo ]
     }
-  ],
-
-  #testing : {
-    #categories : [ 'Renraku-*' ]
-  }
+  ]
 }

@@ -8,6 +8,3 @@ os:
 smalltalk:
   - Pharo-5.0
   - Pharo-6.0
-
-env:
-  - SMALLTALK_CI_TIMEOUT=40
