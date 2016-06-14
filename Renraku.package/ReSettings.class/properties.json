@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "YuriyTymchuk 3/4/2016 16:52",
+	"super" : "Object",
+	"category" : "Renraku-Utility",
+	"classinstvars" : [
+		"uniqueInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"showErrors"
+	],
+	"name" : "ReSettings",
+	"type" : "normal"
+}

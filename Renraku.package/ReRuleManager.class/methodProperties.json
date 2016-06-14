@@ -14,9 +14,10 @@
 		"classAdded:" : "HenrikNergaard 2/8/2016 00:50"
 	},
 	"class" : {
-		"unload" : "YuriyTymchuk 11/20/2015 17:07",
+		"reset" : "HenrikNergaard 2/8/2016 00:54",
 		"uniqueInstance" : "YuriyTymchuk 11/20/2015 16:30",
 		"cleanUp" : "YuriyTymchuk 11/20/2015 16:30",
-		"reset" : "HenrikNergaard 2/8/2016 00:54"
+		"resetWithInform" : "YuriyTymchuk 3/9/2016 15:11",
+		"unload" : "YuriyTymchuk 11/20/2015 17:07"
 	}
 }
