@@ -5,21 +5,14 @@ testSmoke
 	
 	errors := OrderedCollection new.
 
-	SystemNavigation new allObjects do: [ :el | 
-		[ el externalProperties.
-		  FileStream stdout nextPut: $..
-		]  on: Error
+	self class
+		title: 'Checking objects'
+		process: SystemNavigation new allObjects
+		with:  [ :el | 
+		[ el externalProperties]
+			on: Error
 			do: [ :er |
-				FileStream stdout nextPut: $X.
-				errors add: {
-					el .
-					er .
-					(er signalerContext findContextSuchThat: [ :context |
-						context receiver isKindOf: RBLintRule ]
-					) receiver class
-				} ].
-			FileStream stdout flush ]
-		displayingProgress: 'Checking objects'.
+				errors add: { el . er } ] ].
 		
 	'errors.properties' asFileReference
 		ensureDelete;
@@ -36,10 +29,9 @@ testSmoke
 				errors do: [ :e | 	
 					s
 						cr;
+						<< e first class name;
+						<< ' ∫'; tab;
 						<< (e first printStringLimitedTo: 30);
 						<< ' ∫'; tab.
-					e second printOn: s.
-					s
-						<< ' ∫'; tab;
-						<< e third name ].
+					e second printOn: s ].
 				s nextPutAll: '--------------------------' ] ]
