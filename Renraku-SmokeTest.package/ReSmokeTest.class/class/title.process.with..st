@@ -1,7 +1,9 @@
-as yet unclassified
+utils
 title: aString process: aCollection with: aBlock
 
 	| percentage lastPercent |
+	
+	FileStream stdout << String lf << aString << String lf; flush.
 	
 	lastPercent := -1.
 	percentage := 100 / aCollection size.
