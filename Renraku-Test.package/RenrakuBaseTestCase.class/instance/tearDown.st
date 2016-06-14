@@ -1,7 +1,7 @@
 running
 tearDown
-	testPackage methods do: #removeFromSystem.
-	testPackage definedClasses do: #removeFromSystem.
+
+	testPackage mcPackage workingCopy unload.
 	testPackage unregister.
-	
+	testPackage := nil.	
 	super tearDown 
