@@ -16,8 +16,9 @@
 	"class" : {
 		"reset" : "HenrikNergaard 2/8/2016 00:54",
 		"uniqueInstance" : "YuriyTymchuk 11/20/2015 16:30",
-		"cleanUp" : "YuriyTymchuk 11/20/2015 16:30",
+		"resubscribeUniqueInstanceToSystemAnnouncer" : "YuriyTymchuk 6/21/2016 09:25",
 		"resetWithInform" : "YuriyTymchuk 3/9/2016 15:11",
+		"cleanUp" : "YuriyTymchuk 11/20/2015 16:30",
 		"unload" : "YuriyTymchuk 11/20/2015 17:07"
 	}
 }
