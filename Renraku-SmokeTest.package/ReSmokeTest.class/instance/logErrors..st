@@ -14,6 +14,7 @@ logErrors: errors
 			errorBag asSet
 				do: [ :class | str << class name ]
 				separatedBy: [ str << $, ].
+			str lf.
 			errorBag asSet
 				do: [ :class | str << (errorBag occurrencesOf: class) ]
 				separatedBy: [ str << $, ] ].
