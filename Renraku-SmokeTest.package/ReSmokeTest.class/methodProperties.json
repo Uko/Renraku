@@ -1,8 +1,9 @@
 {
 	"instance" : {
 		"tearDown" : "YuriyTymchuk 6/14/2016 15:51",
-		"setUp" : "YuriyTymchuk 6/14/2016 15:51",
-		"testSmoke" : ""
+		"testSmoke" : "YuriyTymchuk 7/4/2016 09:26",
+		"logErrors:" : "YuriyTymchuk 7/4/2016 09:35",
+		"setUp" : "YuriyTymchuk 6/14/2016 15:51"
 	},
 	"class" : {
 		"title:process:with:" : "YuriyTymchuk 6/14/2016 23:03"
