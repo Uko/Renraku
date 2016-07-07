@@ -1,10 +1,10 @@
 {
 	"instance" : {
+		"check:forCritiquesDo:" : "YuriyTymchuk 7/7/2016 19:46",
 		"group" : "YuriyTymchuk 1/18/2016 15:08",
 		"basicCheck:" : "YuriyTymchuk 1/18/2016 15:09",
-		"check:forCritiquesDo:ifNone:" : "YuriyTymchuk 5/30/2016 14:53",
-		"name" : "YuriyTymchuk 1/15/2016 17:36",
-		"presentationScriptingMathods" : "YuriyTymchuk 1/19/2016 11:25"
+		"presentationScriptingMathods" : "YuriyTymchuk 1/19/2016 11:25",
+		"name" : "YuriyTymchuk 1/15/2016 17:36"
 	},
 	"class" : { }
 }

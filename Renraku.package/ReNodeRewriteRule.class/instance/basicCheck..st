@@ -3,6 +3,7 @@ basicCheck: anEntity
 	
 	 self
 		check: anEntity
-		forCritiquesDo: [ ^ true ].
+		forCritiquesDo: [ ^ true ]
+		ifNone: [  ].
 		
 	^ false

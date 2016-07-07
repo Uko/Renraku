@@ -1,8 +1,8 @@
 running
-check: anAST forCritiquesDo: aCriticBlock ifNone: alternativeBlock
+check: anAST forCritiquesDo: aCriticBlock
 
 
-	anAST pragmaNamed: #gtInspectorPresentationOrder: ifAbsent: [ ^ alternativeBlock value ].
+	anAST pragmaNamed: #gtInspectorPresentationOrder: ifAbsent: [ ^ self ].
 	
 	^ (anAST sendNodes
 			reject: [ :message |
@@ -17,4 +17,3 @@ check: anAST forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 						interval: message	 sourceInterval)
 					by: self) ])
 				
-			ifEmpty: alternativeBlock

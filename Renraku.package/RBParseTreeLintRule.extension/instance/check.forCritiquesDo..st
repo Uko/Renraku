@@ -1,5 +1,5 @@
 *renraku
-check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock
+check: aMethod forCritiquesDo: aCriticBlock
 
 	(self matcher canMatchMethod: aMethod) ifTrue: [
 		| node |
@@ -9,5 +9,3 @@ check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 		node ifNotNil: [ 
 			^ aCriticBlock cull: ( 
 				self critiqueFor: node about: aMethod) ] ].
-	
-	alternativeBlock value.

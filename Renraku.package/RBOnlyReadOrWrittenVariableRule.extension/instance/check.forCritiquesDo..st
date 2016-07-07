@@ -1,5 +1,5 @@
 *renraku
-check: aClass forCritiquesDo: aCriticBlock ifNone: alternativeBlock
+check: aClass forCritiquesDo: aCriticBlock
 	
 	| allSubclasses |
 	allSubclasses := aClass withAllSubclasses.
@@ -21,4 +21,3 @@ check: aClass forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 				string: varName)
 			by: self
 			hint: varName) ]
-		ifNone: alternativeBlock

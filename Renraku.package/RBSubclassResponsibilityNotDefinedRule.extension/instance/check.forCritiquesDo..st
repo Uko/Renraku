@@ -1,15 +1,11 @@
 *renraku
-check: aClass forCritiquesDo: aCriticBlock ifNone: alternativeBlock
-	| encounteredCritic |
-	
-	encounteredCritic := false.
-	
+check: aClass forCritiquesDo: aCriticBlock
+
 	(aClass whichSelectorsReferTo: #subclassResponsibility) do:  
 		[ :selector | 
 		(aClass subclasses do: [ :class | 
 				(class subclasses isEmpty and:
 				[ (class whichClassIncludesSelector: selector) == aClass ]) ifTrue: [ 
-					encounteredCritic := true.
 					aCriticBlock cull: (ReMissingMethodCritique
 						for: aClass
 						by: self
@@ -18,4 +14,3 @@ check: aClass forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 						beShouldBeImplemented;
 						yourself ] ]) ].
 	
-	encounteredCritic ifFalse: [ alternativeBlock value ]

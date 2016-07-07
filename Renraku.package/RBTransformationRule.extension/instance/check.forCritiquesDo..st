@@ -1,5 +1,5 @@
 *renraku
-check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock
+check: aMethod forCritiquesDo: aCriticBlock
 	
 	(self basicCheck: aMethod)
 		ifTrue: [
@@ -8,4 +8,4 @@ check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 					for: aMethod
 					by: self
 					tree: rewriteRule tree)  ]
-		ifFalse: [ alternativeBlock value ]
+		

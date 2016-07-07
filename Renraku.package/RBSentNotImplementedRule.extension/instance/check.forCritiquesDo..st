@@ -1,5 +1,5 @@
 *renraku
-check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock
+check: aMethod forCritiquesDo: aCriticBlock
 
 	aMethod messages
 		select: [ :each | each isSelectorSymbol not ]
@@ -10,4 +10,4 @@ check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 					string: each)
 				by: self
 				hint: each) ]
-		ifNone: alternativeBlock 
+		

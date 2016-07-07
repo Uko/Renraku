@@ -1,9 +1,9 @@
 *renraku
-check: aClass forCritiquesDo: aCriticBlock ifNone: alternativeBlock
+check: aClass forCritiquesDo: aCriticBlock
  
 	| subs sels |
 	subs := aClass subclasses.
-	subs size > 1 ifFalse: [ ^ alternativeBlock value ].
+	subs size > 1 ifFalse: [ ^ self ].
 
 	sels := subs flatCollect: #instVarNames as: Bag.
 	
@@ -21,4 +21,3 @@ check: aClass forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 					variable: sel
 					class: aClass);
 			yourself) ]
-		ifNone: alternativeBlock

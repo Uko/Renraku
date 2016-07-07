@@ -1,7 +1,6 @@
 *renraku
-check: aClass forCritiquesDo: aCriticBlock ifNone: alternativeBlock
+check: aClass forCritiquesDo: aCriticBlock
 	(self basicCheck: aClass)
-		ifFalse: alternativeBlock
 		ifTrue: [ aCriticBlock cull: (
 			ReMissingMethodCritique
 				for: aClass

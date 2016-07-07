@@ -1,5 +1,5 @@
 *renraku
-check: aClass forCritiquesDo: aCriticBlock ifNone: alternativeBlock
+check: aClass forCritiquesDo: aCriticBlock
 	
 	| allSubclasses encounteredCritic |
 	encounteredCritic := false.
@@ -32,4 +32,3 @@ check: aClass forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 							by: self
 							hint: each key) ] ] ].
 			
-	encounteredCritic ifFalse: alternativeBlock 

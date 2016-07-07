@@ -1,5 +1,5 @@
 *renraku
-check: aClass forCritiquesDo: aCriticBlock ifNone: alternativeBlock
+check: aClass forCritiquesDo: aCriticBlock
 	
 	| subs |
 	subs := aClass subclasses.
@@ -23,4 +23,3 @@ check: aClass forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 					aCriticBlock cull: critic ].
 				^ self ] ].
 		
-	alternativeBlock value

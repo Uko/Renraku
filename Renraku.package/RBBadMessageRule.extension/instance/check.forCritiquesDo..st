@@ -1,5 +1,5 @@
 *renraku
-check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock
+check: aMethod forCritiquesDo: aCriticBlock
 	
 	self badSelectors
 		select: [ :each | aMethod sendsSelector: each ]
@@ -10,4 +10,3 @@ check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 						string: each)
 					by: self
 					hint: each) ]
-		ifNone: alternativeBlock 

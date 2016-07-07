@@ -1,9 +1,5 @@
 *renraku
-check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock 
-
-	| encounteredCritic |
-	
-	encounteredCritic := false.
+check: aMethod forCritiquesDo: aCriticBlock
 
 	aMethod literals allButLastDo: [ :literal | 
 			(literal isVariableBinding and: [ literal key notNil ])
@@ -14,12 +10,9 @@ check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 							(aMethod methodClass bindingOf: literal key) == literal
 								ifFalse: [ 
 										(literal name = #RFMetaLink) ifFalse: [
-											encounteredCritic := true.
 											aCriticBlock cull: (ReTrivialCritique
 												withAnchor: (ReSearchStringSourceAnchor
 													entity: aMethod
 													string: literal key)
 												by: self
 												hint: literal key) ] ] ] ] ].
-						
-	encounteredCritic ifFalse: alternativeBlock value

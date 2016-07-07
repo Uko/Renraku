@@ -1,5 +1,5 @@
 *renraku
-check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock 
+check: aMethod forCritiquesDo: aCriticBlock
 
 	aMethod ast allChildren 
 		select: [ :node |
@@ -13,4 +13,3 @@ check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 				string: node name)
 			by: self
 			hint: node name) ]
-		ifNone: alternativeBlock  
