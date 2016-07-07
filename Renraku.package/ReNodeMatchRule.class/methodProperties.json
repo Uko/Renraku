@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"matchesAll:" : "YuriyTymchuk 7/6/2016 19:16",
+		"basicCheck:" : "YuriyTymchuk 7/6/2016 22:10",
+		"initialize" : "YuriyTymchuk 7/6/2016 19:13",
+		"addMatchingExpression:" : "YuriyTymchuk 7/6/2016 19:13",
+		"addMatchingMethod:" : "YuriyTymchuk 7/6/2016 19:13",
+		"matches:" : "YuriyTymchuk 7/6/2016 19:16",
+		"afterCheck:mappings:" : "YuriyTymchuk 7/6/2016 11:52"
+	},
+	"class" : {
+		"isVisible" : "YuriyTymchuk 7/6/2016 11:48"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "YuriyTymchuk 7/6/2016 19:09",
+	"super" : "RBLintRule",
+	"category" : "Renraku-Rewrite",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ReNodeBasedRule",
+	"type" : "normal"
+}

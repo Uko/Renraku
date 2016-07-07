@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "YuriyTymchuk 7/7/2016 09:21",
+	"super" : "ReAbstractCritique",
+	"category" : "Renraku-Critiques",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"oldNode",
+		"newNode"
+	],
+	"name" : "ReReplaceNodeCritique",
+	"type" : "normal"
+}

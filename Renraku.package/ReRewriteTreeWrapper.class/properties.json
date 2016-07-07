@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "YuriyTymchuk 7/6/2016 23:20",
+	"super" : "ReRewriteWrapper",
+	"category" : "Renraku-Rewrite",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tree"
+	],
+	"name" : "ReRewriteTreeWrapper",
+	"type" : "normal"
+}
