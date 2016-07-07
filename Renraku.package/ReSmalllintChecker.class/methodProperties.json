@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"criticsOf:" : "YuriyTymchuk 7/7/2016 11:24",
+		"falsePositiveOf:" : "YuriyTymchuk 7/7/2016 12:55",
+		"toDoOf:" : "YuriyTymchuk 7/7/2016 12:55",
+		"checkClass:" : "YuriyTymchuk 7/7/2016 10:22",
+		"getCritiquesAbout:by:" : "YuriyTymchuk 7/7/2016 10:36",
+		"checkMethodsForClass:" : "YuriyTymchuk 7/7/2016 10:36",
+		"checkPackage:" : "YuriyTymchuk 7/7/2016 10:29",
+		"reParseRule" : "YuriyTymchuk 7/7/2016 10:36",
+		"run" : "YuriyTymchuk 7/7/2016 10:34"
+	},
+	"class" : { }
+}
