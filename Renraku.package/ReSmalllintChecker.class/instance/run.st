@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 run
 	critiques := Set new.
 	self reParseRule.

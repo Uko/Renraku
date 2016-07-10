@@ -1,4 +1,4 @@
-as yet unclassified
+private
 checkPackage: aPackage
 
 	(environment includesPackage: aPackage) ifTrue: [

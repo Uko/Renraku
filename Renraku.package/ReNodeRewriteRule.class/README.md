@@ -1,4 +1,4 @@
-The base rule for smalltalk code match & rewrite rules.
+The base rule for smalltalk code match & rewrite rules. The rule operates on AST nodes.
 
 Use the following methods in the initialization to setup your subclass:
 

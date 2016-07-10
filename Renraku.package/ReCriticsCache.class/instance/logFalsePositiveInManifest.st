@@ -1,4 +1,4 @@
-as yet unclassified
+private
 logFalsePositiveInManifest
 	| removeFp addFp |
 	falsePositives

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 checkMethodsForClass: aClass
 	environment
 		selectorsForClass: aClass

@@ -1,4 +1,4 @@
-as yet unclassified
+manifest
 falsePositiveOf: aRule
 	
 	| ruleCritiques rId rV  mb |

@@ -1,4 +1,4 @@
-as yet unclassified
+manifest
 toDoOf: aRule
 	
 	| ruleCritiques rId rV mb |

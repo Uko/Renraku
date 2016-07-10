@@ -1,4 +1,4 @@
-The base rule for smalltalk code pattern matching (relies on rewrite expressions).
+The base rule for smalltalk code pattern matching (relies on rewrite expressions). The rule operates on AST nodes.
 
 Use the following methods in the initialization to setup your subclass:
 

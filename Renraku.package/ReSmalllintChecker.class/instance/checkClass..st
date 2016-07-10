@@ -1,4 +1,4 @@
-as yet unclassified
+private
 checkClass: aClass
 
 	(environment includesClass: aClass) ifFalse: [ ^ self ].

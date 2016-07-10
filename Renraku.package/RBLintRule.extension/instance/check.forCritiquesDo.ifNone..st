@@ -4,7 +4,7 @@ check: anEntity forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 	
 	encounteredCritique := false.
 
-	self check: anEntity forCriticsDo: [ :crit |
+	self check: anEntity forCritiquesDo: [ :crit |
 		encounteredCritique := true.
 		aCriticBlock cull: crit ].
 	
