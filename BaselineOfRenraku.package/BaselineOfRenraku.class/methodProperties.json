@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"baseline:" : "YuriyTymchuk 1/25/2016 11:00",
-		"resetRuleManager" : "YuriyTymchuk 1/25/2016 11:02",
-		"unsubscribeReEngine" : "YuriyTymchuk 8/13/2015 22:25" } }
+		"unsubscribeReEngine" : "YuriyTymchuk 8/13/2015 22:25",
+		"baseline:" : "YuriyTymchuk 7/10/2016 16:09",
+		"resetRuleManager" : "YuriyTymchuk 1/25/2016 11:02"
+	},
+	"class" : { }
+}

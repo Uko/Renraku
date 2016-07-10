@@ -1,14 +1,11 @@
 {
-	"category" : "BaselineOfRenraku",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "YuriyTymchuk 7/16/2015 10:50",
-	"instvars" : [
-		 ],
-	"name" : "BaselineOfRenraku",
-	"pools" : [
-		 ],
 	"super" : "BaselineOf",
-	"type" : "normal" }
+	"category" : "BaselineOfRenraku",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfRenraku",
+	"type" : "normal"
+}
