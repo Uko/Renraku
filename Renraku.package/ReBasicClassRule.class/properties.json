@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "YuriyTymchuk 1/22/2016 20:49",
-	"super" : "RBBasicLintRule",
-	"category" : "Renraku-Rules",
+	"super" : "ReAbstractRule",
+	"category" : "Renraku-Deprecated",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

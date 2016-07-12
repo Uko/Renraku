@@ -1,10 +1,6 @@
 {
 	"instance" : {
-		"isToDo:forRule:" : "YuriyTymchuk 7/7/2016 18:58",
-		"removeFalsePositive:forRule:" : "YuriyTymchuk 7/7/2016 19:01",
-		"initCache" : "YuriyTymchuk 7/7/2016 18:55",
-		"removeToDo:forRule:" : "YuriyTymchuk 7/7/2016 19:02",
-		"isFalsePositive:forRule:" : "YuriyTymchuk 7/7/2016 18:56",
+		"initCache" : "YuriyTymchuk 7/12/2016 10:10",
 		"logFalsePositiveInManifest" : "YuriyTymchuk 7/7/2016 18:59",
 		"logToDosInManifest" : "YuriyTymchuk 7/7/2016 19:00"
 	},

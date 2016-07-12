@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "YuriyTymchuk 3/4/2016 15:27",
-	"super" : "ReBasicTreeRule",
+	"super" : "ReAbstractRule",
 	"category" : "Renraku-Rules",
 	"classinstvars" : [ ],
 	"pools" : [ ],

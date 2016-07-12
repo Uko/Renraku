@@ -1,11 +1,9 @@
 {
 	"instance" : {
-		"checkMethod:" : "YuriyTymchuk 1/18/2016 16:59",
-		"resultClass" : "YuriyTymchuk 1/18/2016 16:56"
+		"basicCheck:" : "YuriyTymchuk 7/11/2016 16:29",
+		"checkMethod:" : "YuriyTymchuk 7/11/2016 15:38"
 	},
 	"class" : {
-		"checksMethod" : "YuriyTymchuk 1/18/2016 16:57",
-		"uniqueIdentifierName" : "YuriyTymchuk 1/18/2016 16:56",
-		"isVisible" : "YuriyTymchuk 1/18/2016 16:57"
+		"checksMethod" : "YuriyTymchuk 7/11/2016 16:11"
 	}
 }

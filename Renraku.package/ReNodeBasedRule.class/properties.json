@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "YuriyTymchuk 7/6/2016 19:09",
-	"super" : "RBLintRule",
-	"category" : "Renraku-Rewrite",
+	"super" : "ReAbstractRule",
+	"category" : "Renraku-Rules-Rewrite",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

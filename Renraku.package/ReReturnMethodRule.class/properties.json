@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "YuriyTymchuk 1/18/2016 17:13",
-	"super" : "ReBasicMethodRule",
+	"super" : "ReAbstractRule",
 	"category" : "Renraku-Rules",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 getCritiquesAbout: anEntity by: rules
 
 	rules do: [ :r |
