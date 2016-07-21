@@ -5,4 +5,4 @@ getCritiquesAbout: anEntity by: rules
 		r
 			check: anEntity
 			forCritiquesDo: [ :crit |
-				critiques add: crit ]  ]
+				self addCritique: crit ]  ]

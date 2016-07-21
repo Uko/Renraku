@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "YuriyTymchuk 3/4/2016 16:52",
-	"super" : "Object",
 	"category" : "Renraku-Utility",
 	"classinstvars" : [
-		"uniqueInstance"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 3/4/2016 16:52",
 	"instvars" : [
-		"showErrors"
-	],
+		"showErrors" ],
 	"name" : "ReSettings",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

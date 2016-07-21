@@ -1,10 +1,7 @@
 {
-	"instance" : {
-		"checkClass:" : "YuriyTymchuk 7/11/2016 16:11",
-		"basicCheck:" : "YuriyTymchuk 7/11/2016 15:34"
-	},
 	"class" : {
 		"checksClass" : "YuriyTymchuk 7/11/2016 15:21",
-		"isVisible" : "YuriyTymchuk 1/22/2016 20:49"
-	}
-}
+		"isVisible" : "YuriyTymchuk 1/22/2016 20:49" },
+	"instance" : {
+		"basicCheck:" : "YuriyTymchuk 7/11/2016 15:34",
+		"checkClass:" : "YuriyTymchuk 7/11/2016 16:11" } }

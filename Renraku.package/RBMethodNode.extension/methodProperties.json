@@ -1,8 +1,7 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"ban:" : "YuriyTymchuk 5/30/2016 14:47",
-		"guidedBan:" : "YuriyTymchuk 5/30/2016 14:47",
-		"critiques" : "YuriyTymchuk 7/11/2016 16:01"
-	},
-	"class" : { }
-}
+		"critiques" : "YuriyTymchuk 7/11/2016 16:01",
+		"guidedBan:" : "YuriyTymchuk 5/30/2016 14:47" } }

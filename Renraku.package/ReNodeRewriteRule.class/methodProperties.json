@@ -1,18 +1,15 @@
 {
+	"class" : {
+		"isVisible" : "YuriyTymchuk 7/6/2016 16:00",
+		"noteCompilationOf:meta:" : "YuriyTymchuk 7/11/2016 16:37" },
 	"instance" : {
-		"check:forCritiquesDo:" : "YuriyTymchuk 7/7/2016 19:43",
-		"addMatchingMethod:rewriteTo:" : "YuriyTymchuk 7/9/2016 13:38",
 		"addMatchingExpression:rewriteTo:" : "YuriyTymchuk 7/9/2016 13:36",
+		"addMatchingExpression:rewriteWith:" : "YuriyTymchuk 7/9/2016 13:38",
+		"addMatchingMethod:rewriteTo:" : "YuriyTymchuk 7/9/2016 13:38",
+		"afterCheck:mappings:" : "YuriyTymchuk 7/6/2016 15:58",
+		"basicCheck:" : "YuriyTymchuk 7/7/2016 19:51",
+		"check:forCritiquesDo:" : "YuriyTymchuk 7/7/2016 19:43",
 		"critiqueFor:by:withMappings:" : "YuriyTymchuk 7/6/2016 16:19",
 		"initialize" : "YuriyTymchuk 7/6/2016 14:41",
-		"addMatchingExpression:rewriteWith:" : "YuriyTymchuk 7/9/2016 13:38",
-		"basicCheck:" : "YuriyTymchuk 7/7/2016 19:51",
-		"afterCheck:mappings:" : "YuriyTymchuk 7/6/2016 15:58",
-		"replace:with:" : "YuriyTymchuk 7/9/2016 13:37",
-		"replace:by:" : "YuriyTymchuk 7/9/2016 13:38"
-	},
-	"class" : {
-		"noteCompilationOf:meta:" : "YuriyTymchuk 7/11/2016 16:37",
-		"isVisible" : "YuriyTymchuk 7/6/2016 16:00"
-	}
-}
+		"replace:by:" : "YuriyTymchuk 7/9/2016 13:38",
+		"replace:with:" : "YuriyTymchuk 7/9/2016 13:37" } }

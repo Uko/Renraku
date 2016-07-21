@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"critiques:" : "",
-		"critiques" : ""
-	},
-	"class" : { }
-}
+		"critiques" : "",
+		"critiques:" : "" } }

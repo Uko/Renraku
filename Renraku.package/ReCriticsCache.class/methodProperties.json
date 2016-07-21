@@ -1,8 +1,7 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"initCache" : "YuriyTymchuk 7/12/2016 10:10",
 		"logFalsePositiveInManifest" : "YuriyTymchuk 7/7/2016 18:59",
-		"logToDosInManifest" : "YuriyTymchuk 7/7/2016 19:00"
-	},
-	"class" : { }
-}
+		"logToDosInManifest" : "YuriyTymchuk 7/7/2016 19:00" } }

@@ -1,11 +1,8 @@
 {
+	"class" : {
+		"checksMethod" : "YuriyTymchuk 7/11/2016 16:18" },
 	"instance" : {
 		"basicCheck:" : "YuriyTymchuk 1/18/2016 17:02",
 		"group" : "YuriyTymchuk 1/18/2016 17:07",
 		"name" : "YuriyTymchuk 1/18/2016 17:03",
-		"severity" : "YuriyTymchuk 1/18/2016 17:29"
-	},
-	"class" : {
-		"checksMethod" : "YuriyTymchuk 7/11/2016 16:18"
-	}
-}
+		"severity" : "YuriyTymchuk 1/18/2016 17:29" } }

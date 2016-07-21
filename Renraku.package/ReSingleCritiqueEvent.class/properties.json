@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "YuriyTymchuk 8/23/2015 14:03",
-	"super" : "ReCritiqueEvent",
 	"category" : "Renraku-Announcements",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 8/23/2015 14:03",
 	"instvars" : [
-		"critique"
-	],
+		"critique" ],
 	"name" : "ReSingleCritiqueEvent",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "ReCritiqueEvent",
+	"type" : "normal" }
