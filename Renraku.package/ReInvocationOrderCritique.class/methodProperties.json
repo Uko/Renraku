@@ -1,6 +1,9 @@
 {
-	"class" : {
-		"withAnchor:by:method:condition:" : "YuriyTymchuk 3/3/2016 10:42" },
 	"instance" : {
 		"initializeRule:sourceAnchor:method:condition:" : "YuriyTymchuk 3/3/2016 10:38",
-		"providesChange" : "YuriyTymchuk 3/3/2016 10:43" } }
+		"providesChange" : "YuriyTymchuk 3/3/2016 10:43"
+	},
+	"class" : {
+		"withAnchor:by:method:condition:" : "YuriyTymchuk 3/3/2016 10:42"
+	}
+}

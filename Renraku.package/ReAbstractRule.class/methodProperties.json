@@ -1,25 +1,28 @@
 {
-	"class" : {
-		"checksClass" : "YuriyTymchuk 7/11/2016 15:02",
-		"checksMethod" : "YuriyTymchuk 7/11/2016 15:02",
-		"checksNode" : "YuriyTymchuk 7/11/2016 15:17",
-		"checksPackage" : "YuriyTymchuk 7/11/2016 15:02",
-		"identifierMinorVersionNumber" : "YuriyTymchuk 7/11/2016 15:03",
-		"isUsed" : "YuriyTymchuk 7/11/2016 15:03",
-		"isVisible" : "YuriyTymchuk 7/11/2016 19:13",
-		"methodOfInteresetSelectors" : "YuriyTymchuk 7/11/2016 19:15",
-		"uniqueIdentifierName" : "YuriyTymchuk 7/11/2016 15:05",
-		"uniqueIdentifierNumber" : "YuriyTymchuk 7/11/2016 15:03" },
 	"instance" : {
-		"anchorFor:" : "YuriyTymchuk 7/11/2016 14:44",
-		"basicCheck:" : "YuriyTymchuk 7/11/2016 14:45",
-		"check:" : "YuriyTymchuk 7/11/2016 15:36",
 		"check:forCritiquesDo:" : "YuriyTymchuk 7/11/2016 14:45",
+		"critiqueFor:" : "YuriyTymchuk 8/7/2016 15:44",
 		"check:forCritiquesDo:ifNone:" : "YuriyTymchuk 7/11/2016 14:45",
 		"check:ifNoCritiques:" : "YuriyTymchuk 7/11/2016 15:37",
-		"critiqueFor:" : "YuriyTymchuk 7/11/2016 14:45",
-		"group" : "YuriyTymchuk 7/11/2016 14:49",
+		"severity" : "YuriyTymchuk 7/11/2016 15:01",
 		"name" : "YuriyTymchuk 7/11/2016 15:01",
 		"rationale" : "YuriyTymchuk 7/11/2016 15:00",
 		"resetResult" : "YuriyTymchuk 7/11/2016 15:39",
-		"severity" : "YuriyTymchuk 7/11/2016 15:01" } }
+		"basicCheck:" : "YuriyTymchuk 7/11/2016 14:45",
+		"check:" : "YuriyTymchuk 7/11/2016 15:36",
+		"group" : "YuriyTymchuk 7/11/2016 14:49",
+		"anchorFor:" : "YuriyTymchuk 7/11/2016 14:44"
+	},
+	"class" : {
+		"isUsed" : "YuriyTymchuk 7/11/2016 15:03",
+		"checksPackage" : "YuriyTymchuk 7/11/2016 15:02",
+		"uniqueIdentifierNumber" : "YuriyTymchuk 7/11/2016 15:03",
+		"checksClass" : "YuriyTymchuk 7/11/2016 15:02",
+		"checksNode" : "YuriyTymchuk 7/11/2016 15:17",
+		"uniqueIdentifierName" : "YuriyTymchuk 7/11/2016 15:05",
+		"isVisible" : "YuriyTymchuk 7/11/2016 19:13",
+		"checksMethod" : "YuriyTymchuk 7/11/2016 15:02",
+		"identifierMinorVersionNumber" : "YuriyTymchuk 7/11/2016 15:03",
+		"methodOfInteresetSelectors" : "YuriyTymchuk 7/11/2016 19:15"
+	}
+}

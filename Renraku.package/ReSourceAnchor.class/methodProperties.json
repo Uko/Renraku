@@ -1,10 +1,13 @@
 {
-	"class" : {
-		"entity:" : "YuriyTymchuk 1/13/2016 14:07" },
 	"instance" : {
-		"entity" : "YuriyTymchuk 1/13/2016 13:46",
 		"gtInspectorSourceCodeIn:" : "YuriyTymchuk 1/13/2016 15:08",
-		"initializeEnitity:" : "YuriyTymchuk 1/13/2016 12:05",
+		"sourceEntity" : "YuriyTymchuk 1/13/2016 11:12",
 		"interval" : "YuriyTymchuk 1/13/2016 11:14",
-		"providesInterval" : "YuriyTymchuk 1/13/2016 11:14",
-		"sourceEntity" : "YuriyTymchuk 1/13/2016 11:12" } }
+		"initializeEnitity:" : "YuriyTymchuk 1/13/2016 12:05",
+		"entity" : "YuriyTymchuk 1/13/2016 13:46",
+		"providesInterval" : "YuriyTymchuk 1/13/2016 11:14"
+	},
+	"class" : {
+		"entity:" : "YuriyTymchuk 1/13/2016 14:07"
+	}
+}
