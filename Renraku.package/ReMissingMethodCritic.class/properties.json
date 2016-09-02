@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "YuriyTymchuk 5/23/2016 16:30",
-	"super" : "ReMissingMethodCritique",
 	"category" : "Renraku-Critiques",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 9/2/2016 22:37",
+	"instvars" : [
+		 ],
 	"name" : "ReMissingMethodCritic",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "ReMissingMethodCritique",
+	"type" : "normal" }

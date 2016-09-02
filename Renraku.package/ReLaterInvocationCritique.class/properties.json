@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "YuriyTymchuk 3/4/2016 14:44",
-	"super" : "ReInvocationOrderCritique",
 	"category" : "Renraku-Critiques",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 3/4/2016 14:44",
+	"instvars" : [
+		 ],
 	"name" : "ReLaterInvocationCritique",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "ReInvocationOrderCritique",
+	"type" : "normal" }

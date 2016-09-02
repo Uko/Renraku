@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "YuriyTymchuk 11/20/2015 16:41",
-	"super" : "Object",
 	"category" : "Renraku-Utility",
 	"classinstvars" : [
-		"uniqueInstance"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 11/20/2015 16:41",
 	"instvars" : [
-		"rules"
-	],
+		"rules" ],
 	"name" : "ReRuleManager",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

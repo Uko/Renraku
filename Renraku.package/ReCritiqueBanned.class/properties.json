@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "YuriyTymchuk 8/29/2015 21:52",
-	"super" : "ReSingleCritiqueEvent",
 	"category" : "Renraku-Announcements",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 8/29/2015 21:52",
 	"instvars" : [
-		"entityBanLevel"
-	],
+		"entityBanLevel" ],
 	"name" : "ReCritiqueBanned",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "ReSingleCritiqueEvent",
+	"type" : "normal" }

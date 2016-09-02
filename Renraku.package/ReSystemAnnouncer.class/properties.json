@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "YuriyTymchuk 11/20/2015 16:43",
-	"super" : "Announcer",
 	"category" : "Renraku-Announcements",
 	"classinstvars" : [
-		"uniqueInstance"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 11/20/2015 16:43",
+	"instvars" : [
+		 ],
 	"name" : "ReSystemAnnouncer",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Announcer",
+	"type" : "normal" }

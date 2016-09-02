@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "YuriyTymchuk 7/6/2015 18:51",
-	"super" : "Object",
 	"category" : "Renraku-Utility",
 	"classinstvars" : [
-		"uuid"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+		"uuid" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 7/6/2015 18:51",
+	"instvars" : [
+		 ],
 	"name" : "ReFeedbacker",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
