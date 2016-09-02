@@ -1,6 +1,6 @@
 ---
 key: "jayant"
-name: "Shikher Verma"
+name: "Jayant Agrawal"
 email: root@shikherverma.com
 description: "Image processing team head"
 image: /images/vehicles/varun.jpg
