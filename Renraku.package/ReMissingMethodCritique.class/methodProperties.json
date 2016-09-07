@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"for:by:class:selector:" : "Uko 9/7/2016 00:38:48" },
+	"instance" : {
+		"beShouldBeImplemented" : "Uko 9/7/2016 00:38:48",
+		"beSubclassResponsibility" : "Uko 9/7/2016 00:38:48",
+		"change" : "Uko 9/7/2016 00:38:48",
+		"initialize" : "Uko 9/7/2016 00:38:48",
+		"initializeRule:target:class:selector:" : "Uko 9/7/2016 00:38:48",
+		"methodHeader" : "Uko 9/7/2016 00:38:48",
+		"providesChange" : "Uko 9/7/2016 00:38:48",
+		"source" : "Uko 9/7/2016 00:38:48",
+		"source:" : "Uko 9/7/2016 00:38:48" } }

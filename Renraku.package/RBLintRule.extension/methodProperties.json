@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"checksAST" : "Uko 9/7/2016 00:38:48",
+		"checksNode" : "Uko 9/7/2016 00:38:48" },
+	"instance" : {
+		"anchorFor:" : "Uko 9/7/2016 00:38:48",
+		"check:" : "Uko 9/7/2016 00:38:48",
+		"check:forCriticsDo:" : "Uko 9/7/2016 00:38:48",
+		"check:forCriticsDo:ifNone:" : "Uko 9/7/2016 00:38:48",
+		"check:forCritiquesDo:" : "Uko 9/7/2016 00:38:48",
+		"check:forCritiquesDo:ifNone:" : "Uko 9/7/2016 00:38:48",
+		"check:ifNoCritics:" : "Uko 9/7/2016 00:38:48",
+		"check:ifNoCritiques:" : "Uko 9/7/2016 00:38:48",
+		"critiqueFor:" : "Uko 9/7/2016 00:38:48" } }

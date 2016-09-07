@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"checksNode" : "Uko 9/7/2016 00:38:48",
+		"exampleSequenceMethods" : "Uko 9/7/2016 00:38:48",
+		"isVisible" : "Uko 9/7/2016 00:38:48",
+		"noteCompilationOf:meta:" : "Uko 9/7/2016 00:38:48" },
+	"instance" : {
+		"add:requiresPostSend:" : "Uko 9/7/2016 00:38:48",
+		"add:requiresPreSend:" : "Uko 9/7/2016 00:38:48",
+		"check:forCritiquesDo:" : "Uko 9/7/2016 00:38:48",
+		"critic:for:at:regarding:" : "Uko 9/7/2016 00:38:48",
+		"initialize" : "Uko 9/7/2016 00:38:48",
+		"name" : "Uko 9/7/2016 00:38:48",
+		"postCheck:forCriticsDo:" : "Uko 9/7/2016 00:38:48",
+		"postCriticFor:at:regarding:" : "Uko 9/7/2016 00:38:48",
+		"preCheck:forCriticsDo:" : "Uko 9/7/2016 00:38:48",
+		"preCriticFor:at:regarding:" : "Uko 9/7/2016 00:38:48" } }

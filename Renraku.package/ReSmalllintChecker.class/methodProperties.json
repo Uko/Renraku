@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCritique:" : "Uko 9/7/2016 00:38:48",
+		"checkClass:" : "Uko 9/7/2016 00:38:48",
+		"checkMethodsForClass:" : "Uko 9/7/2016 00:38:48",
+		"checkPackage:" : "Uko 9/7/2016 00:38:48",
+		"criticsOf:" : "Uko 9/7/2016 00:38:48",
+		"falsePositiveOf:" : "Uko 9/7/2016 00:38:48",
+		"getCritiquesAbout:by:" : "Uko 9/7/2016 00:38:48",
+		"initialize" : "Uko 9/7/2016 00:38:48",
+		"reParseRule" : "Uko 9/7/2016 00:38:48",
+		"resetResult" : "Uko 9/7/2016 00:38:48",
+		"rule" : "Uko 9/7/2016 00:38:48",
+		"run" : "Uko 9/7/2016 00:38:48",
+		"toDoOf:" : "Uko 9/7/2016 00:38:48" } }

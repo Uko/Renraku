@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"isVisible" : "Uko 9/7/2016 00:38:48",
+		"noteCompilationOf:meta:" : "Uko 9/7/2016 00:38:48" },
+	"instance" : {
+		"addMatchingExpression:rewriteTo:" : "Uko 9/7/2016 00:38:48",
+		"addMatchingExpression:rewriteWith:" : "Uko 9/7/2016 00:38:48",
+		"addMatchingMethod:rewriteTo:" : "Uko 9/7/2016 00:38:48",
+		"afterCheck:mappings:" : "Uko 9/7/2016 00:38:48",
+		"basicCheck:" : "Uko 9/7/2016 00:38:48",
+		"check:forCritiquesDo:" : "Uko 9/7/2016 00:38:48",
+		"critiqueFor:by:withMappings:" : "Uko 9/7/2016 00:38:48",
+		"initialize" : "Uko 9/7/2016 00:38:48",
+		"replace:by:" : "Uko 9/7/2016 00:38:48",
+		"replace:with:" : "Uko 9/7/2016 00:38:48" } }

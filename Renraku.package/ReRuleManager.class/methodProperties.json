@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"availableRuleGroups" : "Uko 9/7/2016 00:38:48",
+		"cleanUp" : "Uko 9/7/2016 00:38:48",
+		"initialize" : "Uko 9/7/2016 00:38:48",
+		"reset" : "Uko 9/7/2016 00:38:48",
+		"resetWithInform" : "Uko 9/7/2016 00:38:48",
+		"resubscribeUniqueInstanceToSystemAnnouncer" : "Uko 9/7/2016 00:38:48",
+		"uniqueInstance" : "Uko 9/7/2016 00:38:48",
+		"unload" : "Uko 9/7/2016 00:38:48",
+		"visibleLintRuleClasses" : "Uko 9/7/2016 00:38:48",
+		"visibleRuleClasses" : "Uko 9/7/2016 00:38:48" },
+	"instance" : {
+		"allRules" : "Uko 9/7/2016 00:38:48",
+		"astRules" : "Uko 9/7/2016 00:38:48",
+		"classAdded:" : "Uko 9/7/2016 00:38:48",
+		"classRemoved:" : "Uko 9/7/2016 00:38:48",
+		"classRules" : "Uko 9/7/2016 00:38:48",
+		"excludedRuleNames" : "Uko 9/7/2016 00:38:48",
+		"initialize" : "Uko 9/7/2016 00:38:48",
+		"methodRules" : "Uko 9/7/2016 00:38:48",
+		"nodeRules" : "Uko 9/7/2016 00:38:48",
+		"packageRules" : "Uko 9/7/2016 00:38:48",
+		"resetRules" : "Uko 9/7/2016 00:38:48",
+		"subscribe" : "Uko 9/7/2016 00:38:48",
+		"unsubscribe" : "Uko 9/7/2016 00:38:48" } }

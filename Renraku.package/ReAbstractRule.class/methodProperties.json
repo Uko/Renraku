@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"checksClass" : "Uko 9/7/2016 00:38:48",
+		"checksMethod" : "Uko 9/7/2016 00:38:48",
+		"checksNode" : "Uko 9/7/2016 00:38:48",
+		"checksPackage" : "Uko 9/7/2016 00:38:48",
+		"identifierMinorVersionNumber" : "Uko 9/7/2016 00:38:48",
+		"isUsed" : "Uko 9/7/2016 00:38:48",
+		"isVisible" : "Uko 9/7/2016 00:38:48",
+		"methodOfInteresetSelectors" : "Uko 9/7/2016 00:38:48",
+		"uniqueIdentifierName" : "Uko 9/7/2016 00:38:48",
+		"uniqueIdentifierNumber" : "Uko 9/7/2016 00:38:48" },
+	"instance" : {
+		"anchorFor:" : "Uko 9/7/2016 00:38:48",
+		"basicCheck:" : "Uko 9/7/2016 00:38:48",
+		"check:" : "Uko 9/7/2016 00:38:48",
+		"check:forCritiquesDo:" : "Uko 9/7/2016 00:38:48",
+		"check:forCritiquesDo:ifNone:" : "Uko 9/7/2016 00:38:48",
+		"check:ifNoCritiques:" : "Uko 9/7/2016 00:38:48",
+		"critiqueFor:" : "Uko 9/7/2016 00:38:48",
+		"group" : "Uko 9/7/2016 00:38:48",
+		"name" : "Uko 9/7/2016 00:38:48",
+		"rationale" : "Uko 9/7/2016 00:38:48",
+		"resetResult" : "Uko 9/7/2016 00:38:48",
+		"severity" : "Uko 9/7/2016 00:38:48" } }
