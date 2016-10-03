@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"isVisible" : "Uko 9/7/2016 00:38:48",
-		"noteCompilationOf:meta:" : "Uko 9/7/2016 00:38:48" },
+		"isVisible" : "YuriyTymchuk 7/6/2016 11:48",
+		"noteCompilationOf:meta:" : "YuriyTymchuk 7/11/2016 16:37" },
 	"instance" : {
-		"addMatchingExpression:" : "Uko 9/7/2016 00:38:48",
-		"addMatchingMethod:" : "Uko 9/7/2016 00:38:48",
-		"afterCheck:mappings:" : "Uko 9/7/2016 00:38:48",
-		"basicCheck:" : "Uko 9/7/2016 00:38:48",
-		"initialize" : "Uko 9/7/2016 00:38:48",
-		"matches:" : "Uko 9/7/2016 00:38:48",
-		"matchesAny:" : "Uko 9/7/2016 00:38:48" } }
+		"addMatchingExpression:" : "YuriyTymchuk 7/9/2016 13:33",
+		"addMatchingMethod:" : "YuriyTymchuk 7/9/2016 13:35",
+		"afterCheck:mappings:" : "YuriyTymchuk 7/6/2016 11:52",
+		"basicCheck:" : "YuriyTymchuk 7/6/2016 22:10",
+		"initialize" : "YuriyTymchuk 7/6/2016 19:13",
+		"matches:" : "YuriyTymchuk 7/9/2016 13:33",
+		"matchesAny:" : "YuriyTymchuk 7/9/2016 13:35" } }

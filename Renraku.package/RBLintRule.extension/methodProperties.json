@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"checksAST" : "Uko 9/7/2016 00:38:48",
-		"checksNode" : "Uko 9/7/2016 00:38:48" },
+		"checksAST" : "YuriyTymchuk 1/12/2016 15:37",
+		"checksNode" : "YuriyTymchuk 7/6/2016 10:10" },
 	"instance" : {
-		"anchorFor:" : "Uko 9/7/2016 00:38:48",
-		"check:" : "Uko 9/7/2016 00:38:48",
-		"check:forCriticsDo:" : "Uko 9/7/2016 00:38:48",
-		"check:forCriticsDo:ifNone:" : "Uko 9/7/2016 00:38:48",
-		"check:forCritiquesDo:" : "Uko 9/7/2016 00:38:48",
-		"check:forCritiquesDo:ifNone:" : "Uko 9/7/2016 00:38:48",
-		"check:ifNoCritics:" : "Uko 9/7/2016 00:38:48",
-		"check:ifNoCritiques:" : "Uko 9/7/2016 00:38:48",
-		"critiqueFor:" : "Uko 9/7/2016 00:38:48" } }
+		"anchorFor:" : "YuriyTymchuk 7/6/2016 11:35",
+		"check:" : "YuriyTymchuk 5/30/2016 17:14",
+		"check:forCriticsDo:" : "YuriyTymchuk 5/30/2016 14:46",
+		"check:forCriticsDo:ifNone:" : "YuriyTymchuk 5/30/2016 14:46",
+		"check:forCritiquesDo:" : "YuriyTymchuk 7/12/2016 17:54",
+		"check:forCritiquesDo:ifNone:" : "YuriyTymchuk 7/9/2016 12:07",
+		"check:ifNoCritics:" : "YuriyTymchuk 5/30/2016 14:46",
+		"check:ifNoCritiques:" : "YuriyTymchuk 5/30/2016 14:46",
+		"critiqueFor:" : "YuriyTymchuk 8/7/2016 15:43" } }
