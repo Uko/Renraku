@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "YuriyTymchuk 7/10/2016 15:49",
-	"super" : "CustomHelp",
 	"category" : "Renraku-Help",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 7/10/2016 15:49",
+	"instvars" : [
+		 ],
 	"name" : "RenrakuHelp",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "CustomHelp",
+	"type" : "normal" }

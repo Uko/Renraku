@@ -1,11 +1,10 @@
 {
-	"instance" : { },
 	"class" : {
-		"pages" : "YuriyTymchuk 7/11/2016 12:03",
-		"bookName" : "YuriyTymchuk 7/11/2016 11:37",
-		"rewriteRules" : "YuriyTymchuk 7/12/2016 15:53",
 		"bookDescription" : "YuriyTymchuk 7/12/2016 15:49",
+		"bookName" : "YuriyTymchuk 7/11/2016 11:37",
+		"genericRules" : "YuriyTymchuk 7/12/2016 15:49",
+		"pages" : "YuriyTymchuk 7/11/2016 12:03",
 		"parsetreeRules" : "YuriyTymchuk 7/12/2016 15:51",
-		"genericRules" : "YuriyTymchuk 7/12/2016 15:49"
-	}
-}
+		"rewriteRules" : "YuriyTymchuk 7/12/2016 15:53" },
+	"instance" : {
+		 } }

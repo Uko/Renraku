@@ -1,14 +1,13 @@
 {
-	"instance" : { },
 	"class" : {
-		"rule" : "YuriyTymchuk 7/10/2016 15:57",
 		"actionRef" : "YuriyTymchuk 7/10/2016 15:31",
-		"bookName" : "YuriyTymchuk 7/10/2016 11:26",
-		"autofix" : "YuriyTymchuk 7/10/2016 15:58",
-		"hierarchy" : "YuriyTymchuk 7/10/2016 12:06",
-		"bookDescription" : "YuriyTymchuk 7/10/2016 15:56",
-		"pages" : "YuriyTymchuk 7/10/2016 15:31",
 		"actions" : "YuriyTymchuk 7/10/2016 15:28",
-		"entity" : "YuriyTymchuk 7/10/2016 15:58"
-	}
-}
+		"autofix" : "YuriyTymchuk 7/10/2016 15:58",
+		"bookDescription" : "YuriyTymchuk 7/10/2016 15:56",
+		"bookName" : "YuriyTymchuk 7/10/2016 11:26",
+		"entity" : "YuriyTymchuk 7/10/2016 15:58",
+		"hierarchy" : "YuriyTymchuk 7/10/2016 12:06",
+		"pages" : "YuriyTymchuk 7/10/2016 15:31",
+		"rule" : "YuriyTymchuk 7/10/2016 15:57" },
+	"instance" : {
+		 } }

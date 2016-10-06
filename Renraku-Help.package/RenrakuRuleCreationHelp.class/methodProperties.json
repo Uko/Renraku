@@ -1,15 +1,15 @@
 {
-	"instance" : { },
 	"class" : {
-		"nameRationale" : "YuriyTymchuk 7/10/2016 15:51",
-		"groupSeverity" : "YuriyTymchuk 7/12/2016 14:19",
-		"subclass" : "YuriyTymchuk 7/12/2016 15:57",
+		"advancedChecking" : "YuriyTymchuk 10/6/2016 15:29",
+		"bookDescription" : "YuriyTymchuk 10/6/2016 15:47",
 		"bookName" : "YuriyTymchuk 7/9/2016 11:50",
-		"testing" : "YuriyTymchuk 7/10/2016 15:53",
-		"advancedChecking" : "YuriyTymchuk 7/10/2016 15:53",
-		"bookDescription" : "YuriyTymchuk 7/9/2016 11:45",
 		"checking" : "YuriyTymchuk 7/9/2016 11:48",
+		"groupSeverity" : "YuriyTymchuk 7/12/2016 14:19",
 		"interestInEntities" : "YuriyTymchuk 7/10/2016 15:52",
-		"pages" : "YuriyTymchuk 7/11/2016 14:50"
-	}
-}
+		"nameRationale" : "YuriyTymchuk 7/10/2016 15:51",
+		"pages" : "YuriyTymchuk 10/6/2016 15:39",
+		"resetCache" : "YuriyTymchuk 10/6/2016 15:38",
+		"subclass" : "YuriyTymchuk 7/12/2016 15:57",
+		"testing" : "YuriyTymchuk 7/10/2016 15:53" },
+	"instance" : {
+		 } }

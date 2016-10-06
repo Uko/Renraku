@@ -1,13 +1,12 @@
 {
-	"instance" : { },
 	"class" : {
-		"pages" : "YuriyTymchuk 7/10/2016 15:44",
+		"bookDescription" : "YuriyTymchuk 7/10/2016 15:59",
 		"bookName" : "YuriyTymchuk 7/10/2016 11:26",
 		"missingMethod" : "YuriyTymchuk 7/10/2016 15:45",
-		"bookDescription" : "YuriyTymchuk 7/10/2016 15:59",
+		"pages" : "YuriyTymchuk 7/10/2016 15:44",
 		"refactoring" : "YuriyTymchuk 7/10/2016 15:46",
+		"replaceNode" : "YuriyTymchuk 7/10/2016 15:46",
 		"transformation" : "YuriyTymchuk 7/10/2016 15:46",
-		"trivial" : "YuriyTymchuk 7/10/2016 15:44",
-		"replaceNode" : "YuriyTymchuk 7/10/2016 15:46"
-	}
-}
+		"trivial" : "YuriyTymchuk 7/10/2016 15:44" },
+	"instance" : {
+		 } }
