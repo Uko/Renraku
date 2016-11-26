@@ -26,12 +26,11 @@ description: The awesome teams that brought you AUV-IITK
                     <div class="3u" style="text-align: center;">
                         <span class="image fit">
                             <img src={{ teammatey.image }} alt="{{ teammatey.name }}"/>
-                        </span>
                         {{ teammatey.name }}
-                        {{ teammatey.email }}
                         {% if teammatey.description %}
-                        {{ teammatey.description }}
+                        <br> {{ teammatey.description }}
                         {% endif %}
+                        </span>
                     </div>
                 {% endfor %}
                 </div>
