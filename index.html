@@ -32,19 +32,6 @@ layout: default
                     {% endfor %}
                 </ul>
             </section>
-            <section id="second" class="main special">
-                <header class="major">
-                    <h2>Recent Milestones</h2>
-                </header>
-                {% for post in site.tags["milestone"] %}
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                <p>
-                <b>{{ post.title }}</b>
-                     on {{ post.date | date: "%B %-d, %Y" }}
-                </p>
-                </a>
-                {% endfor %}
-            </section>
             <section id="third" class="main special">
                 <header class="major">
                     <h2>AUV Competitions</h2>
