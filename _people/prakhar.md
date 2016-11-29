@@ -1,6 +1,6 @@
 ---
 key: "prakhar"
-name: "Prakhar Agrawal"
+name: "Prakhar Agarwal"
 description: "Software Team"
 image: /images/people/prakhar.jpg
 ---
