@@ -1,6 +1,6 @@
 ---
 key: "jayant"
-name: "Jayant Bhatia"
+name: "Jayant Agrawal"
 description: "Software Team"
 image: /images/people/jayant.jpg
 ---
