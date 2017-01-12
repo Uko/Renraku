@@ -8,7 +8,7 @@ testUnusedVar
 		category: testClass category.
 
 	self assert: (testClass critiques anySatisfy: [ :critic |
-		critic rule class = RBOnlyReadOrWrittenVariableRule ]).
+		critic rule class = GRIvarNeitherReadNorWrittenRule  ]).
 	
 	testClass superclass
 		subclass: testClass name
@@ -17,5 +17,5 @@ testUnusedVar
 		category: testClass category.
 		
 	self assert: (testClass critiques noneSatisfy: [ :critic |
-		critic rule class = RBOnlyReadOrWrittenVariableRule ]).
+		critic rule class = GRIvarNeitherReadNorWrittenRule ]).
 

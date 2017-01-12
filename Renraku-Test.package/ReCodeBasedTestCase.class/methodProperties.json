@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"tearDown" : "YuriyTymchuk 6/14/2016 13:17",
-		"setUp" : "YuriyTymchuk 6/14/2016 13:16"
-	},
-	"class" : { }
-}
+		"setUp" : "YuriyTymchuk 6/14/2016 13:16",
+		"tearDown" : "YuriyTymchuk 6/14/2016 13:17" } }

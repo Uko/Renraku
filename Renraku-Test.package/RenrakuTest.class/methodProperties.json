@@ -1,11 +1,10 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"testBan" : "YuriyTymchuk 5/30/2016 16:40",
-		"testNoClassComment" : "YuriyTymchuk 5/30/2016 16:40",
-		"testBan2" : "YuriyTymchuk 5/30/2016 16:40",
-		"testUnclassifiedMethod" : "YuriyTymchuk 5/30/2016 16:40",
 		"testBan1" : "YuriyTymchuk 5/30/2016 16:40",
-		"testUnusedVar" : "YuriyTymchuk 5/30/2016 16:40"
-	},
-	"class" : { }
-}
+		"testBan2" : "YuriyTymchuk 5/30/2016 16:40",
+		"testNoClassComment" : "YuriyTymchuk 5/30/2016 16:40",
+		"testUnclassifiedMethod" : "YuriyTymchuk 5/30/2016 16:40",
+		"testUnusedVar" : "YuriyTymchuk 1/12/2017 13:21" } }

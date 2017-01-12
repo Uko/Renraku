@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "RenrakuBaseTestCase",
 	"category" : "Renraku-Test",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "ReRuleManagerTest",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "RenrakuBaseTestCase",
+	"type" : "normal" }
