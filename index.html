@@ -1,0 +1,62 @@
+---
+layout: default
+---
+        <!-- Header -->
+        <header id="header" class="alt">
+            <span class="logo"><img src="images/logo.svg" alt="auv-iitk" /></span>
+            <span class="typedheader typed"></span> <!-- filled by main.js using typed.js -->
+        </header>
+        <div id="main">
+            <section id="intro" class="main">
+                <div class="spotlight">
+                    <div class="content">
+                        <header class="major">
+                            <h2>Who we are ?</h2>
+                        </header>
+                        <p>We are a bunch of overly optimistic, hardworking students working towards creating I.I.T. Kanpur's first Autonomous Under Water Vehicle. The current team consists of 20 students spanning various branches of engineering like Mechanical, Electrical, Computer Science, Physics, Material Science and Chemical at Indian Institute of Technology Kanpur.<br>Our mission is to participate in AUV competitions like NIOT SAVe, Robosub. The competition is a platform for students to display their skills in underwater robotics and build a connection with industries working along similar verticals. <br>Our vision is to lower the entry barier for research in underwater robotics. For this we have designed <i>Varun</i> such that any of its mechanical, electrical or software component can be individually improved and tested. Thus enabling researchers to focus on there field of research and using other pre-baked components.</p>
+                    </div>
+                    <span class="image"><img src="images/vehicles/varun.jpg" alt="varun" /></span>
+                </div>
+            </section>
+            <section id="subteams" class="main special">
+                <header class="major">
+                    <h2>Sub Teams</h2>
+                </header>
+                <ul class="features">
+                    {% for item in site.subteam %}
+                    <li>
+                        <span class="icon major {{ item.iconstyle }} {{ item.icon }}"></span>
+                        <h3>{{ item.title }}</h3>
+                        <p>{{ item.description }}</p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>
+            <section id="third" class="main special">
+                <header class="major">
+                    <h2>AUV Competitions</h2>
+                </header>
+                    {% for item in site.competition %}
+                    <p style="clear: both;">
+                    <span class="image {% cycle 'left', 'right' %}"><img src="{{ item.image }}" alt="" /></span>
+                    <h3> {{ item.title }} </h3>
+                    {{ item.description }}
+                    <a href="{{ item.link }}"><i>Read more...</i></a>
+                    </p>
+                    <br>
+                    {% endfor %}
+            </section>
+            <section id="fourth" class="main special">
+                <header class="major">
+                    <h2>Research Collaborations</h2>
+                </header>
+                    {% for item in site.research %}
+                    <p style="clear: both;">
+                    <span class="image {% cycle 'left', 'right' %}"><img src="{{ item.image }}" alt="" /></span>
+                    <h3> {{ item.title }} </h3>
+                    {{ item.description }}
+                    </p>
+                    <br>
+                    {% endfor %}
+            </section>
+        </div>

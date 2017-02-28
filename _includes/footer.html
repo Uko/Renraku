@@ -1,0 +1,33 @@
+<!-- Footer -->
+<footer style="text-align: center">
+    <ul style="display:inline-block;margin-top:1em;margin-left:-1.5em;margin-bottom:1em;overflow:hidden;list-style-type:none;">
+        <li style="float:left;">
+            <a href="{{ " /feed.xml " | prepend: site.baseurl }}">
+                <span class="icon fa-rss alt">
+            </a>
+        </li>
+        {% if site.github_username %}
+        <li style="float:left;">
+            <a href="https://github.com/{{ site.github_username }}">
+                <span class="icon fa-github alt">
+            </a>
+        </li>
+        {% endif %} {% if site.email %}
+        <li style="float:left;">
+            <a href="mailto:{{ site.email }}">
+                <span class="icon fa-envelope alt">
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+    <p class="copyright" style="margin-bottom:2em">Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}</p>
+</footer>
+<!-- Scripts -->
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.scrollex.min.js"></script>
+<script src="/assets/js/jquery.scrolly.min.js"></script>
+<script src="/assets/js/skel.min.js"></script>
+<script src="/assets/js/util.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/typed.js"></script>
