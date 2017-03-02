@@ -5,6 +5,8 @@ copyright_name: Yuriy Tymchuk
 author_url: http://yuriy.tymch.uk/
 github_project: Uko/Renraku
 
+baseurl: /Renraku
+
 collections:
 - features
 - concepts
