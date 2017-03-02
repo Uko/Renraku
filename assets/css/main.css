@@ -1536,11 +1536,11 @@ body {
 }
 
 body {
-    background-color: #935d8c;
-    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #6F5E9D 15%, #5f4d93 85%);
-    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #6F5E9D 15%, #5f4d93 85%);
-    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #6F5E9D 15%, #5f4d93 85%);
-    background-image: url("images/overlay.png"), linear-gradient(45deg, #6F5E9D 15%, #5f4d93 85%);
+    background-color: #005779;
+    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #308799 15%, #005779 85%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #308799 15%, #005779 85%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #308799 15%, #005779 85%);
+    background-image: url("images/overlay.png"), linear-gradient(45deg, #308799 15%, #005779 85%);
 }
 
 body.is-loading *,
@@ -1560,7 +1560,7 @@ body.is-loading *:after {
 /* Type */
 
 body {
-    background-color: #935d8c;
+    background-color: #005779;
     color: rgba(255, 255, 255, 0.65);
 }
 
@@ -1607,6 +1607,7 @@ a {
     -ms-transition: color 0.2s ease, border-bottom 0.2s ease;
     transition: color 0.2s ease, border-bottom 0.2s ease;
     color: inherit;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -2195,7 +2196,7 @@ input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
     background-color: #ffffff;
     border-color: #ffffff;
-    color: #935d8c;
+    color: #00A6F7;
 }
 
 input[type="checkbox"]:focus + label:before,
@@ -3025,7 +3026,7 @@ table.alt tbody tr td {
 }
 
 #header.alt {
-    padding: 7em 5em 4em 5em;
+    padding: 4em 5em 4em 5em;
 }
 
 #header.alt h1 {
@@ -3062,6 +3063,8 @@ table.alt tbody tr td {
     display: block;
     margin: 0 auto;
     max-width: 75%;
+    width: 200px;
+    height: 200px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -3406,7 +3409,7 @@ body.is-loading #header.alt .logo {
 }
 
 #main > .main {
-    padding: 5em 5em 3em 5em;
+    padding: 4em 5em 3em 5em;
     border-top: solid 1px #dddddd;
 }
 

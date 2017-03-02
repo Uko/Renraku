@@ -3,7 +3,7 @@ layout: default
 ---
         <!-- Header -->
         <header id="header" class="alt">
-            <span class="logo"><img src="images/logo.svg" alt="auv-iitk" /></span>
+            <span class="logo"><img src="images/logo.png" alt="auv-iitk" /></span>
             <span class="typedheader typed"></span> <!-- filled by main.js using typed.js -->
         </header>
         <div id="main">
@@ -11,19 +11,21 @@ layout: default
                 <div class="spotlight">
                     <div class="content">
                         <header class="major">
-                            <h2>Who we are ?</h2>
+                            <h2>What is this about?</h2>
                         </header>
-                        <p>We are a bunch of overly optimistic, hardworking students working towards creating I.I.T. Kanpur's first Autonomous Under Water Vehicle. The current team consists of 20 students spanning various branches of engineering like Mechanical, Electrical, Computer Science, Physics, Material Science and Chemical at Indian Institute of Technology Kanpur.<br>Our mission is to participate in AUV competitions like NIOT SAVe, Robosub. The competition is a platform for students to display their skills in underwater robotics and build a connection with industries working along similar verticals. <br>Our vision is to lower the entry barier for research in underwater robotics. For this we have designed <i>Varun</i> such that any of its mechanical, electrical or software component can be individually improved and tested. Thus enabling researchers to focus on there field of research and using other pre-baked components.</p>
+                        <p>Static code analysis is an approach to obtain additional information about a software system by analyzing its source code. But most of the current tools combine both the analysis algorithm and the means to provide feedback. As a result, if someone wants to create new analysis algorithms he also has to implement and maintain the ways to display the result to an end user. On the other hand if one wants to invent a novel way to present static analysis results she also has to aggregate the diverse output formats of the available static analysis tools.</p>
+
+                        <p>We solve this problem with <b>Renraku</b>: the Middle Man of static analysis. It defines how algorithms should provide external properties of source code, and how tools should consume these properties. Not only the unique model lifts the complexity burden from static analysis engineering but opens entirely new horizons unseen by the others.</p>
+                        <p>Renraku is implemented in Smalltalk and heavily used by <a href="https://pharo.org">Pharo</a>. But it does not meen that you cannot rock the experience of Java, C#, Python, whatever developers in the same way. So stick arround and we will change the world.</p>
                     </div>
-                    <span class="image"><img src="images/vehicles/varun.jpg" alt="varun" /></span>
                 </div>
             </section>
-            <section id="subteams" class="main special">
+            <section id="concepts" class="main special">
                 <header class="major">
-                    <h2>Sub Teams</h2>
+                    <h2>Key Concepts</h2>
                 </header>
                 <ul class="features">
-                    {% for item in site.subteam %}
+                    {% for item in site.concepts %}
                     <li>
                         <span class="icon major {{ item.iconstyle }} {{ item.icon }}"></span>
                         <h3>{{ item.title }}</h3>
@@ -34,29 +36,9 @@ layout: default
             </section>
             <section id="third" class="main special">
                 <header class="major">
-                    <h2>AUV Competitions</h2>
+                    <h2>Learn More</h2>
                 </header>
-                    {% for item in site.competition %}
-                    <p style="clear: both;">
-                    <span class="image {% cycle 'left', 'right' %}"><img src="{{ item.image }}" alt="" /></span>
-                    <h3> {{ item.title }} </h3>
-                    {{ item.description }}
-                    <a href="{{ item.link }}"><i>Read more...</i></a>
-                    </p>
-                    <br>
-                    {% endfor %}
-            </section>
-            <section id="fourth" class="main special">
-                <header class="major">
-                    <h2>Research Collaborations</h2>
-                </header>
-                    {% for item in site.research %}
-                    <p style="clear: both;">
-                    <span class="image {% cycle 'left', 'right' %}"><img src="{{ item.image }}" alt="" /></span>
-                    <h3> {{ item.title }} </h3>
-                    {{ item.description }}
-                    </p>
-                    <br>
-                    {% endfor %}
+                <p>Read about what makes Renraku great in the <a href="features">Features section</a>, of just watch the storytelling talk:</p><br>
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/K4rMfQ_bQuI?rel=0" frameborder="0" allowfullscreen></iframe>
             </section>
         </div>

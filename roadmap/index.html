@@ -1,0 +1,23 @@
+---
+layout: default
+title: Roadmap
+description: We are always looking for contributors to work on the aspects described below.
+---
+        <!-- Header -->
+        <header id="header">
+                <h1>{{ page.title }}</h1>
+                <p>{{ page.description }}</p>
+        </header>
+        <div id="main">
+            {% assign sorted = (site.projects | sort: 'order') %}
+            {% for project in sorted %}
+            <section class="main spotlight" id="{{ project.url | remove: '/projects/' }}">
+                <div class="content">
+                    <header class="major">
+                        <h2>{{ project.name }}</h2>
+                    </header>
+                    <p>{{ project.description }}</p>
+                </div>
+            </section>
+            {% endfor %}
+        </div>

@@ -1,18 +1,21 @@
 <!-- Footer -->
 <footer style="text-align: center">
-    <ul style="display:inline-block;margin-top:1em;margin-left:-1.5em;margin-bottom:1em;overflow:hidden;list-style-type:none;">
+    <ul style="display:inline-block;margin-top:1em;margin-left:-1.5em;margin-bottom:1em;padding-bottom:1px;overflow:hidden;list-style-type:none;">
+        {% if site.github_project %}
         <li style="float:left;">
-            <a href="{{ " /feed.xml " | prepend: site.baseurl }}">
-                <span class="icon fa-rss alt">
-            </a>
-        </li>
-        {% if site.github_username %}
-        <li style="float:left;">
-            <a href="https://github.com/{{ site.github_username }}">
+            <a href="https://github.com/{{ site.github_project }}">
                 <span class="icon fa-github alt">
             </a>
         </li>
-        {% endif %} {% if site.email %}
+        {% endif %}
+        {% if site.author_url %}
+        <li style="float:left;">
+            <a href="{{ site.author_url }}">
+                <span class="icon fa-user alt">
+            </a>
+        </li>
+        {% endif %}
+        {% if site.email %}
         <li style="float:left;">
             <a href="mailto:{{ site.email }}">
                 <span class="icon fa-envelope alt">
@@ -20,7 +23,8 @@
         </li>
         {% endif %}
     </ul>
-    <p class="copyright" style="margin-bottom:2em">Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}</p>
+    <p class="copyright">Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}</p>
+    <p class="copyright" style="margin-bottom:2em">Theme: Jekyll StellarEnhanced by ShikherVerma</p>
 </footer>
 <!-- Scripts -->
 <script src="/assets/js/jquery.min.js"></script>

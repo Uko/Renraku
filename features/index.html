@@ -1,0 +1,26 @@
+---
+layout: default
+title: Features
+description: What can Renraku do?
+---
+        <!-- Header -->
+        <header id="header">
+                <h1>{{ page.title }}</h1>
+                <p>{{ page.description }}</p>
+        </header>
+        <div id="main">
+            <section class="main">
+            {% assign sorted = (site.features | sort: 'order') %}
+            {% for feature in sorted %}
+                <div id="{{ feature.url | remove: '/features/' }}" class="spotlight">
+                    <div class="content">
+                        <header class="major">
+                            <h2>{{ feature.name }}</h2>
+                        </header>
+                        <p>{{ feature.description }}</p>
+                    </div>
+                    <span class="image"><img src="{{ feature.image }}" alt="{{ feature.name }}" /></span>
+                </div>
+            {% endfor %}
+            </section>
+        </div>

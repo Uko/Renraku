@@ -1,16 +1,14 @@
 # Site settings
-title: AUV-IITK
-email: iitkauv@gmail.com
-copyright_name: AUV-IITK
-github_username: AUV-IITK
+title: Renraku
+email: "&#117;&#107;&#111;&#64;&#117;&#110;&#105;&#107;&#101;&#114;&#110;&#101;&#108;&#46;&#110;&#101;&#116;"
+copyright_name: Yuriy Tymchuk
+author_url: http://yuriy.tymch.uk/
+github_project: Uko/Renraku
 
 collections:
-  vehicles :
-  teams:
-  subteam :
-  competition :
-  research :
-  people:
+- features
+- concepts
+- projects
 
 # used to estimate reading time
 wpm: 150
