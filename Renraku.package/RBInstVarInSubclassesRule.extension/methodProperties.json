@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"check:forCritiquesDo:" : "YuriyTymchuk 8/16/2016 08:41",
-		"critiqueFor:" : "YuriyTymchuk 8/16/2016 08:43" } }
+		"critiqueFor:" : "YuriyTymchuk 8/16/2016 08:43"
+	},
+	"class" : { }
+}

@@ -1,7 +1,10 @@
 {
-	"class" : {
-		"uniqueInstance" : "YuriyTymchuk 1/11/2016 15:06" },
 	"instance" : {
-		"notifyCritique:descriptionViewedFor:" : "",
+		"notifyEntity:criticizedWith:" : "",
 		"notifyCritique:of:bannedOn:" : "",
-		"notifyEntity:criticizedWith:" : "" } }
+		"notifyCritique:descriptionViewedFor:" : ""
+	},
+	"class" : {
+		"uniqueInstance" : "YuriyTymchuk 1/11/2016 15:06"
+	}
+}

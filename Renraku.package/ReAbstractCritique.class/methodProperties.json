@@ -1,26 +1,29 @@
 {
-	"class" : {
-		"for:by:" : "Uko 10/16/2015 10:41:49",
-		"withAnchor:by:" : "YuriyTymchuk 1/13/2016 16:10",
-		"withAnchor:by:hint:" : "YuriyTymchuk 6/13/2016 00:26" },
 	"instance" : {
 		"actions" : "StephaneDucasse 9/18/2016 09:16",
-		"ban" : "YuriyTymchuk 1/13/2016 12:05",
-		"change" : "Uko 10/16/2015 10:41:49",
-		"description" : "Uko 10/16/2015 10:41:49",
-		"gtInspectorDescriptionIn:" : "YuriyTymchuk 1/20/2016 16:56",
-		"gtInspectorSourceCodeIn:" : "Uko 9/7/2016 00:38:48",
-		"guidedBan" : "YuriyTymchuk 1/18/2016 14:26",
-		"icon" : "StephaneDucasse 9/18/2016 09:18",
-		"initializeRule:sourceAnchor:" : "YuriyTymchuk 1/14/2016 15:35",
-		"initializeRule:target:" : "YuriyTymchuk 1/13/2016 14:08",
-		"isCritic" : "YuriyTymchuk 1/14/2016 15:23",
-		"popDescriptionUp" : "YuriyTymchuk 5/25/2015 09:02",
-		"provideNegativeFeedback:" : "Uko 10/16/2015 10:41:49",
-		"providePositiveFeedback:" : "Uko 10/16/2015 10:41:49",
-		"providesChange" : "Uko 10/16/2015 10:41:49",
-		"rule" : "Uko 10/16/2015 10:41:49",
 		"spotterPreviewRationaleIn:" : "YuriyTymchuk 5/25/2015 09:02",
-		"tinyHint" : "YuriyTymchuk 6/13/2016 00:19",
+		"guidedBan" : "YuriyTymchuk 1/18/2016 14:26",
+		"rule" : "Uko 10/16/2015 10:41:49",
+		"provideNegativeFeedback:" : "Uko 10/16/2015 10:41:49",
+		"initializeRule:sourceAnchor:" : "YuriyTymchuk 1/14/2016 15:35",
 		"tinyHint:" : "YuriyTymchuk 6/13/2016 00:19",
-		"title" : "YuriyTymchuk 6/12/2016 23:28" } }
+		"icon" : "StephaneDucasse 9/18/2016 09:18",
+		"ban" : "YuriyTymchuk 1/13/2016 12:05",
+		"tinyHint" : "YuriyTymchuk 6/13/2016 00:19",
+		"providesChange" : "Uko 10/16/2015 10:41:49",
+		"isCritic" : "YuriyTymchuk 1/14/2016 15:23",
+		"providePositiveFeedback:" : "Uko 10/16/2015 10:41:49",
+		"title" : "YuriyTymchuk 6/12/2016 23:28",
+		"gtInspectorDescriptionIn:" : "YuriyTymchuk 1/20/2016 16:56",
+		"description" : "Uko 10/16/2015 10:41:49",
+		"change" : "Uko 10/16/2015 10:41:49",
+		"initializeRule:target:" : "YuriyTymchuk 1/13/2016 14:08",
+		"popDescriptionUp" : "YuriyTymchuk 5/25/2015 09:02",
+		"gtInspectorSourceCodeIn:" : "Uko 9/7/2016 00:38:48"
+	},
+	"class" : {
+		"withAnchor:by:" : "YuriyTymchuk 1/13/2016 16:10",
+		"withAnchor:by:hint:" : "YuriyTymchuk 6/13/2016 00:26",
+		"for:by:" : "Uko 10/16/2015 10:41:49"
+	}
+}

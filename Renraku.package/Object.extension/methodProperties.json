@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"externalProperties" : "YuriyTymchuk 1/14/2016 00:08",
-		"glmCritiqueSourceIn:" : "Uko 9/7/2016 00:38:48",
 		"gtInspectorEProportiesIn:" : "YuriyTymchuk 1/20/2017 16:51",
-		"spotterRePropertiesFor:" : "Uko 10/7/2016 16:23:56" } }
+		"glmCritiqueSourceIn:" : "Uko 9/7/2016 00:38:48",
+		"externalProperties" : "YuriyTymchuk 1/14/2016 00:08",
+		"spotterRePropertiesFor:" : "Uko 10/7/2016 16:23:56"
+	},
+	"class" : { }
+}

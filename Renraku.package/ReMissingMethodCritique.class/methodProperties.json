@@ -1,13 +1,16 @@
 {
-	"class" : {
-		"for:by:class:selector:" : "Uko 10/16/2015 10:41:49" },
 	"instance" : {
-		"beShouldBeImplemented" : "YuriyTymchuk 7/10/2016 15:37",
 		"beSubclassResponsibility" : "YuriyTymchuk 7/10/2016 15:37",
-		"change" : "YuriyTymchuk 7/10/2016 15:38",
+		"beShouldBeImplemented" : "YuriyTymchuk 7/10/2016 15:37",
+		"source" : "YuriyTymchuk 7/10/2016 15:39",
 		"initialize" : "Uko 10/16/2015 10:41:49",
+		"providesChange" : "Uko 10/16/2015 10:41:49",
+		"source:" : "YuriyTymchuk 7/10/2016 15:39",
 		"initializeRule:target:class:selector:" : "YuriyTymchuk 6/13/2016 00:24",
 		"methodHeader" : "YuriyTymchuk 1/13/2016 23:35",
-		"providesChange" : "Uko 10/16/2015 10:41:49",
-		"source" : "YuriyTymchuk 7/10/2016 15:39",
-		"source:" : "YuriyTymchuk 7/10/2016 15:39" } }
+		"change" : "YuriyTymchuk 7/10/2016 15:38"
+	},
+	"class" : {
+		"for:by:class:selector:" : "Uko 10/16/2015 10:41:49"
+	}
+}

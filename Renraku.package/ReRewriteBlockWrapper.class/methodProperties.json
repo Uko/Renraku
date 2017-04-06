@@ -1,6 +1,9 @@
 {
-	"class" : {
-		"on:" : "YuriyTymchuk 7/6/2016 15:24" },
 	"instance" : {
 		"initializeBlock:" : "YuriyTymchuk 7/6/2016 15:22",
-		"rewriten:with:" : "YuriyTymchuk 7/6/2016 15:23" } }
+		"rewriten:with:" : "YuriyTymchuk 7/6/2016 15:23"
+	},
+	"class" : {
+		"on:" : "YuriyTymchuk 7/6/2016 15:24"
+	}
+}

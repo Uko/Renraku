@@ -1,17 +1,18 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"addCritique:" : "YuriyTymchuk 7/20/2016 16:18",
-		"checkClass:" : "YuriyTymchuk 7/7/2016 10:22",
+		"rule" : "YuriyTymchuk 7/12/2016 10:49",
 		"checkMethodsForClass:" : "YuriyTymchuk 7/20/2016 16:05",
-		"checkPackage:" : "YuriyTymchuk 7/7/2016 10:29",
-		"criticsOf:" : "YuriyTymchuk 7/7/2016 11:24",
+		"checkClass:" : "YuriyTymchuk 7/7/2016 10:22",
+		"resetResult" : "YuriyTymchuk 7/20/2016 16:18",
+		"initialize" : "YuriyTymchuk 7/20/2016 16:44",
+		"toDoOf:" : "YuriyTymchuk 7/7/2016 12:55",
+		"reParseRule" : "YuriyTymchuk 7/12/2016 10:48",
+		"run" : "YuriyTymchuk 7/20/2016 16:19",
 		"falsePositiveOf:" : "YuriyTymchuk 7/7/2016 12:55",
 		"getCritiquesAbout:by:" : "YuriyTymchuk 12/8/2016 13:53",
-		"initialize" : "YuriyTymchuk 7/20/2016 16:44",
-		"reParseRule" : "YuriyTymchuk 7/12/2016 10:48",
-		"resetResult" : "YuriyTymchuk 7/20/2016 16:18",
-		"rule" : "YuriyTymchuk 7/12/2016 10:49",
-		"run" : "YuriyTymchuk 7/20/2016 16:19",
-		"toDoOf:" : "YuriyTymchuk 7/7/2016 12:55" } }
+		"criticsOf:" : "YuriyTymchuk 7/7/2016 11:24",
+		"addCritique:" : "YuriyTymchuk 7/20/2016 16:18",
+		"checkPackage:" : "YuriyTymchuk 7/7/2016 10:29"
+	},
+	"class" : { }
+}

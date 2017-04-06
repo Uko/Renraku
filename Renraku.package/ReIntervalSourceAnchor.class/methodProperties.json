@@ -1,8 +1,11 @@
 {
-	"class" : {
-		"entity:interval:" : "YuriyTymchuk 1/13/2016 16:06" },
 	"instance" : {
-		"gtInspectorAnchorIn:" : "YuriyTymchuk 10/28/2016 19:32",
+		"providesInterval" : "YuriyTymchuk 1/13/2016 11:28",
 		"initializeEnitity:interval:" : "YuriyTymchuk 1/13/2016 15:01",
 		"interval" : "YuriyTymchuk 1/13/2016 11:29",
-		"providesInterval" : "YuriyTymchuk 1/13/2016 11:28" } }
+		"gtInspectorAnchorIn:" : "YuriyTymchuk 10/28/2016 19:32"
+	},
+	"class" : {
+		"entity:interval:" : "YuriyTymchuk 1/13/2016 16:06"
+	}
+}

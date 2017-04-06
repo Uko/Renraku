@@ -1,6 +1,9 @@
 {
-	"class" : {
-		"checksNode" : "YuriyTymchuk 7/11/2016 16:26" },
 	"instance" : {
 		"basicCheck:" : "YuriyTymchuk 7/11/2016 18:34",
-		"checkMethod:" : "YuriyTymchuk 7/11/2016 16:26" } }
+		"checkMethod:" : "YuriyTymchuk 7/11/2016 16:26"
+	},
+	"class" : {
+		"checksNode" : "YuriyTymchuk 7/11/2016 16:26"
+	}
+}

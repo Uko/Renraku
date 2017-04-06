@@ -1,26 +1,29 @@
 {
+	"instance" : {
+		"resetRules" : "YuriyTymchuk 6/14/2016 14:44",
+		"packageRules" : "YuriyTymchuk 6/14/2016 14:45",
+		"classRules" : "YuriyTymchuk 6/14/2016 14:45",
+		"classRemoved:" : "YuriyTymchuk 6/14/2016 13:06",
+		"subscribe" : "HenrikNergaard 2/8/2016 01:16",
+		"excludedRuleNames" : " 9/5/2016 09:34:29",
+		"unsubscribe" : "HenrikNergaard 2/8/2016 00:55",
+		"initialize" : "YuriyTymchuk 6/14/2016 14:41",
+		"astRules" : "YuriyTymchuk 7/11/2016 15:56",
+		"allRules" : "YuriyTymchuk 7/11/2016 21:19",
+		"methodRules" : "YuriyTymchuk 6/14/2016 14:45",
+		"nodeRules" : "YuriyTymchuk 7/6/2016 10:11",
+		"classAdded:" : "HenrikNergaard 2/8/2016 00:50"
+	},
 	"class" : {
-		"availableRuleGroups" : "YuriyTymchuk 7/12/2016 14:22",
-		"cleanUp" : "YuriyTymchuk 11/20/2015 16:30",
-		"initialize" : "YuriyTymchuk 7/7/2016 09:23",
-		"reset" : "HenrikNergaard 2/8/2016 00:54",
-		"resetWithInform" : "YuriyTymchuk 3/9/2016 15:11",
 		"resubscribeUniqueInstanceToSystemAnnouncer" : "YuriyTymchuk 6/21/2016 09:25",
+		"availableRuleGroups" : "YuriyTymchuk 7/12/2016 14:22",
+		"visibleRuleClasses" : "YuriyTymchuk 7/11/2016 20:57",
 		"uniqueInstance" : "YuriyTymchuk 11/20/2015 16:30",
 		"unload" : "YuriyTymchuk 11/20/2015 17:07",
 		"visibleLintRuleClasses" : "YuriyTymchuk 7/11/2016 20:57",
-		"visibleRuleClasses" : "YuriyTymchuk 7/11/2016 20:57" },
-	"instance" : {
-		"allRules" : "YuriyTymchuk 7/11/2016 21:19",
-		"astRules" : "YuriyTymchuk 7/11/2016 15:56",
-		"classAdded:" : "HenrikNergaard 2/8/2016 00:50",
-		"classRemoved:" : "YuriyTymchuk 6/14/2016 13:06",
-		"classRules" : "YuriyTymchuk 6/14/2016 14:45",
-		"excludedRuleNames" : " 9/5/2016 09:34:29",
-		"initialize" : "YuriyTymchuk 6/14/2016 14:41",
-		"methodRules" : "YuriyTymchuk 6/14/2016 14:45",
-		"nodeRules" : "YuriyTymchuk 7/6/2016 10:11",
-		"packageRules" : "YuriyTymchuk 6/14/2016 14:45",
-		"resetRules" : "YuriyTymchuk 6/14/2016 14:44",
-		"subscribe" : "HenrikNergaard 2/8/2016 01:16",
-		"unsubscribe" : "HenrikNergaard 2/8/2016 00:55" } }
+		"initialize" : "YuriyTymchuk 7/7/2016 09:23",
+		"reset" : "HenrikNergaard 2/8/2016 00:54",
+		"cleanUp" : "YuriyTymchuk 11/20/2015 16:30",
+		"resetWithInform" : "YuriyTymchuk 3/9/2016 15:11"
+	}
+}

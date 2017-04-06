@@ -1,11 +1,12 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"actions" : "YuriyTymchuk 1/14/2016 15:27",
 		"gtInspectorActions" : "YuriyTymchuk 12/7/2016 11:59",
-		"icon" : "YuriyTymchuk 1/14/2016 15:29",
 		"initializeSourceAnchor:" : "YuriyTymchuk 6/13/2016 01:53",
+		"icon" : "YuriyTymchuk 1/14/2016 15:29",
 		"isCritic" : "YuriyTymchuk 1/14/2016 15:32",
-		"sourceAnchor" : "YuriyTymchuk 1/14/2016 15:26",
-		"title" : "YuriyTymchuk 1/14/2016 15:27" } }
+		"actions" : "YuriyTymchuk 1/14/2016 15:27",
+		"title" : "YuriyTymchuk 1/14/2016 15:27",
+		"sourceAnchor" : "YuriyTymchuk 1/14/2016 15:26"
+	},
+	"class" : { }
+}

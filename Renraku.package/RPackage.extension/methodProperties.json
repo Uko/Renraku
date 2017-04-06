@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"package" : "YuriyTymchuk 1/14/2016 11:54",
 		"ban:" : "YuriyTymchuk 5/30/2016 17:34",
 		"critiques" : "YuriyTymchuk 6/14/2016 15:43",
 		"guidedBan:" : "YuriyTymchuk 5/30/2016 14:50",
-		"package" : "YuriyTymchuk 1/14/2016 11:54",
-		"reBanName" : "YuriyTymchuk 1/20/2017 15:48" } }
+		"reBanName" : "YuriyTymchuk 1/20/2017 15:48"
+	},
+	"class" : { }
+}
