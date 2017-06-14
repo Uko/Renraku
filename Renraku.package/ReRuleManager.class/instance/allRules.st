@@ -4,5 +4,7 @@ allRules
 	^ rules ifNil: [
 		rules := self class visibleRuleClasses
 			reject: [ :ruleClass |
-				self excludedRuleNames includes: ruleClass name ] 
+				"lint rules suck again…"
+				((ruleClass inheritsFrom: ReAbstractRule) and: [ ruleClass enabled not ]) or: [ 
+				self excludedRuleNames includes: ruleClass name ] ] 
 			thenCollect: #new ]
