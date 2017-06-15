@@ -1,3 +1,3 @@
 testing
-isCritic
+isCritique
 	^ false
