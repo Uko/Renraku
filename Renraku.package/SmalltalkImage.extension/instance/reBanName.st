@@ -1,0 +1,3 @@
+*Renraku
+reBanName
+	^ self printString
