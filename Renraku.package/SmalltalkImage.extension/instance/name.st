@@ -1,0 +1,3 @@
+*Renraku
+name
+	^ self printString
