@@ -5,7 +5,7 @@ guidedBan: aCritique
 	
 	ReSystemAnnouncer uniqueInstance notifyBanInitiatedFor: aCritique of: self.
 	
-	candidates := { self . self package }.
+	candidates := { self . self package . Smalltalk }.
 	
 	(UIManager default
 		chooseFrom: (candidates collect: [ :candidate |
