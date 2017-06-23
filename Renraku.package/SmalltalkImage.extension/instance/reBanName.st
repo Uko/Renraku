@@ -1,3 +1,3 @@
 *Renraku
 reBanName
-	^ self printString
+	^ 'Image'

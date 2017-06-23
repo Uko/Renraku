@@ -1,3 +1,0 @@
-*Renraku
-name
-	^self explicitRequirement.
