@@ -1,3 +1,3 @@
 *Renraku
 reBanName
-	^ 'Image'
+	^ 'The whole image'

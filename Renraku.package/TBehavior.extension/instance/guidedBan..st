@@ -9,7 +9,7 @@ guidedBan: aCritique
 	
 	(UIManager default
 		chooseFrom: (candidates collect: [ :candidate |
-			candidate name, ' (', candidate reBanName, ')' ])
+			candidate reBanName ])
 		values: candidates
 		title: 'On which level do you want to ban the rule?')
 			ifNotNil: [ :entity | entity ban: aCritique ]

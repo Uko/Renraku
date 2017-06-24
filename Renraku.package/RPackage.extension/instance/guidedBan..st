@@ -1,4 +1,15 @@
 *renraku
 guidedBan: aCritique
 
-	self ban: aCritique
+	| candidates |
+	
+	ReSystemAnnouncer uniqueInstance notifyBanInitiatedFor: aCritique of: self.
+	
+	candidates := { self . Smalltalk }.
+	
+	(UIManager default
+		chooseFrom: (candidates collect: [ :candidate |
+			candidate reBanName ])
+		values: candidates
+		title: 'On which level do you want to ban the rule?')
+			ifNotNil: [ :entity | entity ban: aCritique ]
