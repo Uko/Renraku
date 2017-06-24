@@ -1,4 +1,4 @@
 *renraku
 reBanName
 
-	^ self name, ' (', 'Method', ')'
+	^ self name, ' (Method)'

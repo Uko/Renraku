@@ -8,8 +8,7 @@ guidedBan: aCritique
 	candidates := { self . Smalltalk }.
 	
 	(UIManager default
-		chooseFrom: (candidates collect: [ :candidate |
-			candidate reBanName ])
+		chooseFrom: (candidates collect: #reBanName)
 		values: candidates
 		title: 'On which level do you want to ban the rule?')
 			ifNotNil: [ :entity | entity ban: aCritique ]

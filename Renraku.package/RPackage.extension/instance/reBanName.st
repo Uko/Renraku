@@ -1,4 +1,4 @@
 *renraku
 reBanName
 
-	^ self name, ' (', 'Package', ')'
+	^ self name, ' (Package)'
