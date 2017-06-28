@@ -1,7 +1,7 @@
-as yet unclassified
+settings
 ruleToggleSettingsOn: aBuilder 
 	<systemsettings>
-	(aBuilder group: #ruleToggle)
+	(aBuilder group: self ruleToggleGroupID)
 		order: 1;
 		label: 'Toggle rules to run';
 		description: 'Select which rules do you want to see in the live feedback';
@@ -12,7 +12,8 @@ ruleToggleSettingsOn: aBuilder
 				thenDo: [ :rule | 
 					| inst |
 					inst := rule new.
-					(aBuilder setting: #enabled)
+					(aBuilder setting: rule settingID)
+					selector: #enabled;
 					target: rule;
 					label: inst name;
 					description: inst rationale ] ]
