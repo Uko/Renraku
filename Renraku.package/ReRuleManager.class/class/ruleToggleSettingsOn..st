@@ -12,7 +12,7 @@ ruleToggleSettingsOn: aBuilder
 				thenDo: [ :rule | 
 					| inst |
 					inst := rule new.
-					(aBuilder setting: rule settingID)
+					(aBuilder setting: rule enabledSettingID)
 					selector: #enabled;
 					target: rule;
 					label: inst name;
