@@ -5,7 +5,7 @@ guidedBan: aCritique
 	
 	ReSystemAnnouncer uniqueInstance notifyBanInitiatedFor: aCritique of: self.
 	
-	candidates := { self . Smalltalk }.
+	candidates := { self . ReImageRuleBaner . RePersistentImageRuleBaner }.
 	
 	(UIManager default
 		chooseFrom: (candidates collect: #reBanName)
