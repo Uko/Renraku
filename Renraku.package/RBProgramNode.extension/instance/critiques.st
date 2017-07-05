@@ -4,7 +4,7 @@ critiques
 
 	| rules critiques |
 		
-	rules    := ReRuleManager uniqueInstance nodeRules.
+	rules    := ReRuleManager default nodeRules.
 	critiques  := Set new.
 		
 	rules do: [ :rule |

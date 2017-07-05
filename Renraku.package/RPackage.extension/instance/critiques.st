@@ -1,18 +1,12 @@
 *renraku
 critiques
 	<eProperty>
-	| rules critiques manifest builder |
-	
-	builder := TheManifestBuilder new.
-	manifest := builder manifestOf: self.
+	| rules critiques  |
 		
-	rules := ReRuleManager uniqueInstance packageRules.
+	rules := (ReRuleManager managerFor: self) packageRules.
 	critiques := Set new.
 	rules
-		reject: [ :rule |
-			manifest isNotNil and:
-			[ builder bansRule: rule for: self ] ]
-		thenDo: [ :rule |
+		do: [ :rule |
 			[ rule resetResult.
 			  rule
 				  check: self

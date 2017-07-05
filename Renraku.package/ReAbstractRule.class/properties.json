@@ -7,7 +7,9 @@
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"one"
+	],
 	"name" : "ReAbstractRule",
 	"type" : "normal"
 }

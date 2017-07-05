@@ -6,7 +6,7 @@ nodeCritiques
 	builder := TheManifestBuilder new.
 	manifest := builder manifestOf: self.
 		
-	rules    := ReRuleManager uniqueInstance nodeRules.
+	rules := (ReRuleManager managerFor: self) nodeRules.
 	critiques  := Set new.
 	rules := rules
 		reject: [ :rule |

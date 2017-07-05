@@ -1,4 +1,4 @@
-announcement handling
+event subscriptions
 unsubscribe
 
 	SystemAnnouncer uniqueInstance unsubscribe: self.

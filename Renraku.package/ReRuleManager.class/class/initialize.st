@@ -1,3 +1,3 @@
-class initialization
+initialize-release
 initialize
 	self reset
