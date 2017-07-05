@@ -14,5 +14,6 @@ newManagerForPackage: aRPackage
 		ifTrue: [ ^ self default ].
 	"add rules forced for the packages"
 	manifest forcedRules do: [ :ruleClass |
-		rules addIfNotPresent: ruleClass new ].
+		rules addIfNotPresent:
+			(self class environment at: ruleClass) new ].
 	^ self newWithRules: rules

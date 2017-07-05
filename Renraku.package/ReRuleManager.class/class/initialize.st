@@ -1,3 +1,4 @@
-initialize-release
+class initialization
 initialize
-	self reset
+	self reset.
+	self subscribe

@@ -3,6 +3,6 @@ classAddedOrRemoved: aClassAddedAnnouncement
 	| class |
 	class := aClassAddedAnnouncement classAffected.
 
-	((class isKindOf: RBLintRule) or: [ 
-	  class isKindOf: ReAbstractRule ]) 
+	((class inheritsFrom: RBLintRule) or: [ 
+	  class inheritsFrom: ReAbstractRule ]) 
 		ifTrue: [ self reset ] 
