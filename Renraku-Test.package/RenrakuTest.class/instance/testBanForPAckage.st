@@ -1,11 +1,11 @@
 tests
-testBan
+testBanForPAckage
 	| criticToSkip |
 		
 	criticToSkip := testClass critiques detect: [ :critic |
 		critic rule class = ScreamerRule ].
 	
-	testClass ban: criticToSkip.
+	testPackage ban: criticToSkip.
 	
-	self assert: (testClass critiques noneSatisfy: [ :critic |
+	self assert: (testClass2 critiques noneSatisfy: [ :critic |
 		critic rule class = ScreamerRule ]).

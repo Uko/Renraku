@@ -1,11 +1,11 @@
 tests
-testBan
+testGlobalBan
 	| criticToSkip |
 		
 	criticToSkip := testClass critiques detect: [ :critic |
 		critic rule class = ScreamerRule ].
 	
-	testClass ban: criticToSkip.
+	ReImageRuleBaner ban: criticToSkip.
 	
 	self assert: (testClass critiques noneSatisfy: [ :critic |
 		critic rule class = ScreamerRule ]).
