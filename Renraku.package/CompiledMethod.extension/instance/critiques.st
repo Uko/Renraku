@@ -7,14 +7,13 @@ critiques
 	builder := TheManifestBuilder new.
 	manifest := builder manifestOf: self.
 		
-	rules    := ReRuleManager uniqueInstance methodRules.
+	rules    := (ReRuleManager managerFor: self) methodRules.
 	critiques  := Set new.
 	rules
 		reject: [ :rule |
 			manifest isNotNil and:
 			[ (builder bansRule: rule for: self) or:
-			[ (builder bansRule: rule for: self methodClass) or:
-			[  builder bansRule: rule for: self package ] ] ] ]
+			[ builder bansRule: rule for: self methodClass ] ] ]
 		thenDo: [ :rule |
 			[ rule resetResult.
 			  rule

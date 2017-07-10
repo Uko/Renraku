@@ -15,7 +15,7 @@ critiques
 						ifPresent: [ :method | builder manifestOf: method ]
 						ifAbsent: [ nil ] ] ].
 		
-	rules    := ReRuleManager uniqueInstance nodeRules.
+	rules    := ReRuleManager default nodeRules.
 	critiques  := Set new.
 
 	rules := rules

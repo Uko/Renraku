@@ -8,7 +8,9 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #packages : [ 'Renraku' ]
+      #packages : [ 'Renraku' ],
+      #onWarningLog : true,
+      #useLatestMetacello : true
     }
   }
 }

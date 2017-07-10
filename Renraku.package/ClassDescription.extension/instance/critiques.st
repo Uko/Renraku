@@ -6,7 +6,7 @@ critiques
 	builder := TheManifestBuilder new.
 	manifest := builder manifestOf: self.
 		
-	rules := ReRuleManager uniqueInstance classRules.
+	rules := (ReRuleManager managerFor: self) classRules.
 	critiques := Set new.
 	rules
 		reject: [ :rule |
