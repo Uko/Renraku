@@ -7,4 +7,3 @@ flattenMatchMap: aDictionary
 				aDictionary
 					at: key pattern
 					put: val ] ] 
-	
