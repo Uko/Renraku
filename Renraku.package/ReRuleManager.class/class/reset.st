@@ -1,5 +1,5 @@
 utility
 reset
 	<script>
-	managers := Dictionary new.
+	managers := nil.
 	default := nil.
