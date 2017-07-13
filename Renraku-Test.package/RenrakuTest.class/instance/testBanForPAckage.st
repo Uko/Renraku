@@ -1,5 +1,5 @@
 tests
-testBanForPAckage
+testBanForPackage
 	| criticToSkip |
 		
 	criticToSkip := testClass critiques detect: [ :critic |

@@ -1,5 +1,5 @@
 instance-creation
 managerFor: aCodeEntity 
-	^ managers
+	^ self managers
 		at: aCodeEntity package
 		ifAbsentPut: [ self newManagerForPackage: aCodeEntity package ]

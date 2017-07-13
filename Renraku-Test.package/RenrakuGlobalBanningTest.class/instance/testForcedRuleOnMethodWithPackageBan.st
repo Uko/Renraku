@@ -1,11 +1,11 @@
 tests
-testForcedRule
+testForcedRuleOnMethodWithPackageBan
 	| criticToSkip |
 		
-	criticToSkip := testClass critiques detect: [ :critic |
+	criticToSkip := testMethod critiques detect: [ :critic |
 		critic rule class = ScreamerRule ].
 	
-	ReImageRuleBaner ban: criticToSkip.
+	testPackage ban: criticToSkip.
 	
 	testPackage packageManifest class compile:
 		'forcedRules ^ #(',
@@ -14,5 +14,5 @@ testForcedRule
 		
 	ReRuleManager reset.
 	
-	self assert: (testClass critiques anySatisfy: [ :critic |
+	self assert: (testMethod critiques anySatisfy: [ :critic |
 		critic rule class = ScreamerRule ]).
