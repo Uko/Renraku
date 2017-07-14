@@ -1,5 +1,13 @@
 running
 nodeCritiquesOf: aMethod
+	"this method exists because we have rules that check
+	ast nodes, but we display their critiques together with
+	method critiques… And because we do not want to re-check
+	the banned rules for exery node, I do in once for all
+	the nodes of a method. I have to find a better solution to
+	do this, but for thow the method will stay like this."
+
+
 	| rules critiques manifest builder |
 	
 	builder := TheManifestBuilder new.
