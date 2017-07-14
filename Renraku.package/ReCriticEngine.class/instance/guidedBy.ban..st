@@ -1,11 +1,11 @@
-*renraku
-guidedBan: aCritique
+banning
+guidedBy: anEntity ban: aCritique
 
 	| candidates |
 	
-	ReSystemAnnouncer uniqueInstance notifyBanInitiatedFor: aCritique of: self.
+	ReSystemAnnouncer uniqueInstance notifyBanInitiatedFor: aCritique of: anEntity.
 	
-	candidates := self banLevelCandidates.
+	candidates := anEntity banLevelCandidates.
 	
 	(UIManager default
 		chooseFrom: (candidates collect: #reBanName)
