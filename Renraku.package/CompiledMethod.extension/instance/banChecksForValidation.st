@@ -1,5 +1,5 @@
 *renraku
 banChecksForValidation
-"returns ban levels that have to be chacked before validation"
+"returns ban levels that have to be checked before validation"
 
 	^ { self . self methodClass }
