@@ -23,7 +23,7 @@ critiquesOf: anEntity
 			  do: [ :er |
 				ReExceptionStrategy current
 					handle: er
-					about: self
+					about: anEntity
 					forProppertiesDo: [ :prop |
 						critiques add: prop ] ].
 			Processor yield ].

@@ -34,7 +34,7 @@ nodeCritiquesOf: aMethod
 			  do: [ :er |
 				ReExceptionStrategy current
 					handle: er
-					about: self
+					about: aMethod
 					forProppertiesDo: [ :prop |
 						critiques add: prop ] ].
 			Processor yield ] ].
