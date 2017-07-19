@@ -20,9 +20,14 @@ critiquesOf: anEntity
 				  forCritiquesDo: [ :critic |
 					  critiques add: critic ]
 			] on: Error
-			  do: [ :er | ReSettings showErrors ifTrue: [ er pass ] ].
+			  do: [ :er |
+				ReExceptionStrategy current
+					handle: er
+					about: anEntity
+					forProppertiesDo: [ :prop |
+						critiques add: prop ] ].
 			Processor yield ].
 	
 	ReSystemAnnouncer uniqueInstance notifyEntity: anEntity criticizedWith: critiques.
 	
-	^ critiques
+	^ critiques 

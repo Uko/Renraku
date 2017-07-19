@@ -31,7 +31,12 @@ nodeCritiquesOf: aMethod
 						critique sourceAnchor initializeEnitity: aMethod.
 					  critiques add: critique ]
 			] on: Error
-			  do: [ :er | ReSettings showErrors ifTrue: [ er pass ] ].
+			  do: [ :er |
+				ReExceptionStrategy current
+					handle: er
+					about: aMethod
+					forProppertiesDo: [ :prop |
+						critiques add: prop ] ].
 			Processor yield ] ].
 	
 	ReSystemAnnouncer uniqueInstance notifyEntity: aMethod criticizedWith: critiques.
