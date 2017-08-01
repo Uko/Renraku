@@ -1,6 +1,7 @@
 instance creation
 newManagerForPackage: aRPackage 
 	| builder manifest defaultRules rules |
+	aRPackage ifNil: [ ^ self default ].
 	builder := TheManifestBuilder new.
 	manifest := builder manifestOf: aRPackage.
 	manifest ifNil: [ ^ self default ].
