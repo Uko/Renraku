@@ -5,11 +5,11 @@ baseline: spec
 	spec for: #common do: [
 		spec blessing: #baseline.
 		spec
-			preLoadDoIt: #unsubscribeReEngine;
+			preLoadDoIt: #preLoad;
 			package: 'Renraku';
 			package: 'Renraku-Test' with: [ spec requires: 'Renraku' ];
 			package: 'Renraku-Help' with: [ spec requires: 'Renraku' ];
-			postLoadDoIt: #resetRuleManager.
+			postLoadDoIt: #postLoad.
 
 		spec
 			group: 'default' with: #('Renraku' 'Renraku-Test' 'Renraku-Help');

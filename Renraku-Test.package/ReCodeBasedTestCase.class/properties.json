@@ -1,15 +1,15 @@
 {
-	"category" : "Renraku-Test",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "YuriyTymchuk 6/14/2016 13:48",
+	"super" : "RenrakuBaseTestCase",
+	"category" : "Renraku-Test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"testClass",
-		"testMethod" ],
+		"testMethod",
+		"testClass2"
+	],
 	"name" : "ReCodeBasedTestCase",
-	"pools" : [
-		 ],
-	"super" : "RenrakuBaseTestCase",
-	"type" : "normal" }
+	"type" : "normal"
+}
