@@ -6,4 +6,6 @@ ban: aCritique
 		of: aCritique sourceAnchor entity
 		bannedOn: self.
 
-	aCritique rule class enabled: false
+	(aCritique rule isKindOf: ReAbstractRule)
+		ifTrue: [
+			aCritique rule class enabled: false ]
